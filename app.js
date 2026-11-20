@@ -57,6 +57,8 @@ function bindAnswerEditor(){
  $('restoreAnswer').onclick=()=>{clearTimeout(translationTimer);translator.cancel();engineStatus=translator.ready?'ready':'idle';engineMessage='';stopSpeech();const previous=r.answerHistory?.pop();if(!previous){toast('복원할 이전 답안이 없습니다.');return;}r.answerKo=previous.ko;r.answerEn=previous.en;r.enSourceKo=previous.source||previous.ko;r.enKind=previous.kind||'manual';r.enEditRevision=(r.enEditRevision||0)+1;persist();renderReader();toast('직전 답안을 복원했습니다.');};
  $('resetAnswer').onclick=()=>{clearTimeout(translationTimer);translator.cancel();engineStatus=translator.ready?'ready':'idle';engineMessage='';stopSpeech();rememberAnswer(r,base);for(const key of ['answerKo','answerEn','enSourceKo','enKind','translationError'])delete r[key];r.enEditRevision=(r.enEditRevision||0)+1;persist();renderReader();toast('작성된 모범 답안으로 돌아왔습니다. 이전 수정본은 복원할 수 있습니다.');};
  updateTranslationStatus();
+ // If an edit was saved before navigating away, resume its pending translation on return.
+ if(settings.autoTranslate&&pair.stale){clearTimeout(translationTimer);const id=current.id;translationTimer=setTimeout(()=>translateAnswer(id),1200);}
 }
 function updateTranslationStatus(){
  if(!$('translationStatus')||!current||!modelAnswers[current.id])return;
