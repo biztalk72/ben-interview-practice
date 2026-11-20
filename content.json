@@ -1,0 +1,873 @@
+{
+  "version": "2026-11-20",
+  "cards": [
+    {
+      "id": "HR0",
+      "group": "hr",
+      "title": "11/23 HR Director · Culture, Size & Technology",
+      "body": "# 11월 23일 HR Director 첫 인터뷰\n\n사용자 확인: 첫 면접은 2026-11-23 HR Director와 진행. 면접 시각·길이는 최종 초대를 기준으로 확인합니다. 이전의 11/24 제안 일정은 이번 준비 기준으로 사용하지 않습니다. 이후 단계의 면접관과 순서는 미확인입니다.\n\n## 첫 단계의 목표\n\n‘기술적으로 많은 것을 안다’보다 **왜 BEN인지, 조직의 크기와 역할이 달라도 잘 일할 수 있는지, 사람을 어떻게 이끄는지, 영어로 명확하게 협업하는지**를 보여줍니다. HR도 기술·성과를 검증할 수 있으므로 수치와 경력 설명의 정확성을 유지합니다.\n\n권장 준비 비중(연습용): 문화·동기·리더십 45%, 경력·조직 규모·역할 적합성 30%, BEN 사업·기술 이해 15%, 근무 조건·역질문 10%. 이는 BEN의 공식 채점 비중이 아닙니다.\n\n## BEN을 이해하는 세 가지 축\n\n| 축 | 확인된 내용 | 면접에서 확인할 내용 |\n|---|---|---|\n| Culture | 공식 Mission은 사람의 역량을 돕는 신뢰·공감·안전·투명한 AI와 실제 업무 가치를 강조. JD는 ownership·collaboration·continuous improvement·delivery accountability를 요구 | 실제로 높은 평가를 받는 리더 행동, 의견 충돌 해결, 변화 속도, 한국/미국 의사결정 방식 |\n| Size | 2025년말 10-K의 직원 항목은 정규직 약 29명. 같은 보고서의 별도 기준일인 2026-04-14에는 자회사 포함 정규직 약 26명·독립 계약자 9명이라고 기술 | **2026년 11월 현재 글로벌·한국 인원, 본인 소관 SW팀, manager/lead 구성, 채용 계획**. 과거 공시 숫자를 현재 규모로 말하지 않기 |\n| Technology | BEN은 ELM을 독점 AI 프레임워크로 설명. 공식 IR은 RAG·승인된 고객 데이터·멀티모달·closed-loop와 cloud/on-prem 배포를 설명 | 현재 ELM/모델/앱 경계, 상용 고객 요구, 가장 어려운 기술·출시 문제. 공개 안 된 모델 파라미터·벤치마크를 추정하지 않기 |\n\n공식 근거: [회사 Mission](https://brandengagementnetwork.com/company), [BEN IR의 ELM 설명](https://investors.brandengagementnetwork.com/), [2025 회계연도 10-K, Employees 및 Eligibility의 서로 다른 기준일](https://www.sec.gov/Archives/edgar/data/1838163/000149315226016954/form10-k.htm). 확인일 2026-11-20. 인수·자회사·계약자·기준일 차이 때문에 숫자 간 단순 비교는 피합니다. 공개 미션이 실제 내부 문화를 증명하는 것은 아닙니다.\n\n",
+      "stage": 0
+    },
+    {
+      "id": "HR1",
+      "group": "hr",
+      "title": "Tell me about yourself.",
+      "body": "**의도:** seniority·명확성·현재 역할과 BEN의 연결. 60–90초; 전체 경력 나열 대신 최근 AI 운영과 조직 리딩을 연결.\n\n> I’m an engineering and product leader with experience building enterprise platforms and engineering organizations. At VNTG, I helped build and lead an organization of about 200 people across digital transformation, data, and IT, working with executives across multiple group affiliates.\n>\n> More recently, I have stayed close to implementation. At EdenTnS, I designed and built an AI document-processing workflow that connects classification, extraction, validation, and business integration. It is in production with more than four clients.\n>\n> I’m interested in BEN because this role combines developing a software team, improving execution, and making AI dependable in real customer environments. I also understand that AI/ML, QA, and Product have separate leaders, and I would work with them as peers.\n\n**STAR 단서:** S enterprise complexity → T organization/product ownership → A alignment + direct implementation → R production clients. 세부 수치는 후속 질문에 답합니다.\n\n**압박:** “What is the one thing you would bring?” → “The ability to connect technical decisions, team execution, and customer-operating requirements.”\n\n**큐카드:**\n\n> Enterprise platforms / ~200 DT-data-IT / direct AI implementation / 4+ clients / peer leadership / dependable delivery",
+      "stage": 0
+    },
+    {
+      "id": "HR2",
+      "group": "hr",
+      "title": "Why BEN, and why now?",
+      "body": "**의도:** 홈페이지를 읽은 동기와 본인 경험의 실제 접점. 아래 동기가 진짜인지 본인 말로 수정.\n\n> BEN’s focus on bringing conversational AI into enterprise workflows is relevant to the work I enjoy most. Your public mission emphasizes trustworthy AI that helps people work more effectively. In my recent work, the value has also come from connecting AI to a defined workflow and an observable business outcome.\n>\n> This role interests me because it combines engineering leadership with responsibility for software execution and production readiness. I would like to understand the team’s priorities and contribute where my experience in enterprise integration and hands-on AI delivery is most useful.\n\n**압박:** “Why us rather than a larger AI company?” → 실제 업무·소유권·팀 적합성으로 답합니다. BEN 기술이 최고라는 검증 안 된 칭찬이나 무조건적인 규모 선호는 피합니다.\n\n**큐카드:**\n\n> Mission → actual workflow value / enterprise integration / ownership and impact / genuine motivation",
+      "stage": 0
+    },
+    {
+      "id": "HR3",
+      "group": "hr",
+      "title": "How would you describe your leadership style and culture fit?",
+      "body": "**의도:** culture fit을 성격 호감이 아니라 반복 가능한 행동으로 설명.\n\n> I aim to combine clear ownership with an environment where people can surface problems early. I want engineers to understand the outcome, the constraints, and the decision they own. I also expect leaders to be transparent about trade-offs and to follow through on commitments.\n>\n> At VNTG, my work involved aligning multiple executives and teams around a transformation roadmap and supporting adoption through technical education. For BEN, I would bring that approach while first learning how your team works. I would not assume that a practice from a larger organization should be copied unchanged.\n\n**STAR:** S 여러 계열사·기술 변화 → T roadmap·조직 정렬 → A C-level 협업·사내 교육 → R 현대화 실행 기반. 인력 만족도·이직률 개선은 근거 없으면 추가 금지.\n\n**압박:** “What happens when someone challenges you?” → “I would ask what evidence or constraint I am missing. I can change a decision when the facts change, while keeping the decision owner and next step clear.”\n\n**큐카드:**\n\n> Clear ownership / early bad news / evidence / coaching / accountability / learn before changing",
+      "stage": 0
+    },
+    {
+      "id": "HR4",
+      "group": "hr",
+      "title": "You led 200 people. Would you fit a much smaller team?",
+      "body": "**의도:** 규모 자랑보다 리소스·위임·직접 실행을 상황에 맞게 바꿀 수 있는가.\n\n> The 200-person figure describes the wider DT, data, and IT organization, not 200 direct reports. My current work also involves direct architecture and implementation, so I am comfortable contributing without a large management structure around me.\n>\n> In a smaller team, I would keep processes lightweight and focus on the most important customer and delivery constraints. I would first confirm the team’s actual size, responsibilities, and support needs, then use only as much structure as helps people execute reliably.\n\n**압박:** “Will you need to hire a large team before you can deliver?” → “Not as a starting assumption. I would assess current capabilities and the critical path before proposing hires.”\n\n**큐카드:**\n\n> 200 total ≠ direct / hands-on now / lightweight process / existing capability first / hire for actual gap",
+      "stage": 0
+    },
+    {
+      "id": "HR5",
+      "group": "hr",
+      "title": "What do you know about BEN’s size and organization?",
+      "body": "**의도:** 조사 정확성과 현재 규모를 모르는 상태에서의 판단.\n\n> I reviewed the public disclosures, but I would distinguish their reporting dates from the organization today. The 2025 year-end report describes a relatively lean company and separately refers to a later headcount date. I would not use either as the current size of the Korea engineering team.\n>\n> The job description makes one important organizational point clear: Software Engineering works alongside AI/ML, QA, Product, and Customer Success leaders. Could you share the current software-team structure in Korea and how responsibilities are coordinated with the US team?\n\n**사실 메모:** 2025-12-31 약 29 정규직 / 2026-04-14 약 26 정규직+계약자9. 면접에서는 숫자 암기보다 기준일·범위 구분이 중요. 직접 보고·경영층 수는 현재 팀과 별도.\n\n**압박:** “Why do different websites show different numbers?” → “The date, subsidiaries, employee definition, and contractor coverage may differ. I would use company-confirmed current information for planning.”\n\n**큐카드:**\n\n> Historical disclosure ≠ current Korea team / date + scope / ask team structure / do not infer budget",
+      "stage": 0
+    },
+    {
+      "id": "HR6",
+      "group": "hr",
+      "title": "Explain BEN’s technology to a non-technical person.",
+      "body": "**의도:** HR 상대 45초. GPU·vector DB 상세보다 고객 경험·승인 정보·업무 실행을 설명.\n\n> My understanding is that BEN helps organizations offer AI interactions through conversation, voice, and avatars. The important part is connecting those interactions to approved enterprise information and workflows, so the experience can be useful in real operations.\n>\n> BEN describes ELM as its proprietary AI framework. I would not assume a specific underlying model architecture from that name alone. For this Director role, my focus would be helping the software team integrate those capabilities, deliver them reliably, and work effectively with the AI/ML and other product teams.\n\n**압박:** “How is that different from a chatbot?” → “The value has to be demonstrated in the full customer workflow: integration, control, deployment, and completed tasks, not just generated conversation.”\n\n**큐카드:**\n\n> Conversation + voice + avatar / approved information / workflows / ELM framework / reliable integration / outcomes",
+      "stage": 0
+    },
+    {
+      "id": "HR7",
+      "group": "hr",
+      "title": "Why a Director position after CTO, CPO, and EVP titles?",
+      "body": "> I would evaluate the role by its responsibilities and impact rather than the title alone. Leading the software organization, improving development execution, and making an enterprise AI platform reliable are substantial responsibilities.\n>\n> I understand that this is not an overall CTO position and that AI/ML, QA, and Product have their own leaders. I would want clear ownership and a strong peer relationship with those teams. That is a scope I can contribute to without assuming authority outside the role.\n\n**본인 확인:** 직급·보상·장기 동기가 진짜 수용 가능한지 확인. 곧 CTO로 올라가겠다는 전제를 넣지 않음.\n\n**압박:** “Will you be satisfied without owning Product?” → “If responsibilities and decision rights are clear, I can focus on software engineering and contribute through collaboration.”\n\n**큐카드:**\n\n> Scope > title / software ownership / peer boundaries / no assumed promotion / mutual fit",
+      "stage": 0
+    },
+    {
+      "id": "HR8",
+      "group": "hr",
+      "title": "Why are you considering leaving, and how do you explain short tenures?",
+      "body": "**이직 사유는 자료에 없습니다. 영문 골격의 빈칸을 실제 사실로 완성해야 합니다.**\n\n> The reason I am considering a move is [actual reason]. In my current role, I have been responsible for [actual scope], including [documented outcome]. I am now looking for [genuine longer-term goal].\n>\n> For shorter roles, I would explain the specific circumstances separately rather than give one general explanation. For example, my Vivity engagement was from June to November 2023, during which I led the industrial AI work described in my materials. It ended because [actual reason].\n\n**압박:** “Was there a performance issue?” → 해당 여부를 직접 사실대로 먼저 답한 후 배경·본인 책임·handover. 조직개편·계약종료를 자동으로 채우지 않습니다.\n\n**큐카드:**\n\n> Actual reason / concise and neutral / owned contribution / no invented exit story / future motivation",
+      "stage": 0
+    },
+    {
+      "id": "HR9",
+      "group": "hr",
+      "title": "Tell me about working with different cultures or a US team.",
+      "body": "> At CDNetworks, I led a multinational P3 task force and later coordinated technical-product work across Korean, China-based, and Quantil teams. The P3 team used Scrum, Kanban, and TDD and completed a working proof of concept that was later transferred for reuse.\n>\n> For a Korea–US organization, I would make priorities, ownership, and decisions visible in writing and use planned overlap for discussions that need real-time interaction. I would not expect every issue to be solved by adding more meetings or extending everyone’s working day.\n\n**STAR:** S 다국적 팀의 플랫폼 현대화 → T TF 책임 → A 개발 방식·기술 조율 → R 동작 PoC·이관. 미국팀 상대의 직접 보고 빈도는 확인되지 않았습니다.\n\n**압박:** “Are you comfortable leading discussions in English?” → “Yes, I am comfortable with business and technical discussions. I use written decisions and concise summaries to ensure alignment.” 실제 영어 역량 이상으로 native/fluent를 주장하지 않기.\n\n**큐카드:**\n\n> Multinational delivery / written decisions / overlap / concise English / no permanent overtime assumption",
+      "stage": 0
+    },
+    {
+      "id": "HR10",
+      "group": "hr",
+      "title": "How do you handle disagreement, feedback, and underperformance?",
+      "body": "> I would start with specific behavior and its impact, rather than make a judgment about someone’s character. I would clarify expectations, listen to their perspective, and agree on the next action and review point.\n>\n> With peer leaders, I would make the shared outcome and decision boundaries explicit. If we disagree about a release or priority, I would bring evidence and alternatives to the designated decision owner. I would not use seniority or a former title to override the working relationship.\n\n**실제 경험을 물으면:** S 실제 갈등 → T 본인 책임 → A 대화·선택 → R 실제 결과로 답합니다. 특정 코칭·해고 성공 사례는 자료에 없어 만들지 않았습니다.\n\n**압박:** “Give a real example.” → 면접 전에 실제 한 사건을 메모에 완성. 일반론을 실제 경험이라고 바꾸지 않기.\n\n**큐카드:**\n\n> Behavior + impact / listen / expectations / follow-up / evidence with peers / real example required",
+      "stage": 0
+    },
+    {
+      "id": "HR11",
+      "group": "hr",
+      "title": "How would you balance innovation, speed, and accountability?",
+      "body": "> I would keep experimentation inexpensive while making production commitments explicit. A prototype can explore uncertain ideas, but a customer release needs clear scope, acceptance criteria, and ownership.\n>\n> My projects have had different maturity levels: Samyang’s research assistant was an MVP, the CDNetworks P3 work was a proof of concept, and the EdenTnS workflow is in production. I would keep those distinctions visible at BEN so that commercial promises are based on what has actually been validated.\n\n**압박:** “Does process slow innovation?” → “Useful process reduces uncertainty and rework. I would keep only the controls that help the team learn or deliver reliably.”\n\n**큐카드:**\n\n> Cheap experiments / explicit commitments / PoC ≠ MVP ≠ production / evidence / lightweight controls",
+      "stage": 0
+    },
+    {
+      "id": "HR12",
+      "group": "hr",
+      "title": "What are your strengths and development areas?",
+      "body": "> My strength is connecting architecture, team execution, and enterprise-operating needs. I can discuss the business constraint with executives and remain close enough to implementation to help engineers resolve trade-offs.\n>\n> One development area for this role is deeper product-specific experience in real-time voice and avatar operations. My recent AI production work is relevant, but it is not identical. I would learn from BEN’s specialists and validate the experience end to end rather than assume that all AI workloads behave the same way.\n\n**압박:** “Why hire you despite that?” → “Because the role also needs organizational execution and enterprise-platform judgment. I would bring those strengths while being explicit about where specialist collaboration and validation are necessary.”\n\n**큐카드:**\n\n> Architecture + people + operation / specific gap / transferable strength / learning with specialists",
+      "stage": 0
+    },
+    {
+      "id": "HR13",
+      "group": "hr",
+      "title": "What are your compensation, availability, and on-site expectations?",
+      "body": "**금액·입사일·근무 자격·여행 가능 범위는 본인 확인 후 답합니다.**\n\n> I understand that this is an on-site position in South Korea with occasional US-time meetings and travel. I would like to confirm the office location and the typical collaboration schedule. My earliest realistic start date would be [confirmed date], taking into account my handover responsibilities.\n>\n> For compensation, I would like to align on the scope, level, and overall package, including base salary, bonus, and equity. Could you share the budgeted range for this position?\n\n**숫자를 요구하면:** “My target annual base salary is KRW [confirmed amount/range], depending on the responsibilities and overall package.” 근거 없는 추천 금액을 자신의 확정 기대처럼 말하지 않기.\n\n**큐카드:**\n\n> On-site / actual availability / handover / planned overlap / base + bonus + equity / confirmed number only",
+      "stage": 0
+    },
+    {
+      "id": "HR14",
+      "group": "hr",
+      "title": "What questions do you have for me?",
+      "body": "> What leadership behaviors are most valued in BEN’s culture, particularly when teams disagree or priorities change?\n>\n> How large is the Korea software organization today, and how is it structured across managers, leads, and individual contributors?\n>\n> What are the most important outcomes you would like this Director to deliver in the first six months?\n>\n> How do Korea and US leadership coordinate decisions, and what would make someone especially successful in that relationship?\n\n**사용법:** 시간에 맞게 2–3개 선택. 이어 “Could you share the focus of the remaining interview stages?”로 실제 이후 준비를 확인할 수 있습니다.\n\n**큐카드:**\n\n> Culture in action / current team size / six-month outcomes / decision rights / remaining stages",
+      "stage": 0
+    },
+    {
+      "id": "ROADMAP",
+      "group": "roadmap",
+      "title": "5단계별 준비 지도 · 무엇을 어디까지 준비할까?",
+      "body": "# 단계별 준비 지도\n\n**확인된 첫 인터뷰: 2026-11-23 · HR Director.** 이후 단계는 아직 미확정이므로 JD에 맞춘 준비용 묶음입니다. 회사 안내가 오면 면접관·순서를 조정합니다. 모든 단계를 같은 깊이로 암기하기보다 해당 단계의 평가 질문과 증거를 준비합니다.\n\n| 단계 | 중심 질문 | 먼저 준비할 내용 | 주력 사례·카드 | 준비 완료 기준 |\n|---|---|---|---|---|\n| 1 · HR Director · 11/23 확인 | 왜 BEN인가? 사람·문화·규모·역할이 맞는가? | 90초 소개, culture fit, 작은 조직 적응, 이직 이유, 본인 관리 규모, BEN 사업·ELM의 쉬운 설명, 조건 | HR1–14; IDP·VNTG STAR | 진짜 동기·실제 이직 사유·직속 구조를 짧게 답함. HR 역질문3개. 기술 설명45초 |\n| 2 · Engineering leadership · 준비 가정 | 팀을 어떻게 발전시키고 예측 가능하게 납기 내는가? | 조직·위임·채용·피드백, 실제 manager 구조, 병목·KPI·PI planning, scope/capacity | Stage2; VNTG·PeopleFund·P3 STAR | 실제 조직도1장, 실제 코칭/갈등1건, 개발 운영 개선의 baseline·행동·결과 |\n| 3 · Architecture / technical panel · 준비 가정 | 요구·성능·보안·장애를 함께 설계할 수 있는가? | 음성·아바타 whiteboard, latency budget, RAG·tool 권한, 부하·캐시·취소·관측·롤백 | Stage3; 기술 Q3·4·8·11·14·17·20; IDP·Vivity | 한 workflow를 10분 설계, 실패/확장 꼬리질문, 지표 단위·분모를 설명 |\n| 4 · Cross-functional / AI-ML / QA / Product · 준비 가정 | 보고 권한 없는 동료와 출시·모델 통합을 해낼 수 있는가? | ELM 계약·책임 경계, release gate, 고객 custom vs product, 갈등 escalation | Stage4; 기술 Q1·2·10·16; 실제 갈등 STAR | 하나의 충돌을 증거·대안·결정권·결과로 설명. PoC/MVP/production 구분 |\n| 5 · Executive / US leadership · 준비 가정 | 사업 가치와 자원을 판단하고 조직을 맡길 수 있는가? | 30/60/90일, 상용화·비용·build/buy, 기술부채·우선순위, Korea-US 운영 | Stage5; DataForge·VNTG; C4·C11 | 한 장90일 계획, 투자/중단 선택2개, 실제 실패1개, mutual fit·조건 확인 |\n\n## 준비 순서\n\n1. **지금: HR deck** — HR1 소개 → HR2 동기 → HR3 문화 → HR4/5 규모 → HR6 기술 → HR7 직급 → HR8 이직 이유.\n2. **첫 면접 전: STAR 2개만 깊게** — IDP(직접 실행)와 VNTG(조직·사업). 본인 행동을 A에 집중하고 수치의 의미를 확인.\n3. **그 다음: 조건과 역질문** — HR13/14; 연봉·날짜를 임의 확정하지 않기.\n4. **후속 일정이 오면:** 실제 상대·agenda에 맞는 stage로 이동. HR 첫 미팅 때문에 뒤 단계 기술 자료를 삭제하지 않습니다.\n\n## HR에서 기술 질문을 받으면\n\n먼저 고객 가치·내 역할·타팀 경계로 45초 답합니다. 더 깊게 물으면 구체 사례를 선택합니다. 상대가 HR이라는 이유로 기술 검증을 안 할 것이라고 가정하지 않습니다.\n\n## 각 단계 공통 답변 규칙\n\n경험 질문: **S → T → A → R**, 실제 실패·갈등을 만들어내지 않음. 가상 상황: **요구 → 목표 → 선택 → 검증**, 과거형 성공 사례로 포장하지 않음. 수치: 분모·기간·범위. 리더십: 본인 행동·팀 성과·동료의 결정권을 구분.\n",
+      "stage": 0
+    },
+    {
+      "id": "S1-Q1",
+      "group": "stage",
+      "title": "Tell me about yourself and why you are relevant to this role.",
+      "body": "**평가:** 긴 경력을 현재의 가치로 요약할 수 있는가.\n\n**권장 영문 답변, 약 90초 — 경험:**\n\n> I’m an engineering and product leader with a background in enterprise platforms, cloud, security, and, more recently, production AI. At VNTG, the SeAH Group IT subsidiary, I helped build and lead an organization of about 200 people across digital transformation, data, and IT. That gave me experience aligning engineering execution with multiple business stakeholders.\n>\n> In my current role at EdenTnS, I have stayed directly involved in architecture and implementation. I designed and built an agentic document-processing workflow covering classification, extraction, validation, and business integration. It is used by more than four clients. One public-sector deployment processes about 150,000 documents a month and reduced review time by 65% compared with the previous workflow.\n>\n> BEN’s role brings together the areas where I can contribute most: developing engineers, improving delivery discipline, and making AI applications reliable enough for enterprise use. I understand that AI/ML, QA, and Product have their own leaders. My responsibility would be to make software engineering a strong partner to those teams and to take clear ownership of the platform and its delivery.\n\n**압박:** “Your background is broad. What is your actual specialty?”\n\n**응답:** “My specialty is turning complex technology into an operable enterprise product. The recurring work is architecture, integration, engineering execution, and the operating discipline around deployment. The domains have changed, but that responsibility has remained consistent.”",
+      "stage": 1
+    },
+    {
+      "id": "S1-Q2",
+      "group": "stage",
+      "title": "Why BEN, and why a Director role after being a CTO or EVP?",
+      "body": "**권장 답변 — 지원 동기는 본인에게 맞는지 확인:**\n\n> What attracts me is the scope of the problem: bringing conversational AI into real enterprise workflows under performance and security constraints. That is closely related to my recent work. I am interested in a role where I can lead a software organization and remain close to architecture and delivery. I would evaluate the role by its ownership, business impact, and working relationships rather than by title alone.\n\n**압박:** “Will you try to take over AI/ML or Product?”\n\n**응답:** “No. I would respect those leaders’ decision areas. We need explicit interfaces, shared release criteria, and a clear escalation path. I would own software execution and platform integration, and bring evidence when a model or product decision affects delivery.”\n\n**연습:** 자신의 실제 이직 동기 1문장을 추가. ‘작은 회사라 편할 것 같다’ 또는 ‘곧 CTO로 승진할 것’은 JD 근거가 없습니다.",
+      "stage": 1
+    },
+    {
+      "id": "S1-Q3",
+      "group": "stage",
+      "title": "How much Director-level engineering leadership experience do you have?",
+      "body": "**주의:** 예전 답변의 ‘20+ years at Director level’는 폭넓은 리더십을 합친 표현입니다. 최신 자료는 CDNetworks 2014.01–2017.04를 PM으로 구분합니다. ‘20년 이상 기술·제품 리더십’과 ‘공식 Director 직함의 공학 조직 관리 기간’은 동일하지 않습니다.\n\n**권장 답변 — 경험:**\n\n> I have more than two decades of technical and product leadership experience, including founding a software company and serving as VP of Engineering, CTO, and other senior leaders. I clearly exceed the five-year requirement for comparable senior engineering leadership. I would distinguish those responsibilities from years holding the formal Director title, because my titles and organizational structures varied across companies.\n\n**압박:** “You previously said over 20 years. Are you changing your answer?”\n\n**응답:** “That described my broader technical leadership experience, including co-founder and VP responsibilities. To be precise, I should not present every one of those years as formal Director-level engineering management. I can walk through the dates and management responsibilities role by role.”\n\n**본인 확인:** SmartWind의 실제 인사 관리 범위, Rocode·Samyang의 조직 운영 범위, CDNetworks PM 시기의 보고 체계. 최신 자료에서 명확한 고위 책임 기간을 넓게 합치면 대략 18년대 이상이지만 역할별 인사권을 확인하기 전 새 정밀 숫자를 확정하지 않는 편이 좋습니다.",
+      "stage": 1
+    },
+    {
+      "id": "S1-Q4",
+      "group": "stage",
+      "title": "Why have you moved between companies, and why leave your current role so soon?",
+      "body": "**자료에 이직 이유가 없습니다. 아래는 빈칸을 채워야 하는 답변 구조입니다.**\n\n> My move from [company] was driven by [actual reason]. My responsibility there was [scope], and I completed or handed over [actual outcome]. For my current search, the main factor is [actual motivation]. I am looking for a role where I can contribute over the long term to a software platform and an engineering team.\n\n**압박:** “Vivity was six months. Was there a performance problem?”\n\n**응답 구조:** 사실 여부를 먼저 직접 답하고, 실제 배경→완료한 성과→인수인계를 설명. 조직개편·계약 종료·경영 갈등을 임의로 만들지 않기. “The engagement lasted from June to November 2023. During that period, my documented work included ... The reason it ended was [actual reason].”",
+      "stage": 1
+    },
+    {
+      "id": "S1-Q5",
+      "group": "stage",
+      "title": "Are you genuinely hands-on, or is that just a leadership narrative?",
+      "body": "> In my current role, I directly designed and implemented the document-processing architecture and workflow integration. I can explain the data flow, validation boundaries, and failure handling, not just the roadmap. At the same time, I do not want the organization to depend on me writing every critical component. My role is to help teams make sound decisions, remove bottlenecks, and maintain clear ownership.\n\n**압박:** “Show us one recent piece of code or a difficult bug.”\n\n**준비:** 공개 가능한 코드·간단화한 의사코드 1개, 실패 입력 1개, 원인 분리 과정 1개. 고객 데이터와 출원 중 특허의 미공개 청구 내용을 가져오지 않기. 직접 구현한 부분과 팀 구현을 구분.",
+      "stage": 1
+    },
+    {
+      "id": "S1-Q6",
+      "group": "stage",
+      "title": "Can you work on-site, accommodate US meetings, and travel?",
+      "body": "**본인 가능 범위를 확인한 뒤 사용:**\n\n> I am based in Seoul and understand that this is an on-site role. I can accommodate planned early-morning or evening meetings with the US team and occasional travel, subject to the expected schedule. I would establish a sustainable overlap window and use written decisions and handoffs so that collaboration does not depend on everyone being online at the same time.\n\n**압박:** “Does that mean you will not join urgent US calls?”\n\n**응답:** “I would join when a critical incident or decision requires it. For normal operations, predictable overlap and clear escalation make the team more dependable.”",
+      "stage": 1
+    },
+    {
+      "id": "S2-Q1",
+      "group": "stage",
+      "title": "You led 200 people. How did you structure the organization?",
+      "body": "> At VNTG, the approximately 200-person scope covered digital transformation, big data, and IT. It was not 200 direct reports or 200 software engineers. My responsibility included organization building, the group roadmap, and alignment with holding-company and affiliate executives. I would describe the actual reporting layers separately. For BEN, I would first examine the current team and delivery bottlenecks before changing the structure.\n\n**압박:** “How many engineering managers reported to you?”\n\n**응답:** 실제 수를 확인해서 답할 항목입니다. 기억이 불명확하면 “I want to be accurate about the reporting structure; the broader organization was about 200, and I will confirm the direct-report breakdown.” 확정 숫자를 만들어내지 않기.\n\n**준비:** 당시 조직도 1장: 전체/개발/IT 구분, 본인 직속, 매니저 계층, 채용·평가 권한.",
+      "stage": 2
+    },
+    {
+      "id": "S2-Q2",
+      "group": "stage",
+      "title": "How would you improve predictability without adding bureaucracy?",
+      "body": "> I would start with recent releases and map where work waits: unclear requirements, cross-team dependencies, review queues, testing, or deployment. Then I would select one constraint and measure the improvement. I would track delivery lead time, aging work, production defects, and whether committed scope was delivered. Story points can help a team plan, but I would not compare engineers or teams by points. The goal is a shorter and more reliable path to customer value.\n\n**압박:** “I need 30% more productivity next month.”\n\n**응답:** “I can commit to identifying the constraint and changing the workflow quickly. I cannot responsibly promise 30% before defining the baseline and the output. We can agree on a measurable target after reviewing the work and the available capacity.”",
+      "stage": 2
+    },
+    {
+      "id": "S2-Q3",
+      "group": "stage",
+      "title": "What is your experience with PI Planning?",
+      "body": "> I have used Scrum, Kanban, TDD, and Agile/DevOps practices, including leading a multinational P3 task force at CDNetworks. My documents do not establish that I ran a formal SAFe PI Planning process, so I would not claim that. For BEN’s PI Planning, I would make the objectives, dependency owners, capacity assumptions, and risks explicit, then use sprint reviews to check whether the plan remains credible.\n\n**압박:** “So you have never done it?”\n\n**응답:** “I would distinguish the formal framework from the planning responsibilities. I have managed cross-team roadmaps and dependencies. If BEN uses a specific PI process, I would learn its cadence and improve it with the team rather than pretend I have already run that exact version.”\n\n**구체 설계:** 고객 outcome→기능·플랫폼 enabler→AI/ML·QA 의존성→검증·통합 일정→위험 담당→범위 조정. 스프린트 전체를 100% 채우고 장애·지원 일을 무시하지 않기.",
+      "stage": 2
+    },
+    {
+      "id": "S2-Q4",
+      "group": "stage",
+      "title": "What engineering KPIs would you introduce?",
+      "body": "> I would use a small set across delivery, quality, reliability, and customer outcomes. For delivery: change lead time and commitment predictability. For quality: escaped defects and the proportion of releases requiring recovery. For reliability: user-facing availability and tail latency, including AI and voice stages. For business impact: onboarding time and cost per successfully completed customer task. Each metric needs a definition and an owner, and we should review whether improving it actually helps customers.\n\n**압박:** “Why not lines of code or velocity per engineer?”\n\n**응답:** “Those can reward more output without better outcomes. I would use individual performance discussions around role expectations, delivery quality, collaboration, and growth, supported by concrete examples.”\n\n**주의:** 이 지표를 예전 회사에서 모두 정량 운영했다고 말하지 않습니다.",
+      "stage": 2
+    },
+    {
+      "id": "S2-Q5",
+      "group": "stage",
+      "title": "How do you handle a high-performing engineer who damages the team?",
+      "body": "> I would separate technical output from the behavior that is causing harm. I would give specific feedback, state the expected change, and agree on a review period. I would also check whether unclear ownership or excessive pressure is contributing. If the behavior does not improve, I would act through the company’s performance process. Exceptional code does not justify making the rest of the team ineffective.\n\n**압박:** “That person owns the most important subsystem. We cannot lose them.”\n\n**응답:** “That dependency is itself a risk I need to reduce through documentation, pairing, and a second owner. I would manage the performance issue and the continuity risk together.”\n\n**본인 경험 요청에 대비:** 실제 코칭 사례 1개 필요. 해고·성과개선 결과를 임의로 만들어 쓰지 않기.",
+      "stage": 2
+    },
+    {
+      "id": "S2-Q6",
+      "group": "stage",
+      "title": "Tell us about a difficult fixed-deadline delivery.",
+      "body": "> At PeopleFund, I led engineering and product work for the core balance system covering ledger, settlement, and payment, with an August 2020 regulatory deadline. The system had to change while operations continued, and bank integration added another stakeholder boundary. The work met the deadline while maintaining operational continuity. For a detailed discussion, I would separate the required regulatory scope from the broader modernization work and explain the actual cutover and validation approach.\n\n**압박:** “Exactly how did you validate money was not lost?”\n\n**응답 연습:** 실제 reconciliation·병행 검증·차액 처리·승인 절차를 확인해서 설명해야 합니다. 확인 전에는 “The important control is reconciliation of ledger and settlement states. I would want to distinguish the controls actually used then from the design I would recommend today.”\n\n**BEN 적용:** 날짜 고정이면 범위·배포 대상·노출 범위를 줄이는 선택지를 제시. 검증 생략을 일정 관리로 포장하지 않기.",
+      "stage": 2
+    },
+    {
+      "id": "S3-Q1",
+      "group": "stage",
+      "title": "Design an enterprise conversational AI platform with voice and avatars.",
+      "body": "**첫 2분:** 사용 사례·위험도, 채널, 동시 세션과 턴 도착률, 한국/미국 배포, 데이터 반출, 통합 대상, 오류 시 동작부터 묻습니다.\n\n> I would separate the interaction channel, session orchestration, model and retrieval integration, and enterprise actions. Identity and tenant context must be available throughout the request. The software team would own the application contracts and runtime behavior; AI/ML would own the model capabilities and model evaluation within our agreed boundaries. I would then define the failure path and latency budget before selecting specific infrastructure.\n\n**압박:** “You are listing components. What is the hardest decision?”\n\n**응답:** “For this use case, I would focus first on what can be spoken or executed before validation is complete. Low latency is valuable, but emitting an unsafe spoken answer or creating an unauthorized transaction is difficult to reverse.”\n\n**보드 설계·수치 문제·ELM 기술 꼬리질문:** 02 문서 Q1–Q20 참조.",
+      "stage": 3
+    },
+    {
+      "id": "S3-Q2",
+      "group": "stage",
+      "title": "Is 150,000 documents per month evidence you can run a real-time platform?",
+      "body": "> No, that monthly volume alone does not demonstrate real-time scale. It shows a production workflow and customer-operating experience. Real-time conversational capacity requires a different model: active sessions, incoming turns, service time, token volume, audio duration, and tail latency. My relevant experience also includes CDN analytics and constrained AI deployment, but I would validate BEN’s runtime with workload-specific tests.\n\n**압박:** “So your AI system is small?”\n\n**응답:** “Its value is the reliable handling of a customer workflow, not a claim of massive real-time concurrency. I would rather be precise about that and show how I would measure the new workload.”\n\n**계산:** 15만/30/24/3600 ≈ 0.058 문서/초 평균. 실제 업무시간·문서당 페이지·피크·동시 처리에 따라 전혀 다릅니다. 월 평균을 용량 설계 기준으로 쓰지 않기.",
+      "stage": 3
+    },
+    {
+      "id": "S3-Q3",
+      "group": "stage",
+      "title": "Tell us about a measurable performance improvement.",
+      "body": "> At Vivity AI, I led improvements to a shipyard inspection workflow using drone imagery, YOLO, segmentation, and block detection. The reported inspection decision accuracy improved from a range of 50–78% to 95%, and assessment time per run fell from about 50 minutes to within three minutes. This was a twice-daily inspection workflow, not an interactive voice system. I would explain the evaluation conditions before comparing it with another system.\n\n**압박:** “Was that inference speed or the whole workflow? What was the sample size?”\n\n**응답:** “The documented time is per assessment run. I should verify the original timing boundary and evaluation dataset before attributing the entire reduction to inference optimization.”\n\n**준비:** 파이프라인 전·후 도식, 단계별 변화, 동일 입력·장비 여부, 정확도 정의, 본인과 ML팀 기여 구분. GPU 최적화가 전부라고 추정하지 않기.",
+      "stage": 3
+    },
+    {
+      "id": "S3-Q4",
+      "group": "stage",
+      "title": "How would you reduce p95 conversational response latency?",
+      "body": "> I would define the measurement boundary first, such as end of user speech to first meaningful audible response. Then I would trace endpointing, speech recognition, retrieval, policy checks, model queueing and generation, speech synthesis, and playback. I would optimize the dominant stage and measure under representative concurrency. Streaming and caching may help, but they need cancellation, permission-aware keys, and safe output boundaries.\n\n**압박:** “Would you just buy more GPUs?”\n\n**응답:** “Only if inference capacity is the bottleneck. More GPUs will not fix a slow external API, unnecessary serial calls, or poor endpointing.”\n\n**주의:** stage별 p95를 더해서 전체 p95라고 하지 않기. stage budget은 설계값, end-to-end p95는 실제 전체 분포로 측정.",
+      "stage": 3
+    },
+    {
+      "id": "S3-Q5",
+      "group": "stage",
+      "title": "How do you keep releases safe when models are nondeterministic?",
+      "body": "> I would version the full behavior-producing configuration: application, model, prompt, retrieval settings, knowledge snapshot, and tool schema. Conventional tests verify the deterministic contracts, while a representative evaluation set checks behavior and critical failures. I would release gradually with explicit stop conditions and rollback to a known compatible bundle, not just to the previous container image.\n\n**압박:** “QA does not report to you. Who decides?”\n\n**응답:** “We need an agreed release policy with QA, AI/ML, Product, and the accountable business owner. I would own readiness evidence for the software components and make unresolved risks explicit rather than unilaterally override QA.”",
+      "stage": 3
+    },
+    {
+      "id": "S3-Q6",
+      "group": "stage",
+      "title": "Design for a model provider outage or air-gapped customer.",
+      "body": "> I would classify each workflow by what it is allowed to do when a dependency is unavailable. Some can offer read-only or scripted responses; others need a human handoff. A fallback model must pass the same privacy and behavior requirements before use. For a fully air-gapped deployment, I would account for local inference, offline artifact updates, model and dependency provenance, and customer-approved operational access. My industrial MLOps experience is relevant to those deployment constraints.\n\n**압박:** “Can we silently send it to an external model to keep the SLA?”\n\n**응답:** “Not if the deployment contract prohibits that. Availability must be achieved within the permitted data boundary.”",
+      "stage": 3
+    },
+    {
+      "id": "S4-Q1",
+      "group": "stage",
+      "title": "What do you understand about our ELM?",
+      "body": "> BEN’s public materials describe ELM as a proprietary AI framework for enterprise engagement, with personalization, multimodal interaction, and secure integration. I would not assume that the public name identifies a particular foundation-model architecture. I would like to understand which components the AI/ML team owns today and how the software platform integrates them. My focus would be reliable contracts, measurable behavior, and customer-operating requirements.\n\n**압박:** “Are you saying ELM is just a wrapper?”\n\n**응답:** “No. A framework can contain substantial differentiated technology. I am distinguishing what is publicly documented from what I would need to learn internally. I would evaluate the actual capabilities and customer outcomes.”\n\n공식 근거와 역사적 설명의 차이: 02 문서 ‘확인/미확인’ 표 참조.",
+      "stage": 4
+    },
+    {
+      "id": "S4-Q2",
+      "group": "stage",
+      "title": "The ML team says the model is ready; QA says it is not. What do you do?",
+      "body": "> I would first ask what each team means by ready. A model benchmark can improve while the end-to-end customer workflow regresses. We should identify the failing scenarios, business severity, and the version changes involved. Then I would propose a release decision based on shared criteria: fix, narrow the rollout, disable a risky capability, or defer. If we cannot agree, I would escalate with evidence and options to the designated decision owner.\n\n**압박:** “The AI/ML director refuses your test.”\n\n**응답:** “I would ask which part is unrepresentative and compare it against actual customer requirements. I would not turn a disagreement about evidence into a disagreement about reporting lines.”",
+      "stage": 4
+    },
+    {
+      "id": "S4-Q3",
+      "group": "stage",
+      "title": "Product promises an avatar feature in four weeks, but your estimate is eight.",
+      "body": "> I would break down what the customer actually needs and distinguish the minimum releasable experience from the full feature. I would show the main uncertainty and cross-team dependencies, then offer explicit options: a constrained pilot, a different launch date, or a change in scope. Any additional capacity must address the critical path; adding people does not automatically halve the schedule.\n\n**압박:** “Sales already signed. Are you refusing?”\n\n**응답:** “I am taking responsibility for the delivery options. I would join Product and Sales in setting an achievable customer plan, with the risks and acceptance conditions visible.”",
+      "stage": 4
+    },
+    {
+      "id": "S4-Q4",
+      "group": "stage",
+      "title": "How do you turn custom customer work into a product?",
+      "body": "> I would separate shared platform capabilities from tenant configuration and truly customer-specific integration. In my DataForge work, cross-stage product identifiers and lineage were central reusable capabilities rather than a collection of isolated data pipelines. For BEN, I would look for repeated needs in identity, approved knowledge, workflow connectors, and operational controls, while checking whether each investment improves deployment time and support cost.\n\n**압박:** “Every customer says they are unique.”\n\n**응답:** “The workflow may be unique, but the integration contract or operational control may be shared. I would make exceptions explicit, priced, owned, and bounded so they do not silently become separate product branches.”",
+      "stage": 4
+    },
+    {
+      "id": "S4-Q5",
+      "group": "stage",
+      "title": "You have healthcare experience. Have you delivered HIPAA-compliant AI?",
+      "body": "> I have experience with hospital information systems, clinical-system integration, and enterprise security governance. I would not present that as proof that I personally delivered a HIPAA-compliant AI deployment in the US. For BEN, I would work with the security, legal, and domain owners to turn the applicable obligations into architecture, access controls, operational procedures, and evidence. The software organization must make those controls testable and maintainable.\n\n**압박:** “Then do you meet our requirement?”\n\n**응답:** “I bring the technical and operational experience needed to implement enterprise controls and collaborate with the specialists who define the obligations. I am being precise about which certifications and jurisdiction-specific projects I can substantiate.”\n\n**주의:** CISA는 최신 DOCX에 expired. 현재 유효한 자격으로 소개하지 않기. ISO 27001 후원·조정 경험을 SOC 2 또는 HIPAA 인증 취득으로 바꾸지 않기.",
+      "stage": 4
+    },
+    {
+      "id": "S4-Q6",
+      "group": "stage",
+      "title": "How would you work with Customer Success after launch?",
+      "body": "> I would establish a clear route from customer symptoms to engineering evidence. A customer report needs the affected tenant, workflow, version, severity, and a safe way to reproduce it. Customer Success should have a dependable escalation path and visibility into resolution. I would also review recurring support work with Product, because repeated integration or configuration problems are often product problems rather than isolated tickets.\n\n**압박:** “CS says engineering is too slow and unresponsive.”\n\n**응답:** “I would review response times and a sample of escalations with them, agree on severity and ownership, and fix the handoff. I would not ask CS to understand our internal organization before they can get a customer issue resolved.”",
+      "stage": 4
+    },
+    {
+      "id": "S5-Q1",
+      "group": "stage",
+      "title": "What would you do in your first 90 days?",
+      "body": "> In the first 30 days, I would learn the team, architecture, customer commitments, and current delivery and reliability baselines. I would also agree on responsibility boundaries with the peer leaders. In days 31–60, I would work on one important bottleneck, such as release instability or conversational tail latency, and make the improvement measurable. By day 90, I would aim to establish a repeatable release and operating cadence, validate the pilot improvement, and present a capacity and platform plan grounded in what we have learned.\n\n**압박:** “Too cautious. Where is the impact?”\n\n**응답:** “The first month would include a concrete customer or delivery problem, not only interviews. What I would avoid is promising a specific percentage before we know the baseline.”\n\n**산출물:** 30일 책임·구조·지표·리스크 지도, 60일 한 문제 개선의 전후 결과, 90일 반복 가능한 출시·장애 대응과 우선순위 계획. 세부 표는 03 문서.",
+      "stage": 5
+    },
+    {
+      "id": "S5-Q2",
+      "group": "stage",
+      "title": "Revenue is urgent. Why invest in platform work now?",
+      "body": "> I would connect the investment to a specific commercial constraint: time to deploy a customer, failure during a demo or pilot, recurring support effort, or cost per completed task. Some debt can wait. Debt that repeatedly blocks customer acceptance or creates unacceptable operational risk belongs in the delivery plan. I would propose the smallest investment that removes the constraint and measure whether it worked.\n\n**압박:** “What do you stop?”\n\n**응답:** “I would stop or defer work with weak customer evidence, low reuse, or no clear acceptance owner. I would bring the trade-off to Product and leadership rather than quietly reduce quality on the critical path.”",
+      "stage": 5
+    },
+    {
+      "id": "S5-Q3",
+      "group": "stage",
+      "title": "Cut infrastructure cost by 40% without hurting quality.",
+      "body": "> I would first separate idle capacity, model serving, retrieval, media processing, and external service cost. Then I would examine cost per successfully completed task at the required latency and quality. We may find gains through routing, shorter contexts, scheduling, caching, or right-sizing, but each change needs evaluation. I would not promise a 40% reduction until we understand the baseline and the binding constraints.\n\n**압박:** “You reduced CAPEX 45% before. Why not here?”\n\n**응답:** “That was a specific MES modernization outcome using a different approach and cost structure. It demonstrates commercial judgment, not a universal percentage I can reproduce on every workload.”",
+      "stage": 5
+    },
+    {
+      "id": "S5-Q4",
+      "group": "stage",
+      "title": "How would you build trust between Korea and the US?",
+      "body": "> I would make commitments and risks visible in a consistent format: outcome, current evidence, owner, dependency, and decision required. Important decisions should be written down with the rationale and consequences. I would use planned overlap for high-value discussions and asynchronous updates for routine progress. I would also make it safe for engineers to raise bad news early, because late surprises are expensive across time zones.\n\n**압박:** “Korea says the US keeps changing priorities; the US says Korea never delivers.”\n\n**응답:** “I would compare the committed scope with the changes and the actual capacity. Both statements may reflect a broken planning system. We need one visible priority order and an explicit cost for changes, not two competing versions of the plan.”",
+      "stage": 5
+    },
+    {
+      "id": "S5-Q5",
+      "group": "stage",
+      "title": "What is a decision you got wrong?",
+      "body": "**본인 경험이 필요합니다. 아래를 완성하세요.**\n\n> I initially chose [actual decision] because [assumption]. The evidence that challenged it was [signal]. I took responsibility by [action] and changed [decision/process]. The result was [actual result]. The lesson I apply now is [specific operating rule].\n\n**압박:** “You still sound like you are blaming the environment.”\n\n**응답:** “The part I owned was [specific judgment or delayed action]. The constraint was real, but I should have [what you could actually have done differently].”\n\n**후보 소재:** 폐쇄망 직접 설치→Kubernetes→K3s의 판단 변화, 오래 걸린 기술 의사결정, 채용·위임 실수. 실제로 잘못 판단했던 장면이 있을 때만 실패 사례로 사용합니다. 성공 프로젝트를 가짜 실패로 포장하지 않기.",
+      "stage": 5
+    },
+    {
+      "id": "S5-Q6",
+      "group": "stage",
+      "title": "Why should we hire you, and what is your biggest gap?",
+      "body": "> I bring experience across engineering organization building, complex enterprise integration, and hands-on AI delivery. I can work at the boundary between architecture and execution, which is important for taking a platform from a technical capability to a dependable customer product. My clearest gap is that my documents do not demonstrate production ownership of a large real-time voice-and-avatar platform. I would address that by working closely with BEN’s specialists, instrumenting the end-to-end experience, and validating decisions through representative tests.\n\n**압박:** “We need someone who already knows everything.”\n\n**응답:** “I would not claim that. What I can offer is sound judgment about what I know, a rigorous way to validate what I do not, and experience leading teams through comparable enterprise constraints.”",
+      "stage": 5
+    },
+    {
+      "id": "T1",
+      "group": "tech",
+      "title": "What is ELM, and how is it different from an LLM or RAG?",
+      "body": "**답변 논리:** LLM은 생성·이해 모델, RAG는 외부 근거 검색을 생성에 연결하는 접근, ELM은 BEN이 붙인 독점 프레임워크 명칭. 이름만으로 학습 구조를 알 수 없습니다.\n\n> I would distinguish the model from the engagement system around it. An LLM provides language capabilities; retrieval adds approved evidence at runtime. BEN describes ELM as its proprietary framework. The engineering question is which capabilities it exposes, what guarantees the interfaces provide, and how we validate the complete customer experience.\n\n**압박:** “Is it technically novel or just marketing?”\n\n> I would not judge novelty from a product name. I would examine the components, measurable improvements, operational constraints, and customer outcomes. That is also how I would decide where software engineering should invest.\n\n**피해야 할 답변:** “ELM은 BEN이 처음부터 학습한 7B MoE다.” 현재 공개 근거가 없습니다.",
+      "stage": 0
+    },
+    {
+      "id": "T2",
+      "group": "tech",
+      "title": "How do you divide ownership with AI/ML?",
+      "body": "**제안:** 모델·추론 capability·모델 평가의 주체는 AI/ML과 합의. SW는 세션·통합·권한·런타임·배포·관측·앱 성능의 주체. QA는 검증 전략·독립 확인을 공동 설계. 모델 serving 인프라는 실제 조직 경계부터 확인.\n\n> I would agree on a versioned contract covering request and response schemas, streaming events, tool calls, cancellation, deadlines, error types, and evaluation expectations. Software and model teams should share end-to-end objectives while retaining clear ownership of their components.\n\n**압박:** “Latency is caused by the model. Is it not your problem?”\n\n> It is still an end-to-end customer problem. I would own diagnosis and coordination for the software platform, make the bottleneck visible, and work with AI/ML on the appropriate change. Ownership boundaries should prevent ambiguity, not prevent collaboration.\n\n**구체 계약:** compatible schema versions, turn ID, deadline propagation, max context/output, event ordering, usage accounting, retryability, cancellation acknowledgement. 모델 출력을 무조건 신뢰하는 API 계약은 불충분.",
+      "stage": 0
+    },
+    {
+      "id": "T3",
+      "group": "tech",
+      "title": "Design a natural voice experience under a tight latency target.",
+      "body": "**설계 절차:** ①어떤 시작/종료 시점인지 합의 ②endpointing·ASR·retrieval·policy·queue·prefill/decode·TTS·playback을 분해 ③스트리밍·중첩 작업 ④사용자가 실제로 듣는 내용의 유용성과 안전 검증.\n\n> I would define latency from the end of user speech to the first meaningful audible response, and track full task completion separately. Then I would assign a provisional stage budget, instrument the actual path, and test under representative load. A filler such as “Let me check” should not be counted as successful answer latency.\n\n**연습용 예산, 실제 BEN 수치 아님:** endpoint/ASR 잔여 200ms, retrieval+policy 180ms, model queue+첫 승인 가능한 segment 600ms, TTS+playback 220ms = 약 1.2초 critical-path 예산. 실제 구간은 겹칠 수 있고 workload에 따라 달라집니다. p95(stage) 합계는 p95(end-to-end)가 아닙니다.\n\n**압박:** “Why not stream immediately?”\n\n> Speech cannot be taken back once heard. I would stream only the segments permitted by the validation policy, use deterministic responses for some high-risk flows, and test the impact on both latency and safety.",
+      "stage": 0
+    },
+    {
+      "id": "T4",
+      "group": "tech",
+      "title": "How do you handle interruption, barge-in, and avatar synchronization?",
+      "body": "**제안:** 세션·턴 상태 머신, generation ID, 취소 전파, 오래된 audio/animation 폐기. VAD/ASR의 echo·false interruption도 평가. cancellation을 실제 네트워크·모델·TTS에 전파하지 않으면 비용만 남습니다.\n\n> A new user turn should invalidate the previous response generation. I would stop playback, cancel downstream work where supported, and reject late events carrying the old generation ID. The transcript should distinguish generated text from what was actually spoken. Avatar timing should follow the audio timeline rather than independently completing an old animation.\n\n**압박:** “The user interrupts just after the booking is created.”\n\n> Cancellation of speech is not cancellation of a committed business transaction. The workflow service must report its actual state, and we need an explicit compensation or confirmation path. I would not tell the user the booking was canceled unless the system confirms that outcome.\n\n**본인 경험 경계:** 최신 이력서는 음성/아바타의 실서비스 소유를 입증하지 않습니다. 이 답은 설계 능력입니다.",
+      "stage": 0
+    },
+    {
+      "id": "T5",
+      "group": "tech",
+      "title": "How would you benchmark the model serving layer?",
+      "body": "**지표:** request arrival pattern, prompt/output 길이 분포, time-to-first-token, inter-token latency, turn completion, queue wait, KV memory, OOM·timeout, 사용자 task success. 평균 tokens/sec만으로 부족.\n\n> I would benchmark representative prompt and output lengths at the required arrival rate, not just a single model request. I would look for the point where tail latency and failures increase sharply, and set admission control below that operating limit. We should compare cost per successful task at a required service level, rather than peak throughput in isolation.\n\n**압박:** “Increase batch size to improve throughput?”\n\n> Potentially, but the best throughput setting may miss the interactive latency target. I would test the scheduling and batch policy with the actual workload and separate interactive traffic from offline jobs when necessary.\n\nNVIDIA의 공식 serving 자료는 in-flight batching, scheduling, KV cache 등 구성 선택지를 설명합니다. 여기서는 특정 버전의 기본값을 처방하지 않고, 설치된 버전과 모델 지원을 확인합니다. [NVIDIA Triton TensorRT-LLM backend](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/tensorrtllm_backend/README.html)",
+      "stage": 0
+    },
+    {
+      "id": "T6",
+      "group": "tech",
+      "title": "What do quantization and KV caching actually change?",
+      "body": "**답변:** weight 정밀도 축소와 KV cache 메모리를 분리. cache는 attention의 과거 key/value 재사용이며 retrieval/result cache와도 다릅니다. KV 대략식은 layer·KV heads·head dim·token 수·dtype byte에 비례. GQA/MQA·병렬화·allocator 오버헤드에 따라 실제 값이 달라집니다.\n\n> I would evaluate quantization for memory, latency, and task-quality trade-offs on the actual hardware. Model weights are only one part of memory consumption; long contexts and concurrent sequences can make KV cache a limiting factor. Prefix reuse and response caching also have different correctness and privacy conditions, so I would not treat them as interchangeable.\n\n**압박:** “How much GPU memory for a 7B model?”\n\n> Roughly 14 GB for 7 billion parameters at two bytes per parameter, before runtime buffers, KV cache, and other overhead. That is a weight estimate, not a deployment-sizing answer.\n\n**추가:** KV bytes≈2×layers×KV heads×head dimension×total cached tokens×bytes/element, 단순 근사. 양자화 후 한국어·숫자·도구 인자·안전 회귀도 확인. [NVIDIA KV Cache 설명](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/transformers-kv-cache.html)",
+      "stage": 0
+    },
+    {
+      "id": "T7",
+      "group": "tech",
+      "title": "How do you choose RAG, fine-tuning, or a smaller local model?",
+      "body": "**판단:** 최신·권한별 사실은 RAG 후보. 스타일·출력 형식·특정 행동 학습은 fine-tuning 후보. 비용·반출·latency 때문에 로컬 소형 모델을 비교할 수 있으나 성능은 측정. 둘은 대체 관계만이 아닙니다.\n\n> I would start with the failure mode. If the problem is missing or changing enterprise knowledge, I would examine retrieval and data quality first. If the problem is a consistent behavior or output pattern, adaptation may help. I would compare alternatives using the same task set, privacy constraints, latency target, and total operating cost, with AI/ML owning the model-development work.\n\n**압박:** “Would you fine-tune on patient records?”\n\n> Not as a default solution. I would first establish the permitted purpose, data handling, necessity, and deletion implications with the responsible teams. Many knowledge-access problems do not require putting sensitive records into model weights.",
+      "stage": 0
+    },
+    {
+      "id": "T8",
+      "group": "tech",
+      "title": "Design a reliable RAG pipeline. Why add ontology?",
+      "body": "**제안:** 문서 provenance·승인 상태·유효기간·tenant ACL을 보존. parsing→업무 단위 chunk→hybrid retrieval 후보→필요시 rerank→근거와 권한 재검증→생성. 그래프/온톨로지는 관계 탐색이 업무에 유효할 때만 추가.\n\n> In my current work, I combine domain relationships with vector retrieval. For BEN, I would test whether those relationships improve a specific class of questions, such as connecting a service, location, eligibility rule, and approved procedure. I would compare a baseline retrieval pipeline with the relationship-enhanced version, using the same questions and access-control rules.\n\n**압박:** “Ontology sounds expensive. Prove it improves accuracy.”\n\n> I would not claim an improvement without an ablation test. The evaluation should separate retrieval relevance, evidence completeness, answer correctness, and operational cost. If the extra layer does not improve the target tasks, I would simplify it.\n\n**주의:** 본인 자료에 retrieval 정량 향상률 없음. ‘GraphRAG 사용’도 명시하지 않았으므로 구현한 온톨로지 방식과 특정 라이브러리를 동일시하지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "T9",
+      "group": "tech",
+      "title": "RAG already grounds responses. Why do we still get hallucinations?",
+      "body": "**원인 분리:** 근거 미검색, 잘못된/오래된 문서, 불완전 문맥, 질문과 근거 불일치, 생성의 추가 추론, tool 결과 해석 오류. citation 존재 자체가 정답 증거는 아님.\n\n> I would trace the failure to the evidence, generation, or action layer. Then I would evaluate whether the response is supported by the retrieved evidence and whether that evidence is current and authorized. If support is insufficient, the system should ask a clarifying question, abstain, or hand off, depending on the workflow. I would not promise zero hallucinations in unrestricted generation.\n\n**압박:** “The customer wants a guarantee.”\n\n> I would scope a guarantee to a constrained workflow and verifiable behavior. For example, a booking status can come from a system-of-record response, rather than free-form generation. That is more defensible than a blanket claim that a language model never makes an error.",
+      "stage": 0
+    },
+    {
+      "id": "T10",
+      "group": "tech",
+      "title": "How do you evaluate ELM without knowing its internals?",
+      "body": "**평가 설계:** 업무별 expert-labeled cases, 한국어·영어·혼합, noisy speech, ambiguous request, permission denial, outdated knowledge, tool failures, multi-turn memory. 정상·경계·공격 사례 분리. 모델 단위와 통합 시스템 평가 분리.\n\n> I can evaluate a black-box capability through its interface. I would define task completion, factual support, safe action execution, refusal quality, and latency for representative workflows. Automated checks can handle schemas and known outcomes; expert review is needed for nuanced or high-risk behavior. LLM-based judging can help triage, but it should be calibrated against human review rather than treated as ground truth.\n\n**압박:** “What sample size proves safety?”\n\n> It depends on the failure rate and confidence we need, and rare severe events need targeted testing as well as representative sampling. Observing no failures in a small test set does not establish that the risk is zero.\n\n**보드 꼬리질문:** 독립 동일분포 Bernoulli 등 강한 가정하에서 n회 0실패의 95% 상한은 rule-of-three 근사 약 3/n. n=300이면 약 1% 수준이지 0%가 아닙니다. adversarial·상관된 사례에 기계적으로 적용하지 않습니다.",
+      "stage": 0
+    },
+    {
+      "id": "T11",
+      "group": "tech",
+      "title": "How do you defend against prompt injection?",
+      "body": "**제안:** 문서·도구 반환은 비신뢰 데이터. prompt만으로 권한 경계를 만들지 않기. retrieval ACL, least-privilege tools, schema validation, explicit policy checks, human approval for sensitive writes, output sanitization, 제한된 egress. 공격 테스트를 회귀 suite로 관리.\n\n> I would assume that a retrieved document can contain malicious instructions. The model should not be able to grant itself permissions or execute arbitrary actions. Authorization must be enforced in retrieval and workflow services, with the model producing proposals that are validated before execution. Filtering helps, but it is not the primary security boundary.\n\n**압박:** “Our system prompt says to ignore attacks.”\n\n> That is useful guidance, but it is not an enforceable access-control mechanism. I would test whether an injected document can cause unauthorized retrieval, tool use, or disclosure, and enforce those boundaries outside the model.\n\n근거: [OWASP Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/), [OWASP Sensitive Data Exposure](https://genai.owasp.org/glossary/sensitive-data-exposure/). 이 원칙이 BEN에 이미 구현되어 있다는 뜻은 아닙니다.",
+      "stage": 0
+    },
+    {
+      "id": "T12",
+      "group": "tech",
+      "title": "What exactly does closed-loop mean operationally?",
+      "body": "**확인 질문:** 네트워크 격리? 고객 승인 데이터만? 외부 API 무사용? single-tenant? 저장·학습·telemetry 경계? 단어 하나로 모두 보장하지 않습니다.\n\n> I would turn “closed-loop” into a deployment contract. We need to specify permitted data sources, model endpoints, outbound traffic, storage and retention, operational access, and update mechanisms. If the customer requires no external inference, a fallback to a public API is not allowed even during an outage.\n\n**압박:** “All data is on-premises, so is it secure?”\n\n> Location alone does not enforce permissions. Local administrators, backups, logs, connectors, and model artifacts still need controls. I would test the actual data flows and threat boundaries.",
+      "stage": 0
+    },
+    {
+      "id": "T13",
+      "group": "tech",
+      "title": "How do you prevent tenant leakage and unsafe memory?",
+      "body": "**제안:** 서버에서 검증한 tenant/user/role context를 DB·vector·cache·tool에 일관되게 적용. cache key는 tenant·관련 권한 범위·data/prompt/model version을 포함. 사용자 입력 tenant ID를 신뢰하지 않기. Memory에 TTL·삭제·승인·purpose.\n\n> Tenant isolation has to hold across retrieval, caches, sessions, logs, and tool execution, not just the primary database. I would test negative cases explicitly. Personalized memory should have a defined purpose and lifetime, and an expired or revoked permission must not remain effective through a cached result.\n\n**압박:** “Can we share a global semantic cache to reduce cost?”\n\n> Only for content proven safe to share. For sensitive customer data, I would prefer a correct isolation boundary over a better cache-hit rate. Equivalent wording does not imply equivalent permission.",
+      "stage": 0
+    },
+    {
+      "id": "T14",
+      "group": "tech",
+      "title": "Agents can call tools. How do you avoid duplicate or unauthorized actions?",
+      "body": "**제안:** 모델은 의도를 제안하고 workflow service가 인가 후 실행. typed schema, object-level authorization, idempotency key, state machine, timeout, retry budget, audit. 읽기와 쓰기를 분리하고 고위험 작업은 확인.\n\n> A tool call is a proposed action, not permission to execute. The workflow service should validate the arguments, user authorization, and transaction state. For actions such as bookings or payments, retries need an idempotency key and a way to resolve an unknown outcome without blindly repeating the write.\n\n**압박:** “The request timed out. Just retry?”\n\n> First determine whether the remote action committed. A timeout describes what the caller observed, not necessarily the transaction outcome. I would query by the operation key or use the integration’s recovery mechanism.\n\n**추가:** Exactly-once 전체 전달을 가볍게 약속하지 않기. at-least-once delivery + idempotent business effects와 무엇이 다른지 설명.",
+      "stage": 0
+    },
+    {
+      "id": "T15",
+      "group": "tech",
+      "title": "Which observability would you build, and what must not be logged?",
+      "body": "**제안:** trace/session/turn/version identifiers; spans for recognition, retrieval, model, validation, tool, speech. model·prompt·knowledge versions와 latency·error category 연결. raw transcript·patient data의 기본 수집 금지; redaction·권한·보존 기준.\n\n> I need enough context to explain which stage failed without routinely storing the entire customer conversation. I would use structured metadata and controlled diagnostic sampling, with restricted access to any sensitive capture. The trace should follow a turn across services and show queueing and external dependencies, not just HTTP response time.\n\n**압박:** “Without full prompts, how do you debug?”\n\n> Some incidents may require approved, restricted capture or a customer-provided reproduction. That should be a controlled diagnostic path, not a permanent policy of collecting everything.\n\ntrace와 spans의 일반 원리: [OpenTelemetry Traces](https://opentelemetry.io/docs/concepts/signals/traces/). 나머지는 면접용 운영 제안입니다.",
+      "stage": 0
+    },
+    {
+      "id": "T16",
+      "group": "tech",
+      "title": "Who owns HIPAA, GDPR, SOC 2 readiness?",
+      "body": "**제안:** 적용 범위·법적 역할·약정은 security/legal·business owner와 결정. engineering은 access, audit, encryption, retention, deletion, evidence automation, secure SDLC 구현. 인증·감사와 아키텍처 목표 구분.\n\n> I would work with the accountable security and legal owners to identify the applicable scope and evidence. Engineering must implement the controls and keep them effective through releases. Encryption or on-premises hosting alone does not establish compliance, and I would not describe HIPAA as a product certification.\n\n**압박:** “The cloud provider cannot decrypt the data. Do we still need to review its role?”\n\n> Yes. We should not assume encryption removes the provider’s obligations. HHS guidance explicitly addresses cloud providers maintaining encrypted ePHI. The contractual role and applicable controls need to be checked by the responsible teams.\n\n공식 근거: [HHS HIPAA Cloud Computing](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html), [GDPR Article 32](https://eur-lex.europa.eu/eli/reg/2016/679/ojv). 실제 프로젝트의 법 적용 판정은 이 문서 범위 밖입니다.",
+      "stage": 0
+    },
+    {
+      "id": "T17",
+      "group": "tech",
+      "title": "How do you release and roll back a model-driven application?",
+      "body": "**제안:** model/prompt/retrieval/data/tool/app 호환성 manifest. offline eval→staging→shadow where safe→canary→progressive rollout. Writes의 shadow는 부작용 없는 simulation. policy·schema·데이터 migrate rollback 호환 확인.\n\n> I would release a compatible behavior bundle, record the evaluation evidence, and use clear stop conditions for the canary. A rollback must restore a known-safe combination of application and AI configuration. If the release changed external business state or a database schema, restoring the old container is not enough.\n\n**압박:** “A canary affected one hospital. Is that acceptable?”\n\n> Canarying reduces exposure; it does not make high-severity failures acceptable. The allowed exposure and rollout conditions must match the workflow’s risk. Some capabilities need stronger pre-release validation or a human-controlled pilot.",
+      "stage": 0
+    },
+    {
+      "id": "T18",
+      "group": "tech",
+      "title": "Multi-agent is fashionable. When would you avoid it?",
+      "body": "**판단:** 분리 가능한 역할·근거·도구 경계가 이익일 때 고려. 단순 workflow에 여러 자유 agent를 붙이면 비용·지연·종료·오류 추적 복잡도 증가. bounded DAG/상태 머신 우선 비교.\n\n> I would use the least complex design that meets the task. A deterministic workflow with a few model calls may be more reliable than an open-ended agent loop. If multiple agents add value, I would bound their permissions, time and token budgets, tool use, and termination conditions, then test whether they outperform the simpler baseline.\n\n**압박:** “But you put multi-agent on your resume.”\n\n> That describes work I have done, not a claim that every problem needs it. Engineering judgment includes deciding when not to use a technique.",
+      "stage": 0
+    },
+    {
+      "id": "T19",
+      "group": "tech",
+      "title": "How do you make avatar quality a business decision?",
+      "body": "**제안:** user task completion·clarification/abandonment·accessibility·audio intelligibility·lip-sync jitter·CPU/GPU/network·지원 비용. 고객 가치와 rendering 품질의 관계 검증. 표정 추론을 의료 상태 판단으로 확장 금지.\n\n> I would test whether the avatar improves the target experience compared with voice or text alone. If rendering cost or synchronization harms the conversation, a simpler mode may deliver a better outcome. The platform should degrade gracefully to a supported channel instead of failing the entire interaction when the avatar renderer fails.\n\n**압박:** “The avatar is our differentiator. Would you remove it?”\n\n> I would preserve the differentiated experience where it helps and make its operating envelope explicit. A fallback protects the customer task; it does not replace the product strategy.",
+      "stage": 0
+    },
+    {
+      "id": "T20",
+      "group": "tech",
+      "title": "Diagnose a production incident: p95 doubles after a model release.",
+      "body": "**제안 순서:** 영향·위험 분류→on-call와 지휘·소통→배포 중지/rollback 또는 안전 degraded mode→tenant/region/version·queue·tokens·retrieval 비교→고객 상태 확인→원인·회귀 방지.\n\n> First I would protect the affected customer workflow and confirm whether the change is isolated to the new version. I would compare request lengths, queueing, generation behavior, and downstream stages rather than assume inference is the only cause. If the regression meets our stop condition, I would roll back the compatible release bundle, then investigate with the relevant owners and add a regression test for the failure mode.\n\n**압박:** “Would you wait for the AI/ML director to approve rollback?”\n\n> The rollback authority should be agreed before an incident. If it has not been, I would escalate immediately while taking the reversible containment actions within my authority. During an incident, we need a clear decision owner rather than an argument about titles.",
+      "stage": 0
+    },
+    {
+      "id": "P1",
+      "group": "pressure",
+      "title": "You sound like a consultant, not an engineering operator.",
+      "body": "> I understand the distinction. My current work includes direct architecture and implementation of an AI document-processing workflow that is in customer production. My VNTG experience involved an operating organization and enterprise systems, not just recommendations. I would be happy to go deeper into a concrete design decision or an operational constraint.\n\n**꼬리질문:** “Name the production metric you personally reviewed.” → 실제로 본 metric·주기·action을 확인. 98%라는 문서 숫자와 실제 dashboard 운영을 동일시하지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "P2",
+      "group": "pressure",
+      "title": "Your 98% figure is meaningless. What exactly does it measure?",
+      "body": "> The figure in my materials is document-processing success, not field-level accuracy or fully autonomous completion. The exact denominator, exclusion rules, and observation window need to be stated before using it as a benchmark. I would separate processing completion, extraction correctness, human review, and downstream business success.\n\n**후속:** 원측정 확인 뒤 기간·분모·제외·실패·재처리 정의를 말하기. 확인 전 새로운 성공 정의를 만들지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "P3",
+      "group": "pressure",
+      "title": "Four clients is not enterprise SaaS at scale.",
+      "body": "> Four-plus production clients do not establish large multi-tenant SaaS scale. They do establish experience getting AI into real customer workflows. I would combine that with my platform and enterprise-delivery experience, and validate BEN’s scaling requirements through workload-specific testing.\n\n**핵심:** 수용→관련 근거→검증 계획. 고객 규모를 부풀리지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "P4",
+      "group": "pressure",
+      "title": "Your recent work is mostly design and MVPs.",
+      "body": "> The maturity levels differ. Samyang’s data platform work was completed architecture design, and the research assistant was an MVP. EdenTnS document processing is in customer production. The P3 work at CDNetworks was a working proof of concept transferred to Quantil. I want to be accurate about those distinctions rather than present everything as a commercial launch.\n\n**핵심:** 각 프로젝트의 완료 단계를 정확히 말하는 것이 신뢰의 근거.",
+      "stage": 0
+    },
+    {
+      "id": "P5",
+      "group": "pressure",
+      "title": "You have never owned a voice-avatar platform. Why should we take the risk?",
+      "body": "> That is a genuine area where I would need to build deeper product-specific experience. My relevant strengths are enterprise AI integration, constrained deployment, platform engineering, and organizational execution. I would work with your specialists and validate the full voice and avatar path rather than assume document-processing experience is equivalent.\n\n**추가 도전:** “What would you learn first?” → turn-taking·endpointing·stream cancellation·audio sync·first meaningful audio latency를 실제 trace와 함께 학습.",
+      "stage": 0
+    },
+    {
+      "id": "P6",
+      "group": "pressure",
+      "title": "Just answer yes or no: can you ship this in six weeks?",
+      "body": "> I can give a yes or no against a defined scope and acceptance criteria. With the current information, committing would be unreliable. I would quickly identify the critical path and propose a six-week scope, with dependencies and risk stated explicitly.\n\n**주의:** 답변을 끝없이 회피하지 말고 실제 의사결정 시한을 합의. 예: “I would aim to return with options after reviewing the team and dependencies.” 특정 24시간·48시간은 가능한 경우에만 약속.",
+      "stage": 0
+    },
+    {
+      "id": "P7",
+      "group": "pressure",
+      "title": "The CEO wants the release. QA is blocking it. Who do you support?",
+      "body": "> I support a clear business decision informed by evidence. I would state the failing scenarios, severity, exposure, and the alternatives. If the issue crosses an agreed safety or contractual boundary, I would not treat it as a normal schedule trade-off. Otherwise, the designated owner can decide with the risk and mitigation documented.\n\n**핵심:** QA 탓·CEO에 무조건 복종·무기한 veto 모두 피하기. 사전 합의한 출시 권한과 기준.",
+      "stage": 0
+    },
+    {
+      "id": "P8",
+      "group": "pressure",
+      "title": "Why should we believe your 65% time reduction?",
+      "body": "> It is the reduction reported for the previous review workflow at one public-sector deployment, not a claim for all customers. To substantiate it, I need to explain the before-and-after task boundary, period, workload, and review method. I would not generalize it beyond that evidence.\n\n**준비:** 동일 문서군 여부, 사람 active time 대기시간 구분, 표본 수, 계산 방법, 누가 측정했는지. 자료에 없으므로 본인 확인 필요.",
+      "stage": 0
+    },
+    {
+      "id": "P9",
+      "group": "pressure",
+      "title": "You are overqualified. Will you get bored or leave?",
+      "body": "> I would want a role with clear ownership and a meaningful engineering problem. The scope described here includes team development, architecture, delivery operations, and enterprise AI commercialization. That is substantial work. I would like us to align on decision authority and success expectations so that the fit is clear on both sides.\n\n**자신의 장기 동기 1문장 필요.** “I will stay for five years”처럼 확인할 수 없는 약속은 하지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "P10",
+      "group": "pressure",
+      "title": "Your answer is too abstract. Give me the exact decision.",
+      "body": "> The decision was [one concrete choice]. I chose it because [constraint and trade-off]. My contribution was [specific action], and the observed result was [supported outcome]. The part I would verify before giving more detail is [unconfirmed fact].\n\n**연습:** 질문을 받으면 도구 나열을 멈추고 한 가지 선택으로 좁히기. 예: ‘ontology를 도입했다’보다 ‘어떤 관계를 검색에 반영하기로 했는가’.",
+      "stage": 0
+    },
+    {
+      "id": "STAR1",
+      "group": "star",
+      "title": "고객 운영까지 연결한 AI — EdenTnS IDP",
+      "body": "**질문:** “Tell me about an AI product you took into production.” / “What did you personally implement?”\n\n**근거:** DOCX EdenTnS; 포트폴리오 p6·19.\n\n**S:** 공공·정부·제조 문서 업무에서 추출 이후의 검증·후속 업무 연결이 필요했습니다.\n\n**T:** CPO/AI 연구소장으로서 문서 처리의 아키텍처와 구현을 직접 맡아 고객 운영까지 연결했습니다.\n\n**A:** 분류→추출→검증→workflow integration을 설계·구현했습니다. 도메인 관계를 반영하는 ontology-backed retrieval도 개발해 IDP 내부에 활용했습니다. 보안·거버넌스·인프라 성능·비용을 함께 관리했습니다.\n\n**R:** 4개 이상 고객 운영. 특정 공공 고객 월 약 15만 문서, 기존 대비 검수 시간 65% 감소. 별도의 처리 성공률 지표 약 98%는 정의 확인 후 설명.\n\n**영문 답변:**\n\n> At EdenTnS, enterprise document work required more than extracting text. The output also had to be validated and connected to the customer’s workflow.\n>\n> My responsibility was to turn that into a working AI product, and I remained directly involved in both the architecture and implementation.\n>\n> I designed and implemented the flow from classification and extraction through validation and workflow integration. I also developed ontology-backed retrieval to incorporate domain relationships and supported the governance and infrastructure requirements around the product.\n>\n> The workflow is now used by more than four clients. One public-sector deployment processes approximately 150,000 documents per month and reduced review time by 65% compared with the previous workflow. I would distinguish those business results from extraction accuracy and from our separate processing-success metric.\n\n**강한 꼬리질문:** “What is the 98% denominator?” → 문서 단위 처리 성공률이며 정답률과 구분. 분모·기간·재처리·예외 정의는 확인 필요.\n\n**한 단계 더:** “Why an agent, not a pipeline?” → 실제 agent의 판단·도구·상태·종료 경계를 설명할 준비. 단순 순차 호출뿐이었다면 그 범위대로 말하기.\n\n**큐카드:**\n\n> **PRODUCTION AI**\n> - Need: extraction → validation → business workflow\n> - I owned: architecture + implementation\n> - Action: classify / extract / validate / integrate\n> - Result: 4+ clients; one client 150k/month; review −65%\n> - Boundary: completion ≠ accuracy ≠ autonomous processing\n> - BEN bridge: AI capability → dependable customer operation",
+      "stage": 0
+    },
+    {
+      "id": "CS1",
+      "group": "cue",
+      "title": "고객 운영까지 연결한 AI — EdenTnS IDP",
+      "body": "> **PRODUCTION AI**\n> - Need: extraction → validation → business workflow\n> - I owned: architecture + implementation\n> - Action: classify / extract / validate / integrate\n> - Result: 4+ clients; one client 150k/month; review −65%\n> - Boundary: completion ≠ accuracy ≠ autonomous processing\n> - BEN bridge: AI capability → dependable customer operation",
+      "stage": 0
+    },
+    {
+      "id": "STAR2",
+      "group": "star",
+      "title": "대규모 조직·레거시 현대화 — VNTG",
+      "body": "**질문:** “Tell me about leading a large engineering organization.” / “How did you create business value?”\n\n**근거:** DOCX VNTG; 포트폴리오 p10.\n\n**S:** IT 조직 분사 후 그룹 전체의 인프라·데이터·기업 시스템 현대화가 필요했습니다.\n\n**T:** 약 200명의 DT·빅데이터·IT 조직 구축·운영과 5개 계열사·3,000명 이상 사용자를 포괄하는 기술 로드맵 책임.\n\n**A:** 지주사·계열사 C-level과 로드맵 정렬, 레거시 MES를 OutSystems로 현대화, API 중심 통합과 cloud 전환, Agile/DevOps 교육. 직속 관리 수·구체 회의 주기는 확인 전 추가하지 않습니다.\n\n**R:** MES 현대화 CAPEX 45% 절감, 개발 주기 3개월 단축. 전체 그룹 roadmap의 모든 과제를 완료했다고 말하지 않기.\n\n**영문 답변:**\n\n> I joined VNTG after the IT-division spin-off, when the organization needed to connect technology modernization with the priorities of the SeAH Group affiliates.\n>\n> As CTO, I helped build and lead an organization of approximately 200 people across digital transformation, big data, and IT, and owned the roadmap with holding-company and affiliate executives.\n>\n> My work combined organizational alignment with concrete platform decisions. We modernized legacy MES using OutSystems, introduced API-first integration, and supported cloud and enterprise-system changes. I also delivered Agile and DevOps education to help the organization adopt new practices.\n>\n> The MES modernization reduced CAPEX by 45% and shortened development cycles by three months. Those are results for that initiative, not a claim that every program achieved the same improvement. The broader lesson is to connect technical choices to operating constraints and business outcomes.\n\n**압박:** “Were all 200 engineers your direct reports?” → “No. That was the broader DT, data, and IT organization. I would describe my direct reporting structure separately.”\n\n**큐카드:**\n\n> **ORGANIZATION + VALUE**\n> - S: post-spin-off group modernization\n> - T: ~200 DT/data/IT; 5 affiliates; 3,000+ users\n> - A: executive alignment / MES choice / API / education\n> - R: MES CAPEX −45%; cycle −3 months\n> - Boundary: 200 ≠ direct reports; initiative-specific outcome\n> - BEN bridge: repeatable delivery with business alignment",
+      "stage": 0
+    },
+    {
+      "id": "CS2",
+      "group": "cue",
+      "title": "대규모 조직·레거시 현대화 — VNTG",
+      "body": "> **ORGANIZATION + VALUE**\n> - S: post-spin-off group modernization\n> - T: ~200 DT/data/IT; 5 affiliates; 3,000+ users\n> - A: executive alignment / MES choice / API / education\n> - R: MES CAPEX −45%; cycle −3 months\n> - Boundary: 200 ≠ direct reports; initiative-specific outcome\n> - BEN bridge: repeatable delivery with business alignment",
+      "stage": 0
+    },
+    {
+      "id": "STAR3",
+      "group": "star",
+      "title": "성능 개선·폐쇄망 AI — Vivity",
+      "body": "**질문:** “Describe a measurable performance improvement.” / “How do you deliver under infrastructure constraints?”\n\n**근거:** DOCX Vivity; 포트폴리오 p8.\n\n**S:** 조선소의 드론 영상 검사에서 판정 정확도와 소요시간 개선이 필요했고, 배포 환경은 on-prem·hybrid·완전 폐쇄망·제한된 edge 자원을 포함했습니다.\n\n**T:** 제품 엔지니어링 총괄로 검사 기능 개선과 배포 가능한 구조를 이끌었습니다.\n\n**A:** YOLO·segmentation·block detection 개선을 주도하고, 합성 드론 영상을 설계도와 비교하는 판정 업무를 지원했습니다. 모델 lifecycle·version 관리와 Kubernetes 운영을 이끌고 K3s로 edge 배포를 최적화했습니다. 어떤 코드·모델 조정이 본인/팀의 작업이었는지는 따로 설명.\n\n**R:** 검사 판정 50–78%→95%, 판정 한 번 약 50분→3분 이내, 하루 2회 활용. 최신 자료에 없는 ‘K3s 자원 60% 감소’는 여기서 사용하지 않음.\n\n**영문 답변:**\n\n> At Vivity AI, a shipyard inspection workflow used drone imagery to assess block counts and assembly progress. Both decision accuracy and assessment time needed improvement, and deployment had to work within industrial infrastructure constraints.\n>\n> I led product engineering for improvements involving YOLO, segmentation, and block detection. I also led the MLOps and deployment work across on-premises, hybrid, and air-gapped environments, including model version management and a move toward lighter K3s deployments at the edge.\n>\n> The reported inspection decision accuracy improved from 50–78% to 95%, and assessment time per run fell from about 50 minutes to within three minutes. The workflow was used twice daily. I would explain the original evaluation conditions before attributing those results to a specific model or optimization.\n\n**압박:** “What was your latency percentile?” → 1회 검사 시간이고 real-time p95가 아님. 원측정의 범위부터 정확히 답하기.\n\n**큐카드:**\n\n> **PERFORMANCE UNDER CONSTRAINTS**\n> - S: drone-based inspection + industrial deployment limits\n> - A: vision improvements + model lifecycle + K8s/K3s\n> - R: 50–78% → 95%; ~50 min → ≤3 min; twice daily\n> - Check: dataset / metric / timing boundary / hardware\n> - Boundary: batch assessment ≠ interactive voice latency",
+      "stage": 0
+    },
+    {
+      "id": "CS3",
+      "group": "cue",
+      "title": "성능 개선·폐쇄망 AI — Vivity",
+      "body": "> **PERFORMANCE UNDER CONSTRAINTS**\n> - S: drone-based inspection + industrial deployment limits\n> - A: vision improvements + model lifecycle + K8s/K3s\n> - R: 50–78% → 95%; ~50 min → ≤3 min; twice daily\n> - Check: dataset / metric / timing boundary / hardware\n> - Boundary: batch assessment ≠ interactive voice latency",
+      "stage": 0
+    },
+    {
+      "id": "STAR4",
+      "group": "star",
+      "title": "변경 불가 마감·기간계 — PeopleFund",
+      "body": "**질문:** “Tell me about delivering against a non-negotiable deadline.”\n\n**근거:** DOCX PeopleFund; 포트폴리오 p12.\n\n**S:** 회사 전체가 의존하는 원장·정산·결제 시스템을 규제 시한에 맞춰 변경하면서 운영을 유지해야 했습니다.\n\n**T:** Money Flow 개발팀 리드와 제품 PM으로 2020년 8월 시한 내 대응.\n\n**A:** core balance 재설계·refactoring, 전북은행 연계 개선, 내부·은행 이해관계자 조율, 일부 기능을 선별적으로 microservices 방향으로 현대화.\n\n**R:** 시한 내 규제 요구를 충족하고 운영 연속성 유지. 구체 cutover·reconciliation·rollback 구현은 본인 확인 후 확장.\n\n**영문 답변:**\n\n> At PeopleFund, the core balance system supported ledger, settlement, and payment operations. We needed to meet an August 2020 regulatory deadline while maintaining business operations.\n>\n> I was responsible for both engineering leadership and product management for Money Flow. I led the redesign and refactoring of the core system, worked on the integration with Jeonbuk Bank, and coordinated internal and bank stakeholders. We also modernized selected functions toward microservices rather than treating a complete architectural rewrite as the objective.\n>\n> The work met the deadline while maintaining operational continuity. For BEN, the relevant principle is to distinguish mandatory delivery scope from broader modernization, and to keep operational risk visible throughout the plan.\n\n**압박:** “Did you cut testing to hit the date?” → 실제 했던 검증을 답하기. 자료만으로 ‘병행 원장 검증을 했다’고 만들지 않기.\n\n**큐카드:**\n\n> **FIXED DEADLINE**\n> - S: core balance + August 2020 deadline + live operations\n> - T: engineering lead + product PM\n> - A: ledger/settlement/payment redesign; bank coordination\n> - R: deadline met; continuity maintained\n> - Check: validation / cutover / recovery actually used\n> - BEN bridge: scope + dependencies + acceptance, not false certainty",
+      "stage": 0
+    },
+    {
+      "id": "CS4",
+      "group": "cue",
+      "title": "변경 불가 마감·기간계 — PeopleFund",
+      "body": "> **FIXED DEADLINE**\n> - S: core balance + August 2020 deadline + live operations\n> - T: engineering lead + product PM\n> - A: ledger/settlement/payment redesign; bank coordination\n> - R: deadline met; continuity maintained\n> - Check: validation / cutover / recovery actually used\n> - BEN bridge: scope + dependencies + acceptance, not false certainty",
+      "stage": 0
+    },
+    {
+      "id": "STAR5",
+      "group": "star",
+      "title": "글로벌 개발 운영·한시적 TF — CDNetworks P3",
+      "body": "**질문:** “How have you improved development practices?” / “Have you led cross-border engineering?”\n\n**근거:** DOCX CDNetworks; 포트폴리오 p14–15.\n\n**S:** 레거시 포털·제품·플랫폼의 현대화 가능성을 보여줄 필요가 있었습니다.\n\n**T:** 2017년 5–11월 CEO 직속 한시적 P3 TF 책임. 3월 준비·기획과 정식 임명 기간을 구분.\n\n**A:** 다국적 팀을 Scrum·Kanban·TDD로 운영, container CI/CD·Kong API gateway·OpenStack 연동의 MSA PoC. 도구 목록보다 검증할 경계와 본인 선택을 설명.\n\n**R:** 동작 PoC 완료, 후속 자산은 Quantil로 이관되어 edge initiative에 재사용. 상용 플랫폼 전환 성과로 과장하지 않기.\n\n**영문 답변:**\n\n> At CDNetworks, we needed to demonstrate a modernization path for the portal, product, and platform environment. After preparatory work, I led the temporary CEO-reporting P3 task force from May to November 2017.\n>\n> I led a multinational team using Scrum, Kanban, and TDD, and we built a working proof of concept around container delivery, microservices, API gateway integration, and cloud infrastructure. The objective was to validate a practical architecture and development approach, not simply adopt a list of tools.\n>\n> We completed the working proof of concept, and the project assets were later transferred to Quantil for reuse in an edge-computing initiative. I would distinguish that from owning a full production rollout. The experience is relevant to coordinating technical work and making dependencies explicit across teams.\n\n**압박:** “Why did it not reach production under you?” → 실제 사유 확인. 인수 후 조직 사정 등 추정 금지. 완료 단계·이관 범위·배운 점만 사실대로.\n\n**큐카드:**\n\n> **CROSS-BORDER DELIVERY**\n> - May–Nov 2017 formal TF; earlier preparation separate\n> - Multinational / Scrum / Kanban / TDD\n> - Working PoC: container delivery + MSA + gateway/cloud\n> - Result: completed PoC → Quantil reuse\n> - Boundary: PoC ≠ commercial launch; Agile ≠ formal SAFe claim",
+      "stage": 0
+    },
+    {
+      "id": "CS5",
+      "group": "cue",
+      "title": "글로벌 개발 운영·한시적 TF — CDNetworks P3",
+      "body": "> **CROSS-BORDER DELIVERY**\n> - May–Nov 2017 formal TF; earlier preparation separate\n> - Multinational / Scrum / Kanban / TDD\n> - Working PoC: container delivery + MSA + gateway/cloud\n> - Result: completed PoC → Quantil reuse\n> - Boundary: PoC ≠ commercial launch; Agile ≠ formal SAFe claim",
+      "stage": 0
+    },
+    {
+      "id": "STAR6",
+      "group": "star",
+      "title": "생성형 AI의 업무 가치 — Samyang",
+      "body": "**질문:** “How do you measure AI business value?”\n\n**근거:** DOCX Samyang; 포트폴리오 p7.\n\n**S:** 연구팀이 반복적인 문헌 분석·지식 업무에 많은 시간을 사용했습니다.\n\n**T:** 플랫폼 총괄로서 실제 연구 업무에 맞는 AI MVP 설계를 이끌었습니다.\n\n**A:** Claude·ChatGPT·Gemini를 활용한 요약·insight extraction·번역·대외 correspondence 지원을 설계. hybrid data-platform 설계와는 별도 프로젝트로 구분.\n\n**R:** 연구팀 문헌 분석 시간 약 60% 단축. MVP 결과이며 전사 보급·의학 정답률 성과 아님.\n\n**영문 답변:**\n\n> At Samyang, researchers spent significant time on repetitive literature analysis and related knowledge work. My task was to identify a focused workflow where AI could provide measurable value.\n>\n> I led the design of a research-assistant MVP using Claude, ChatGPT, and Gemini for summarization, insight extraction, translation, and external correspondence. The emphasis was on supporting a specific research process rather than launching a general-purpose chatbot.\n>\n> The research team’s literature-analysis time decreased by approximately 60%. That was an MVP outcome, and I would explain how the team measured time and reviewed quality before generalizing it. The lesson for BEN is to connect AI capability to a defined customer task and an observable result.\n\n**압박:** “Did you validate scientific correctness?” → 실제 검토 방법 확인. 시간 단축이 정확성을 입증하지 않는다고 인정.\n\n**큐카드:**\n\n> **AI VALUE**\n> - S: repetitive literature work\n> - T/A: designed workflow-specific multi-LLM MVP\n> - R: literature-analysis time ~−60%\n> - Boundary: MVP; not Claude-only; not clinical validation\n> - BEN bridge: task outcome + quality + cost, beyond a demo",
+      "stage": 0
+    },
+    {
+      "id": "CS6",
+      "group": "cue",
+      "title": "생성형 AI의 업무 가치 — Samyang",
+      "body": "> **AI VALUE**\n> - S: repetitive literature work\n> - T/A: designed workflow-specific multi-LLM MVP\n> - R: literature-analysis time ~−60%\n> - Boundary: MVP; not Claude-only; not clinical validation\n> - BEN bridge: task outcome + quality + cost, beyond a demo",
+      "stage": 0
+    },
+    {
+      "id": "STAR7",
+      "group": "star",
+      "title": "프로젝트에서 제품으로 — DataForge",
+      "body": "**질문:** “Tell me how you productized a repeated enterprise need.”\n\n**근거:** DOCX VNTG; 포트폴리오 p11·19.\n\n**S:** PLC·ERP·MES에 공정 데이터가 나뉘어 원인을 공정 간 추적하기 어려웠습니다.\n\n**T:** CTO로서 데이터 플랫폼이 수집 저장을 넘어 제조 의사결정에 유효하도록 만들기.\n\n**A:** 통합 수집 pipeline, 공정 간 제품 ID 연결과 lineage, 분석·이상탐지·예측정비 활용 기반을 구성·제품화. 외부 판매 매출은 자료에 없음.\n\n**R:** 그룹 DT에 적용하고 산업 특화 자체 제품으로 전환. Google Cloud 제조 DT 파트너십과 Looker reseller 지위 확보.\n\n**영문 답변:**\n\n> In the SeAH Group environment, production data was separated across PLC, ERP, and MES systems. Collecting it in one place was not enough to explain where a quality issue had originated.\n>\n> I led the platform direction and productization work around DataForge. A central design choice was matching product identifiers across process stages so that we could reconstruct per-unit lineage. We combined that with data ingestion and analytics capabilities for manufacturing use cases.\n>\n> The work was applied to group transformation projects and developed into an industry-specific product, alongside technology partnerships. I would not equate productization with a revenue figure that I cannot substantiate. For BEN, the connection is identifying the reusable capability underneath customer-specific requirements.\n\n**압박:** “How much external ARR?” → 자료 없음. 실제 숫자가 없다면 없다고 하고 내부 적용·제품화 단계와 구분.\n\n**큐카드:**\n\n> **PRODUCTIZATION**\n> - Problem: siloed PLC / ERP / MES\n> - Key choice: cross-stage ID matching → lineage\n> - Result: group use → industry-specific product\n> - Boundary: no unsupported ARR; clarify timing metric\n> - BEN bridge: reusable connectors / policy / workflow contracts",
+      "stage": 0
+    },
+    {
+      "id": "CS7",
+      "group": "cue",
+      "title": "프로젝트에서 제품으로 — DataForge",
+      "body": "> **PRODUCTIZATION**\n> - Problem: siloed PLC / ERP / MES\n> - Key choice: cross-stage ID matching → lineage\n> - Result: group use → industry-specific product\n> - Boundary: no unsupported ARR; clarify timing metric\n> - BEN bridge: reusable connectors / policy / workflow contracts",
+      "stage": 0
+    },
+    {
+      "id": "STAR8",
+      "group": "star",
+      "title": "대규모 로그·운영 가시성 — CDNetworks",
+      "body": "**질문:** “How do you approach observability and scalable data systems?”\n\n**근거:** DOCX CDNetworks; 포트폴리오 p15.\n\n**S:** 일 1–1.5TB의 글로벌 트래픽 로그를 기존 DB 중심 구조로 처리·분석·관측하기 어려웠습니다.\n\n**T:** 글로벌 기술·제품 책임으로 확장성과 운영 분석 기반 개선.\n\n**A:** Hadoop·Spark·ELK·Kafka pipeline 재구성, 시계열 저장소 RRD→InfluxDB 이관. workload와 각 도구의 실제 역할을 설명할 준비.\n\n**R:** 글로벌 트래픽 분석의 확장성·관측성·활용 개선. 자료에 없는 latency·비용 감소율은 넣지 않음.\n\n**영문 답변:**\n\n> At CDNetworks, the analytics environment had to handle approximately one to one-and-a-half terabytes of traffic logs per day. The legacy database-oriented approach made scaling and operational analysis difficult.\n>\n> In my global technical-product role, I led the analytics reconstruction using a pipeline involving Hadoop, Spark, ELK, and Kafka, and moved time-series storage from RRD to InfluxDB.\n>\n> The result was a more scalable and observable basis for global traffic analysis. I do not have a documented percentage improvement to attach to that outcome. In a technical discussion, I would explain the actual data flow and responsibilities of each component rather than use data volume alone as evidence of performance.\n\n**압박:** “One TB/day is only around 12MB/s. Why was this hard?” → 옳은 지적 인정. ingest 평균만이 아니라 피크·query·retention·aggregation·legacy 한계를 당시 사실로 설명. 병목 위치를 꾸며내지 않기.\n\n**큐카드:**\n\n> **OBSERVABILITY + SCALE**\n> - Input: 1–1.5 TB/day traffic logs\n> - Legacy analytics constraints\n> - Action: pipeline rebuild + RRD → InfluxDB\n> - Result: scalability / visibility, no invented %\n> - Probe: peak, query patterns, retention, actual bottleneck",
+      "stage": 0
+    },
+    {
+      "id": "CS8",
+      "group": "cue",
+      "title": "대규모 로그·운영 가시성 — CDNetworks",
+      "body": "> **OBSERVABILITY + SCALE**\n> - Input: 1–1.5 TB/day traffic logs\n> - Legacy analytics constraints\n> - Action: pipeline rebuild + RRD → InfluxDB\n> - Result: scalability / visibility, no invented %\n> - Probe: peak, query patterns, retention, actual bottleneck",
+      "stage": 0
+    },
+    {
+      "id": "C1",
+      "group": "cue",
+      "title": "Tell me about yourself",
+      "body": "> **THESIS:** organizations + architecture → operable enterprise AI\n> **PROOF 1:** VNTG ~200 across DT/data/IT\n> **PROOF 2:** EdenTnS direct implementation; 4+ clients\n> **FIT:** software delivery, platform performance, commercialization\n> **BOUNDARY:** AI/ML, QA, Product are peers",
+      "stage": 0
+    },
+    {
+      "id": "C2",
+      "group": "cue",
+      "title": "Why BEN / Why Director?",
+      "body": "> **INTEREST:** enterprise conversation → real workflows\n> **FIT:** hands-on + organization + deployment constraints\n> **SCOPE:** title less important than ownership and impact\n> **RESPECT:** no assumption of CTO authority\n> **PERSONAL:** add your genuine reason in one sentence",
+      "stage": 0
+    },
+    {
+      "id": "C3",
+      "group": "cue",
+      "title": "How do you improve engineering productivity?",
+      "body": "> **S:** delivery bottleneck, not presumed team weakness\n> **T:** shorter, predictable customer-value cycle\n> **A:** baseline → map waiting → one constraint → experiment\n> **R:** lead time / escaped defects / predictability / customer outcome\n> **TRAP:** story points ≠ individual productivity",
+      "stage": 0
+    },
+    {
+      "id": "C4",
+      "group": "cue",
+      "title": "First 90 days",
+      "body": "> **30:** people + commitments + architecture + baseline + one urgent issue\n> **60:** focused improvement + cross-team contract + measured pilot\n> **90:** verify + repeatable release/operations + capacity roadmap\n> **NO:** instant reorg / unsupported 30% promise",
+      "stage": 0
+    },
+    {
+      "id": "C5",
+      "group": "cue",
+      "title": "ELM understanding",
+      "body": "> **FACT:** publicly described proprietary AI framework\n> **SCOPE:** personalization / multimodal / approved data / RAG\n> **UNKNOWN:** current base models / parameters / training / internal topology\n> **MY JOB:** versioned contracts + integration + operating evidence\n> **ASK:** ELM vs model vs orchestration boundary",
+      "stage": 0
+    },
+    {
+      "id": "C6",
+      "group": "cue",
+      "title": "Voice/avatar latency",
+      "body": "> **DEFINE:** end of speech → first meaningful audible response\n> **TRACE:** endpoint / ASR / retrieve / policy / queue / model / TTS / playback\n> **OPTIMIZE:** actual critical path; stream permitted content\n> **VALIDATE:** p95 under load + task correctness + interruption\n> **TRAP:** filler ≠ answer; sum of stage p95 ≠ end-to-end p95",
+      "stage": 0
+    },
+    {
+      "id": "C7",
+      "group": "cue",
+      "title": "AI/ML vs QA conflict",
+      "body": "> **S:** model benchmark and customer readiness differ\n> **T:** shared, safe release decision\n> **A:** failing scenarios + severity + evidence + alternatives\n> **R:** fix / narrow exposure / disable / defer under agreed authority\n> **NO:** unilateral override or blame",
+      "stage": 0
+    },
+    {
+      "id": "C8",
+      "group": "cue",
+      "title": "Hallucination / RAG",
+      "body": "> **SEPARATE:** evidence retrieval / generation / action\n> **CHECK:** relevance + freshness + authorization + support\n> **FALLBACK:** clarify / abstain / human / deterministic answer\n> **MEASURE:** task and failure slices, not one global accuracy\n> **NO:** zero-hallucination promise",
+      "stage": 0
+    },
+    {
+      "id": "C9",
+      "group": "cue",
+      "title": "Prompt injection / permissions",
+      "body": "> **ASSUME:** retrieved content can be malicious\n> **ENFORCE:** ACL + least-privilege + schema + policy outside model\n> **ACTION:** model proposes; service authorizes; high-risk confirmation\n> **TEST:** indirect injection / tenant leakage / unauthorized writes\n> **NO:** system prompt as security boundary",
+      "stage": 0
+    },
+    {
+      "id": "C10",
+      "group": "cue",
+      "title": "Deadline pressure",
+      "body": "> **DEFINE:** scope + acceptance + dependencies + capacity\n> **OPTIONS:** smaller release / different date / constrained pilot\n> **PROOF:** PeopleFund mandatory deadline, continuity\n> **OWN:** evidence and delivery options\n> **NO:** arbitrary yes / testing removed / more people magically faster",
+      "stage": 0
+    },
+    {
+      "id": "C11",
+      "group": "cue",
+      "title": "Biggest gap / pressure",
+      "body": "> **ADMIT:** no documented large voice-avatar ownership\n> **TRANSFER:** enterprise AI + platform + constrained deployment\n> **CLOSE:** specialists + trace + workload tests + review\n> **TONE:** precise, calm; do not argue the premise",
+      "stage": 0
+    },
+    {
+      "id": "C12",
+      "group": "cue",
+      "title": "Director-years / reporting scope",
+      "body": "> **DISTINGUISH:** 20+ technical/product leadership vs formal Director tenure\n> **EVIDENCE:** VP/CTO roles; requirement clearly exceeded\n> **PRECISION:** CDNetworks PM until Apr 2017\n> **200:** total DT/data/IT, not all direct reports\n> **FOLLOW UP:** role-by-role dates and actual management authority",
+      "stage": 0
+    },
+    {
+      "id": "G1-0",
+      "group": "guide",
+      "title": "사용 원칙",
+      "body": "- 회사가 알려준 것은 ‘총 5단계이며 순서·횟수 조정 가능’이라는 점입니다. 첫 단계 HR Director(11/23)는 사용자 확인 정보입니다. 이후 면접관·순서·시간은 JD에서 역산한 **준비용 시뮬레이션**입니다.\n- 최신 제출 DOCX와 20쪽 한국어 포트폴리오를 기준으로 했습니다. 예전 CSM 이력서보다 최신 파일의 역할·기간·성과 범위를 우선했습니다.\n- **경험 답변**은 첨부 자료의 사실에 한정합니다. **제안 답변**의 I would는 BEN에 합류한다면 택할 방법이며 과거 성과가 아닙니다. **본인 확인**은 퇴사 사유·직속 인원·지표 정의처럼 자료만으로 알 수 없는 부분입니다.\n- 답변 예문은 연습용입니다. 실제 판단과 기억에 맞게 수정하고, [본인 확인] 표시가 있는 부분을 사실처럼 외우지 마세요.\n- BEN 현황의 근거는 02 기술 문서의 공식 출처에 정리했습니다. 회사가 공개하지 않은 ELM 내부를 안다고 말하지 않습니다.",
+      "stage": 0
+    },
+    {
+      "id": "G1-1",
+      "group": "guide",
+      "title": "1. 이번 면접에서 보여줄 핵심",
+      "body": "> I build engineering organizations that turn complex AI and enterprise software into reliable products customers can actually operate.\n\n“오랜 경력의 CTO”보다 **AI 제품을 고객 운영까지 연결하고, 동료 리더와 함께 소프트웨어 조직의 실행력을 높이는 Director**로 설명합니다.\n\n첨부 JD에서 본인 소관은 backend/frontend/platform 조직, 아키텍처, 실행, 개발 운영, 플랫폼 성능과 상용화입니다. AI/ML·QA·Product·CS는 별도 리더십입니다. 전사 CTO의 결정권을 전제로 답하지 않습니다.",
+      "stage": 0
+    },
+    {
+      "id": "G1-2",
+      "group": "guide",
+      "title": "2. 준비용 5단계 지도",
+      "body": "| 단계 | 예상 상대·권장 연습 시간 | 평가할 가능성이 높은 것 | 주력 사례 | 합격 수준의 답변 신호 |\n|---|---|---|---|---|\n| 1 | HR Director · 11/23 확인, 연습 30–45분 | 지원 동기, 경력 일관성, 직무 범위, 영어 소통 | EdenTnS + VNTG | 90초 소개, 왜 이 역할인지, 불명확한 경력 수치의 정직한 설명 |\n| 2 | Engineering leader / team leads, 60분 | 조직 운영·납기·품질·PI planning·성과 관리 | VNTG + CDNetworks P3 + PeopleFund | 측정 가능한 운영 방식과 위임 구조 |\n| 3 | Senior engineers / architecture panel, 60–90분 | 실시간 AI·음성·아바타 시스템 설계, 확장·장애·보안 | IDP + Vivity + CDN | 요구 확인 → 경계·설계 → 병목 → 실패·검증 |\n| 4 | AI/ML·QA·Product·CS 동료 리더, 45–60분 | ELM 통합, 비지휘권 협업, 출시 갈등, 고객 가치 | IDP + Samyang + PeopleFund | 공동 계약·통과 기준·의사결정·책임을 명확히 함 |\n| 5 | Executive / US leadership, 45–60분 | 상용화 판단, 비용·인력, 90일 계획, 문화·글로벌 리더십 | 전체 중 2–3개 | 사업 가치를 말하되 무근거 약속을 피함 |",
+      "stage": 0
+    },
+    {
+      "id": "G1-3",
+      "group": "guide",
+      "title": "3. 증거 카드: 답변마다 하나만 먼저 선택",
+      "body": "| 카드 | 자료의 근거 | 면접에 쓸 사실 | 넘지 말아야 할 범위 |\n|---|---|---|---|\n| A. 고객 운영형 AI | DOCX EdenTnS; 포트폴리오 p6·19 | 직접 설계·구현한 분류→추출→검증→업무 연동; 4개 이상 고객; 특정 공공 고객 월 약 15만 문서·검수 시간 65% 감소; 문서 처리 성공률 약 98% | 98%를 필드 정확도·무인 자동화율·LLM 정답률로 바꾸지 않기. 월 처리량을 실시간 동시성으로 바꾸지 않기 |\n| B. 지식 업무 AI | DOCX Samyang; p7 | 2025.06–11 멀티 LLM 연구 보조 MVP, 문헌 분석 시간 약 60% 감소 | Claude 단독 성과·전사 SaaS 출시·검증 완료된 의학 판단으로 표현 금지 |\n| C. 비전·폐쇄망 | DOCX Vivity; p8 | 2023.06–11; 검사 판정 정확도 50–78%→95%; 한 번의 판정 약 50분→3분 이내; 하루 2회; 폐쇄망 Kubernetes/K3s | 실시간 음성·아바타 운영 경험으로 대체 금지. 95%의 정의·평가셋·조건은 확인 필요 |\n| D. 조직·전사 현대화 | DOCX VNTG; p10 | 약 200명의 DT·빅데이터·IT 조직, 5개 계열사·3,000명 이상 사용자; MES CAPEX 45% 감소·개발 주기 3개월 단축 | 200명 모두 직접 보고·소프트웨어 개발자로 표현 금지. 3개월 단축을 3배 빨라졌다고 쓰지 않기 |\n| E. 산업 데이터 제품화 | DOCX VNTG; p11 | PLC/ERP/MES 데이터 수집과 공정 간 제품 ID 매칭·계보, DataForge 제품화 | 외부 ARR·유료 고객 수는 자료에 없음. DOCX는 sub-second, 포트폴리오는 초단위: 원측정 확인 전 엄밀한 지연 수치 사용 금지 |\n| F. 규제 시한 | DOCX PeopleFund; p12 | 원장·정산·결제 재설계, 은행 조율, 2020.08 시한 내 대응, 운영 연속성 | ‘장애 0건’·formal exactly-once를 검증 없이 주장 금지 |\n| G. 글로벌 플랫폼 | DOCX CDNetworks; p14–15 | 2017.05–11 P3 TF; 다국적 Scrum/Kanban/TDD; 컨테이너 CI/CD·MSA PoC, 이후 Quantil 이관; 이후 일 1–1.5TB 로그 분석 재구성 | P3를 전사 상용 플랫폼으로 출시했다고 하지 않기. 도구를 한 번에 모두 운영 표준화했다고 하지 않기 |\n| H. 산업 적합성 | DOCX SmartWind·Samyang·PeopleFund | HIS·EMR/EHR/PACS·핀테크·제조 경험 | 의료 시스템 경험을 미국 HIPAA 구축·인증 성과로 바꾸지 않기 |",
+      "stage": 0
+    },
+    {
+      "id": "G1-9",
+      "group": "guide",
+      "title": "9. 답변 평가 기준",
+      "body": "연습 답변마다 각 0–2점, 총 10점으로 점검합니다.\n\n1. 첫 문장에서 질문에 직접 답했는가.\n2. 첨부 자료와 일치하는 구체적 사례가 있는가.\n3. 본인 기여·팀 기여·동료 리더의 권한을 구분했는가.\n4. 선택 이유와 trade-off, 실패 시 동작을 말했는가.\n5. 지표의 정의와 미확인 사실을 정확히 구분했는가.\n\n7점 이하면 더 길게 말하지 말고, 빠진 근거 한 가지를 보완합니다. 일반 질문은 60–90초, 심층 사례는 2–3분으로 먼저 답하고 질문에 따라 확장합니다.",
+      "stage": 0
+    },
+    {
+      "id": "G2-0",
+      "group": "guide",
+      "title": "A. ELM에 대해 확실히 말할 수 있는 범위",
+      "body": "| 구분 | 확인 내용 | 면접에서의 표현 |\n|---|---|---|\n| 현재 공식 설명 | IR은 ELM을 독점 AI 프레임워크로 정의하며, 개인화·멀티모달·secure engagement를 언급 | “BEN publicly describes ELM as a proprietary AI framework.” |\n| 현재 공식 설명 | IR은 ELM 및 RAG, 고객 승인 데이터, closed-loop 환경, cloud/on-prem 배포를 설명 | 고객 데이터와 업무를 안전하게 연결하는 플랫폼 역량으로 이해하되 내부 구현은 질문 |\n| 과거 공식 공시 | 2024 회계연도 연차보고서는 기존 foundation model을 활용하며 자체 사전학습은 하지 않는다고 설명 | ‘그 시점의 공시’라고 한정. 지금도 같은 모델·구조라는 의미 아님 |\n| 과거 공식 공시 | 위 보고서는 Anthropic·Llama 2 연동, curated knowledge, safety middle layer, ASR/TTS 구성 등을 설명 | 현재 모델 목록·서비스 경계·성능은 확인 필요 |\n| 공개 확인 못 함 | 파라미터 수, Transformer/MoE 구조, 학습 데이터·레시피, 현재 foundation model, fine-tuning 방식, 벤치마크, 운영 SLO | 숫자나 설계를 만들어 설명하지 않음 |\n| 검증 필요한 주장 | 낮은 hallucination·보안·지연 없는 middle layer·compliance 등의 회사 설명 | 회사의 설계 목표·자체 설명과 실제 부하·보안·감사 증거를 구분 |\n\n위 공식 설명의 근거: [BEN IR](https://investors.brandengagementnetwork.com/), [BEN의 2024 회계연도 연차보고서, 본문 Business p3–4](https://www.sec.gov/Archives/edgar/data/1838163/000149315225020969/formars.pdf). IR은 감사 문서 원문을 대체하지 않습니다. 추가 확인: [2025 회계연도 10-K](https://www.sec.gov/Archives/edgar/data/1838163/000149315226016954/form10-k.htm)는 미국의 특정 내부 통제에 대한 SOC 2 Type II 보고서를 확보했다고 기술합니다. 현재 고객 배포에 적용되는 범위·기간·예외는 실제 보고서로 확인해야 합니다. ‘SOC 2 Type I 언급’만으로 현재 모든 제품·배포에 대한 Type II 운영 효과성을 입증하지 못합니다.\n\n**30초 답변:**\n\n> My understanding is that ELM is BEN’s proprietary engagement framework, rather than a publicly specified foundation-model architecture. Public materials discuss personalization, multimodal interaction, RAG, and controlled enterprise deployment. I would want to learn the current model and integration boundaries from your AI/ML team. As Director of Engineering, I would focus on making those capabilities reliable, measurable, and maintainable in customer workflows.",
+      "stage": 0
+    },
+    {
+      "id": "G2-1",
+      "group": "guide",
+      "title": "B. 화이트보드 기준 설계: 후보자의 제안",
+      "body": "**예시 시나리오:** 병원 예약·안내용 음성/아바타 에이전트. 진단·치료 권고는 별도 범위. tenant 수·부하·SLO·의료정보 취급 범위는 면접관과 먼저 합의합니다.\n\n```text\nWeb / mobile / kiosk\n  ├─ audio·text·avatar channel adapters\n  └─ authenticated identity + tenant + session + turn ID\n             ↓\nSession gateway / rate limit / backpressure\n             ↓\nConversation orchestrator ── state·memory (purpose·TTL·consent)\n  ├─ policy + authorization service\n  ├─ tenant/ACL-aware retrieval → approved evidence\n  ├─ ELM/model adapter → AI/ML-owned capability\n  ├─ validated output → approved speech segments → TTS → avatar/playback\n  └─ tool proposal → schema + auth + confirmation → workflow service\n                         ↓\n                   hospital/CRM system\n\nCross-cutting: tracing, release versions, redacted audit events,\n              evaluation, cancellation, budgets, human handoff\n```\n\n별도 control plane 제안: tenant 설정, 승인 지식 수집·버전, prompt/model 배포 정책, connector 설정, 운영 권한. 이 구조가 BEN 내부에 있다고 주장하지 않습니다.",
+      "stage": 0
+    },
+    {
+      "id": "G2-22",
+      "group": "guide",
+      "title": "C. 즉석 수치 문제: 가정과 단위 먼저",
+      "body": "1. **300 turns/min, 평균 처리 체류 4초:** 도착률 5 turns/sec, 안정상태 평균 in-flight≈5×4=20. Little’s law의 평균 근사이며 피크·tail·GPU token budget·고가용성 여유는 별도. “동시 대화 세션 20개”와 동일하지 않음.\n2. **평균 200 output tokens, 5 turns/sec:** 출력 수요 1,000 tokens/sec 근사. prefill·context·latency·cancel·retry·tool calls를 더 봐야 함. GPU 한 대당 고정 처리량을 상정하지 않기.\n3. **1,000개 평가에서 98% 처리 성공:** 실패 약 20개라는 운영 해석과, 정답률·위험도 해석을 분리. 20개가 모두 같은 고위험 유형이면 전체 숫자는 오해를 줄 수 있음.\n4. **30일 동안 time-based 99.9% SLO:** 허용 불가용 약 43.2분. request-based SLI라면 request 분모로 계산. BEN 실제 목표라는 의미 아님.\n5. **150,000 documents/month:** 월 평균 약 0.058 doc/sec. 피크·업무시간·문서당 페이지 수·장애 후 재처리량을 알아야 용량으로 변환 가능.",
+      "stage": 0
+    },
+    {
+      "id": "G2-23",
+      "group": "guide",
+      "title": "D. 면접관에게 던질 ELM 기술 질문",
+      "body": "- “How do you define the boundary between ELM, the underlying models, and the application orchestration layer today?”\n- “Which user-facing latency and task-success targets are hardest to meet in production?”\n- “How are model, prompt, knowledge, and application versions evaluated and released together?”\n- “What does a closed-loop deployment prohibit in practice, particularly for external inference and telemetry?”\n- “Who owns the inference-serving infrastructure, and how do software engineering and AI/ML share performance accountability?”\n- “Which parts of customer onboarding are reusable configuration today, and which still require custom engineering?”\n\n이 질문들은 비공개 파라미터·학습 데이터를 캐내기 위한 것이 아니라 역할과 실행 난점을 이해하기 위한 것입니다.",
+      "stage": 0
+    },
+    {
+      "id": "G3-0",
+      "group": "guide",
+      "title": "1. 첫 면접에서 우선 준비할 7개 답변",
+      "body": "1. 90초 자기소개: 기업 운영형 AI + 조직 리딩 + BEN 역할의 경계.\n2. Why BEN / Why Director: 직함보다 플랫폼 책임·기술과 실행의 접점. 자신의 진짜 동기 추가.\n3. 최근 직접 구현 사례: EdenTnS IDP, 분류→추출→검증→업무 연동.\n4. 조직 운영 사례: VNTG 약 200명, DT·빅데이터·IT 포함, 직속 수 별도.\n5. 동료 리더와 갈등 조율: 사실 사례가 있으면 STAR. 없으면 가상 설계로 명시.\n6. 이직 사유와 재직 공백: 실제 이유를 회사별 20초로 준비.\n7. 직무 조건: 출근·US 시간·여행·입사일·연봉 기대. 아직 결정하지 않은 조건은 추정하지 않기.\n\n면접 시작에 “Could you tell me a little about your role and what you would like to focus on today?”라고 물으면 답변의 깊이를 조절할 수 있습니다.",
+      "stage": 0
+    },
+    {
+      "id": "G3-2",
+      "group": "guide",
+      "title": "3. 수치·표현 확인표: 면접 전 빈칸을 채울 것",
+      "body": "| 주장 | 이미 문서로 확인되는 범위 | 추가 확인할 것 |\n|---|---|---|\n| 200명 | VNTG DT·빅데이터·IT 조직 전체 | 직속 수, 관리자 수, 개발 인력 수, 채용·평가 권한 |\n| IDP 98% | HWP/HWPX·PDF 문서 처리 성공률 | 성공 정의, 분모·제외, 재처리 포함, 기간·샘플, 필드 정확도와 관계 |\n| 15만 건/월 | 특정 공공부문 고객 | 월 문서 수 vs 페이지 수, 실제 측정 월, 피크, 처리 시간, 지원 인력 |\n| 검수 65% 감소 | 위 고객의 기존 workflow 대비 | 사람 검수 단계 경계, 전후 표본·기간, 계산 방식 |\n| 연구 60% 감소 | Samyang 멀티 LLM MVP, 문헌 분석 | 사용자·문헌 표본, 활동시간 vs 경과시간, 품질 검토, 본인 기여 |\n| 비전 95% | 검사 판정 정확도, 이전 50–78% | 단위·클래스·metric, 동일 평가셋, 원본 표본·ground truth |\n| 50분→3분 | 검사 1회 판정 시간 | end-to-end인지, 모델 inference인지, 장비·입력 변화 |\n| CAPEX 45% | VNTG MES 현대화 | 비교 견적·기준안, 기간, 라이선스·운영비 포함 여부 |\n| 개발 3개월 단축 | 같은 MES 성과 | 최초 baseline, 실제 관찰 vs 계획 비교 |\n| DataForge 속도 | DOCX는 sub-second, 포트폴리오는 초단위 | 측정 경계·원자료 정합성. 확인 전 세부 숫자 사용 보류 |\n| 특허 pending | LLM 추론 자원 할당·라우팅 관련 출원 중 | 실제 출원 상태와 본인 발명 기여. 등록·성능 입증으로 말하지 않기 |\n| Director 20년+ | 기술·제품 리더십 20년 이상은 넓은 서술 | 공식 Director·동등 인사 관리 기간 별도; PM·팀리드 기간을 무조건 합치지 않기 |\n| 자격 | CISA expired, ITIL, Solar Pro 2 수료 | Solar 교육 수료를 공인 전문 자격으로 표현하지 않기 |",
+      "stage": 0
+    },
+    {
+      "id": "G3-3",
+      "group": "guide",
+      "title": "4. 30/60/90일 계획: 제안이며 확약 성과가 아님",
+      "body": "| 기간 | 핵심 행동 | 검토 가능한 산출물 | 함께할 상대 |\n|---|---|---|---|\n| 1–30일 | 팀·고객 약속·릴리스·아키텍처·사고 이력 파악, 책임 경계 합의, 긴급 병목 한 가지 처리 | 현재 flow, owner/dependency map, release·latency baseline, 상위 리스크, 첫 개선 범위 | Engineering leads, AI/ML, QA, Product, CS, Security |\n| 31–60일 | 병목 개선 pilot, 계약 테스트·관측 보강, 용량·계획 정합화 | 변경 전후 측정, release evidence, dependency/decision log | 관련 실무자와 동료 리더 |\n| 61–90일 | 효과 검증·확산, 운영·배포 cadence, 제품화·capacity 계획 | 개선의 재현성, 미해결 risk·부채 우선순위, 투자 선택안 | US leadership와 한국 리더 |\n\n**우선순위 예시:** 가장 큰 문제가 p95이면 음성 경로·serving 관측부터; 납기면 미완 요구·AI/ML 의존성과 테스트 대기부터; 고객별 custom fork가 문제면 connector·설정 경계부터. 세 가지를 모두 동시에 바꾸지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "G3-4",
+      "group": "guide",
+      "title": "5. 본인이 물어볼 질문: 면접당 2–3개",
+      "body": "**첫 미팅:**\n\n- “What are the most important outcomes you want this Director to deliver in the first six months?”\n- “What is the current size and structure of the South Korea software engineering team?”\n- “Could you share the intended focus of the remaining interview stages?”\n\n**기술 리더:**\n\n- “Where do customers currently experience the biggest reliability or latency limitations?”\n- “How are release decisions shared across Software Engineering, AI/ML, QA, and Product?”\n- “What would you want the new Director to preserve, rather than change?”\n\n**경영진:**\n\n- “Which customer deployments or commercialization milestones should drive the engineering roadmap over the next two quarters?”\n- “What decision authority and hiring capacity would this role have?”\n- “How do you balance reusable platform work with customer-specific commitments?”\n\n**선택:** 채용 배경, reporting line, on-site 주소, US overlap 빈도, 15% 미만 출장 실제 패턴, 연봉 구조는 대화 단계에 맞춰 확인. 이름·시총·직원 수를 웹 검색 추정값으로 단정하지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "G3-5",
+      "group": "guide",
+      "title": "6. 면접까지 연습 순서",
+      "body": "실제 준비 가능 시간에 맞춰 묶음을 조절합니다. 각 세션은 읽기보다 소리 내어 답하고 녹음해서 점검합니다.\n\n1. **근거 확인 45분:** 위 확인표에서 중요 숫자 정의·직속 구조·퇴사 이유. 기억이 없으면 삭제하거나 범위를 축소.\n2. **첫 미팅 30분:** 소개·동기·역할 적합성·이직 이유·조건. 질문별 60–90초.\n3. **STAR 45분:** IDP, VNTG, Vivity, PeopleFund 네 사례. 본인 행동을 가장 길게 말하기.\n4. **기술 보드 60분:** 한 workflow 설계→지연 budget→장애·권한→배포. 02 문서 Q3·Q4·Q11·Q14 우선.\n5. **압박 30분:** 위 10문항 중 5개를 무작위로. 방어적으로 길어지지 않기.\n6. **마지막 15분:** 큐카드만 보고 10개 핵심 답변. 미확인 사실을 새로 외우지 않기.",
+      "stage": 0
+    },
+    {
+      "id": "G3-6",
+      "group": "guide",
+      "title": "7. 영어가 막힐 때 사용할 문장",
+      "body": "- “Let me answer that directly first.”\n- “Could I clarify whether you mean the model layer or the end-to-end product?”\n- “I would separate the documented outcome from the underlying measurement details.”\n- “That was a team outcome. My specific contribution was ...”\n- “I do not want to overstate the evidence. What I can substantiate is ...”\n- “I would start with the failure mode rather than select a tool first.”\n- “The trade-off is between ... and ...; my decision would depend on ...”\n- “I have not operated that exact product at scale. Here is how I would validate the design.”",
+      "stage": 0
+    },
+    {
+      "id": "G3-7",
+      "group": "guide",
+      "title": "8. 포트폴리오 사용 동선",
+      "body": "- 기본 소개: p2 요약, 30초 이내.\n- 직접 구현·AI 운영: p6.\n- 아키텍처 설계와 MVP 구분: p7.\n- 성능·폐쇄망: p8.\n- 조직·제품화: p10–11.\n- 어려운 마감: p12.\n- 다국적 개발 운영·PoC 경계: p14–15.\n\n화면 공유를 요청받으면 질문과 맞는 1쪽만 먼저 보여주고, 모든 경력 슬라이드를 순서대로 설명하지 않습니다. 면접 중 사용 도구는 BEN 안내 범위에 맞추고, 이 자료는 사전 연습에 사용합니다.",
+      "stage": 0
+    },
+    {
+      "id": "G4-0",
+      "group": "guide",
+      "title": "1. STAR를 말하는 방식",
+      "body": "- **S — Situation, 10–15초:** 어떤 업무·제약 때문에 문제가 중요했나.\n- **T — Task, 10초:** 내가 책임진 결과는 무엇인가.\n- **A — Action, 30–45초:** 내가 한 선택과 조율·구현. 기술 이름만 나열하지 말고 이유를 설명.\n- **R — Result, 15–20초:** 무엇이 바뀌었고 어느 범위에서 측정됐나.\n- 필요하면 **L — Learning, 10초:** BEN에도 적용할 판단 기준. 실제로 얻은 교훈인지 확인.\n\n전체는 60–90초로 먼저 말하고, 수치 정의·대안·실패 처리는 꼬리질문에서 확장합니다. “We achieved...” 다음에 “My specific contribution was...”로 팀 성과와 본인 행동을 나눕니다.\n\n**가상 설계 질문에는 과거형 STAR를 억지로 쓰지 않습니다.** 상황/요구 확인 → 목표·제약 → 제안 행동·trade-off → 예상 검증 기준 순서로 답하고, “I would”를 사용합니다.",
+      "stage": 0
+    },
+    {
+      "id": "G4-2",
+      "group": "guide",
+      "title": "3. 자료만으로 STAR를 완성할 수 없는 중요 질문",
+      "body": "### 실패·갈등·인사 관리\n\n다음 세 질문에는 실제 사건이 필요합니다. 아래 cue만 채우고, 새 사건을 만들지 않습니다.\n\n| 질문 | S | T | A | R |\n|---|---|---|---|---|\n| “Tell me about a failure you owned.” | 실제 잘못된 판단·환경 | 본인이 바꿔야 했던 결과 | 신호를 언제 보고 무엇을 수정했나 | 실제 결과와 남은 한계 |\n| “Tell me about a conflict with a peer leader.” | 의견 충돌의 대상·요구 | 공동 결과·본인 권한 | 대안·증거·결정권 정리 | 합의 또는 escalation 결과 |\n| “How did you develop or manage an underperformer?” | 역할 기대와 차이 | 개인·팀 목표 | 피드백·지원·검토·위임 | 실제 변화·배치·후속 조치 |\n\n**영문 연결 문장:**\n\n> The situation was ... My responsibility was ... The decision I personally made was ... The outcome was ... What I would do differently now is ...\n\n**압박용 cue:** “Own the judgment, not just the environment.” / “One person, one decision, one outcome.”",
+      "stage": 0
+    },
+    {
+      "id": "G4-4",
+      "group": "guide",
+      "title": "5. 5단계별 카드 선택",
+      "body": "| 단계 | 먼저 펼칠 카드 | STAR 사례 |\n|---|---|---|\n| 1 | C1·C2·C11·C12 | STAR 1·2 |\n| 2 | C3·C10·C12 | STAR 2·4·5 |\n| 3 | C6·C8·C9 | STAR 1·3·8 |\n| 4 | C5·C7·C8·C10 | STAR 1·6·7 + 실제 갈등 사례 |\n| 5 | C2·C4·C11 | STAR 2·7 + 실제 실패 사례 |",
+      "stage": 0
+    },
+    {
+      "id": "G4-5",
+      "group": "guide",
+      "title": "6. 20분 큐카드 연습",
+      "body": "1. 카드 3개를 무작위로 선택하고 각 60초 답변.\n2. 같은 질문을 30초로 다시 답변. 핵심 주장·본인 행동·결과만 남깁니다.\n3. “How do you know?”, “What did you personally do?”, “What failed?” 세 꼬리질문에 각 20초 답변.\n4. 자료에 없는 숫자·통제·이직 사유를 말했다면 삭제하고 다시 녹음.\n5. 마지막에는 카드 없이 다시 답변. 문장을 외우기보다 판단 순서를 기억합니다.\n\n모든 큐카드는 **사전 연습용**입니다. 실제 면접에서는 회사가 허용한 자료·도구 범위를 따릅니다.",
+      "stage": 0
+    }
+  ]
+}
