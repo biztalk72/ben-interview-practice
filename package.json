@@ -1,1 +1,9 @@
-{"name":"ben-interview-practice","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","check":"node --check app.js && node --check translation.js && node --check translation-worker.js && node --check answer-state.js && node --check sw.js"}}
+{
+  "name": "ben-interview-practice",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check app.js && node --check translation.js && node --check translation-worker.js && node --check answer-state.js && node --check sw.js && node --check tts.js && node --check tts-worker.js && node --check practice-data.js"
+  }
+}

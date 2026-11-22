@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-20",
+  "version": 3,
   "cards": [
     {
       "id": "HR0",
@@ -13,7 +13,12 @@
       "group": "hr",
       "title": "Tell me about yourself.",
       "body": "**의도:** seniority·명확성·현재 역할과 BEN의 연결. 60–90초; 전체 경력 나열 대신 최근 AI 운영과 조직 리딩을 연결.\n\n> I’m an engineering and product leader with experience building enterprise platforms and engineering organizations. At VNTG, I helped build and lead an organization of about 200 people across digital transformation, data, and IT, working with executives across multiple group affiliates.\n>\n> More recently, I have stayed close to implementation. At EdenTnS, I designed and built an AI document-processing workflow that connects classification, extraction, validation, and business integration. It is in production with more than four clients.\n>\n> I’m interested in BEN because this role combines developing a software team, improving execution, and making AI dependable in real customer environments. I also understand that AI/ML, QA, and Product have separate leaders, and I would work with them as peers.\n\n**STAR 단서:** S enterprise complexity → T organization/product ownership → A alignment + direct implementation → R production clients. 세부 수치는 후속 질문에 답합니다.\n\n**압박:** “What is the one thing you would bring?” → “The ability to connect technical decisions, team execution, and customer-operating requirements.”\n\n**큐카드:**\n\n> Enterprise platforms / ~200 DT-data-IT / direct AI implementation / 4+ clients / peer leadership / dependable delivery",
-      "stage": 0
+      "stage": 0,
+      "openingOrder": 1,
+      "questionKo": "자기소개",
+      "questionEn": "Tell me about yourself.",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q1"
     },
     {
       "id": "HR2",
@@ -25,9 +30,14 @@
     {
       "id": "HR3",
       "group": "hr",
-      "title": "How would you describe your leadership style and culture fit?",
+      "title": "What is your leadership style?",
       "body": "**의도:** culture fit을 성격 호감이 아니라 반복 가능한 행동으로 설명.\n\n> I aim to combine clear ownership with an environment where people can surface problems early. I want engineers to understand the outcome, the constraints, and the decision they own. I also expect leaders to be transparent about trade-offs and to follow through on commitments.\n>\n> At VNTG, my work involved aligning multiple executives and teams around a transformation roadmap and supporting adoption through technical education. For BEN, I would bring that approach while first learning how your team works. I would not assume that a practice from a larger organization should be copied unchanged.\n\n**STAR:** S 여러 계열사·기술 변화 → T roadmap·조직 정렬 → A C-level 협업·사내 교육 → R 현대화 실행 기반. 인력 만족도·이직률 개선은 근거 없으면 추가 금지.\n\n**압박:** “What happens when someone challenges you?” → “I would ask what evidence or constraint I am missing. I can change a decision when the facts change, while keeping the decision owner and next step clear.”\n\n**큐카드:**\n\n> Clear ownership / early bad news / evidence / coaching / accountability / learn before changing",
-      "stage": 0
+      "stage": 0,
+      "openingOrder": 5,
+      "questionKo": "리더십 스타일",
+      "questionEn": "What is your leadership style?",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q5"
     },
     {
       "id": "HR4",
@@ -53,23 +63,38 @@
     {
       "id": "HR7",
       "group": "hr",
-      "title": "Why a Director position after CTO, CPO, and EVP titles?",
+      "title": "Why Director after CTO and CPO roles?",
       "body": "> I would evaluate the role by its responsibilities and impact rather than the title alone. Leading the software organization, improving development execution, and making an enterprise AI platform reliable are substantial responsibilities.\n>\n> I understand that this is not an overall CTO position and that AI/ML, QA, and Product have their own leaders. I would want clear ownership and a strong peer relationship with those teams. That is a scope I can contribute to without assuming authority outside the role.\n\n**본인 확인:** 직급·보상·장기 동기가 진짜 수용 가능한지 확인. 곧 CTO로 올라가겠다는 전제를 넣지 않음.\n\n**압박:** “Will you be satisfied without owning Product?” → “If responsibilities and decision rights are clear, I can focus on software engineering and contribute through collaboration.”\n\n**큐카드:**\n\n> Scope > title / software ownership / peer boundaries / no assumed promotion / mutual fit",
-      "stage": 0
+      "stage": 0,
+      "openingOrder": 2,
+      "questionKo": "CTO/CPO 이후 Director를 지원하는 이유",
+      "questionEn": "Why Director after CTO and CPO roles?",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q2"
     },
     {
       "id": "HR8",
       "group": "hr",
-      "title": "Why are you considering leaving, and how do you explain short tenures?",
+      "title": "Why are you leaving your current company so soon?",
       "body": "**이직 사유는 자료에 없습니다. 영문 골격의 빈칸을 실제 사실로 완성해야 합니다.**\n\n> The reason I am considering a move is [actual reason]. In my current role, I have been responsible for [actual scope], including [documented outcome]. I am now looking for [genuine longer-term goal].\n>\n> For shorter roles, I would explain the specific circumstances separately rather than give one general explanation. For example, my Vivity engagement was from June to November 2023, during which I led the industrial AI work described in my materials. It ended because [actual reason].\n\n**압박:** “Was there a performance issue?” → 해당 여부를 직접 사실대로 먼저 답한 후 배경·본인 책임·handover. 조직개편·계약종료를 자동으로 채우지 않습니다.\n\n**큐카드:**\n\n> Actual reason / concise and neutral / owned contribution / no invented exit story / future motivation",
-      "stage": 0
+      "stage": 0,
+      "openingOrder": 3,
+      "questionKo": "현재 회사에서 이직하는 이유",
+      "questionEn": "Why are you leaving your current company so soon?",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q3"
     },
     {
       "id": "HR9",
       "group": "hr",
-      "title": "Tell me about working with different cultures or a US team.",
+      "title": "Describe your global team experience.",
       "body": "> At CDNetworks, I led a multinational P3 task force and later coordinated technical-product work across Korean, China-based, and Quantil teams. The P3 team used Scrum, Kanban, and TDD and completed a working proof of concept that was later transferred for reuse.\n>\n> For a Korea–US organization, I would make priorities, ownership, and decisions visible in writing and use planned overlap for discussions that need real-time interaction. I would not expect every issue to be solved by adding more meetings or extending everyone’s working day.\n\n**STAR:** S 다국적 팀의 플랫폼 현대화 → T TF 책임 → A 개발 방식·기술 조율 → R 동작 PoC·이관. 미국팀 상대의 직접 보고 빈도는 확인되지 않았습니다.\n\n**압박:** “Are you comfortable leading discussions in English?” → “Yes, I am comfortable with business and technical discussions. I use written decisions and concise summaries to ensure alignment.” 실제 영어 역량 이상으로 native/fluent를 주장하지 않기.\n\n**큐카드:**\n\n> Multinational delivery / written decisions / overlap / concise English / no permanent overtime assumption",
-      "stage": 0
+      "stage": 0,
+      "openingOrder": 6,
+      "questionKo": "글로벌 팀 협업",
+      "questionEn": "Describe your global team experience.",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q6"
     },
     {
       "id": "HR10",
@@ -95,9 +120,14 @@
     {
       "id": "HR13",
       "group": "hr",
-      "title": "What are your compensation, availability, and on-site expectations?",
+      "title": "What are your compensation expectations?",
       "body": "**금액·입사일·근무 자격·여행 가능 범위는 본인 확인 후 답합니다.**\n\n> I understand that this is an on-site position in South Korea with occasional US-time meetings and travel. I would like to confirm the office location and the typical collaboration schedule. My earliest realistic start date would be [confirmed date], taking into account my handover responsibilities.\n>\n> For compensation, I would like to align on the scope, level, and overall package, including base salary, bonus, and equity. Could you share the budgeted range for this position?\n\n**숫자를 요구하면:** “My target annual base salary is KRW [confirmed amount/range], depending on the responsibilities and overall package.” 근거 없는 추천 금액을 자신의 확정 기대처럼 말하지 않기.\n\n**큐카드:**\n\n> On-site / actual availability / handover / planned overlap / base + bonus + equity / confirmed number only",
-      "stage": 0
+      "stage": 0,
+      "openingOrder": 7,
+      "questionKo": "희망 보상",
+      "questionEn": "What are your compensation expectations?",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q7"
     },
     {
       "id": "HR14",
@@ -158,16 +188,26 @@
     {
       "id": "S2-Q1",
       "group": "stage",
-      "title": "You led 200 people. How did you structure the organization?",
+      "title": "Tell me about the largest organization you led.",
       "body": "> At VNTG, the approximately 200-person scope covered digital transformation, big data, and IT. It was not 200 direct reports or 200 software engineers. My responsibility included organization building, the group roadmap, and alignment with holding-company and affiliate executives. I would describe the actual reporting layers separately. For BEN, I would first examine the current team and delivery bottlenecks before changing the structure.\n\n**압박:** “How many engineering managers reported to you?”\n\n**응답:** 실제 수를 확인해서 답할 항목입니다. 기억이 불명확하면 “I want to be accurate about the reporting structure; the broader organization was about 200, and I will confirm the direct-report breakdown.” 확정 숫자를 만들어내지 않기.\n\n**준비:** 당시 조직도 1장: 전체/개발/IT 구분, 본인 직속, 매니저 계층, 채용·평가 권한.",
-      "stage": 2
+      "stage": 2,
+      "openingOrder": 9,
+      "questionKo": "가장 큰 조직 리딩 사례",
+      "questionEn": "Tell me about the largest organization you led.",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q9"
     },
     {
       "id": "S2-Q2",
       "group": "stage",
-      "title": "How would you improve predictability without adding bureaucracy?",
+      "title": "How do you improve delivery predictability?",
       "body": "> I would start with recent releases and map where work waits: unclear requirements, cross-team dependencies, review queues, testing, or deployment. Then I would select one constraint and measure the improvement. I would track delivery lead time, aging work, production defects, and whether committed scope was delivered. Story points can help a team plan, but I would not compare engineers or teams by points. The goal is a shorter and more reliable path to customer value.\n\n**압박:** “I need 30% more productivity next month.”\n\n**응답:** “I can commit to identifying the constraint and changing the workflow quickly. I cannot responsibly promise 30% before defining the baseline and the output. We can agree on a measurable target after reviewing the work and the available capacity.”",
-      "stage": 2
+      "stage": 2,
+      "openingOrder": 19,
+      "questionKo": "예측 가능한 개발 실행",
+      "questionEn": "How do you improve delivery predictability?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q19"
     },
     {
       "id": "S2-Q3",
@@ -193,9 +233,14 @@
     {
       "id": "S2-Q6",
       "group": "stage",
-      "title": "Tell us about a difficult fixed-deadline delivery.",
+      "title": "How do you deliver under regulatory deadlines?",
       "body": "> At PeopleFund, I led engineering and product work for the core balance system covering ledger, settlement, and payment, with an August 2020 regulatory deadline. The system had to change while operations continued, and bank integration added another stakeholder boundary. The work met the deadline while maintaining operational continuity. For a detailed discussion, I would separate the required regulatory scope from the broader modernization work and explain the actual cutover and validation approach.\n\n**압박:** “Exactly how did you validate money was not lost?”\n\n**응답 연습:** 실제 reconciliation·병행 검증·차액 처리·승인 절차를 확인해서 설명해야 합니다. 확인 전에는 “The important control is reconciliation of ledger and settlement states. I would want to distinguish the controls actually used then from the design I would recommend today.”\n\n**BEN 적용:** 날짜 고정이면 범위·배포 대상·노출 범위를 줄이는 선택지를 제시. 검증 생략을 일정 관리로 포장하지 않기.",
-      "stage": 2
+      "stage": 2,
+      "openingOrder": 13,
+      "questionKo": "규제 환경에서의 납기 관리",
+      "questionEn": "How do you deliver under regulatory deadlines?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q13"
     },
     {
       "id": "S3-Q1",
@@ -214,9 +259,14 @@
     {
       "id": "S3-Q3",
       "group": "stage",
-      "title": "Tell us about a measurable performance improvement.",
+      "title": "How do you connect engineering quality to business outcomes?",
       "body": "> At Vivity AI, I led improvements to a shipyard inspection workflow using drone imagery, YOLO, segmentation, and block detection. The reported inspection decision accuracy improved from a range of 50–78% to 95%, and assessment time per run fell from about 50 minutes to within three minutes. This was a twice-daily inspection workflow, not an interactive voice system. I would explain the evaluation conditions before comparing it with another system.\n\n**압박:** “Was that inference speed or the whole workflow? What was the sample size?”\n\n**응답:** “The documented time is per assessment run. I should verify the original timing boundary and evaluation dataset before attributing the entire reduction to inference optimization.”\n\n**준비:** 파이프라인 전·후 도식, 단계별 변화, 동일 입력·장비 여부, 정확도 정의, 본인과 ML팀 기여 구분. GPU 최적화가 전부라고 추정하지 않기.",
-      "stage": 3
+      "stage": 3,
+      "openingOrder": 12,
+      "questionKo": "기술 성과를 비즈니스 성과로 연결한 사례",
+      "questionEn": "How do you connect engineering quality to business outcomes?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q12"
     },
     {
       "id": "S3-Q4",
@@ -286,7 +336,12 @@
       "group": "stage",
       "title": "What would you do in your first 90 days?",
       "body": "> In the first 30 days, I would learn the team, architecture, customer commitments, and current delivery and reliability baselines. I would also agree on responsibility boundaries with the peer leaders. In days 31–60, I would work on one important bottleneck, such as release instability or conversational tail latency, and make the improvement measurable. By day 90, I would aim to establish a repeatable release and operating cadence, validate the pilot improvement, and present a capacity and platform plan grounded in what we have learned.\n\n**압박:** “Too cautious. Where is the impact?”\n\n**응답:** “The first month would include a concrete customer or delivery problem, not only interviews. What I would avoid is promising a specific percentage before we know the baseline.”\n\n**산출물:** 30일 책임·구조·지표·리스크 지도, 60일 한 문제 개선의 전후 결과, 90일 반복 가능한 출시·장애 대응과 우선순위 계획. 세부 표는 03 문서.",
-      "stage": 5
+      "stage": 5,
+      "openingOrder": 20,
+      "questionKo": "첫 90일 계획",
+      "questionEn": "What would you do in your first 90 days?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q20"
     },
     {
       "id": "S5-Q2",
@@ -538,7 +593,9 @@
       "group": "star",
       "title": "고객 운영까지 연결한 AI — EdenTnS IDP",
       "body": "**질문:** “Tell me about an AI product you took into production.” / “What did you personally implement?”\n\n**근거:** DOCX EdenTnS; 포트폴리오 p6·19.\n\n**S:** 공공·정부·제조 문서 업무에서 추출 이후의 검증·후속 업무 연결이 필요했습니다.\n\n**T:** CPO/AI 연구소장으로서 문서 처리의 아키텍처와 구현을 직접 맡아 고객 운영까지 연결했습니다.\n\n**A:** 분류→추출→검증→workflow integration을 설계·구현했습니다. 도메인 관계를 반영하는 ontology-backed retrieval도 개발해 IDP 내부에 활용했습니다. 보안·거버넌스·인프라 성능·비용을 함께 관리했습니다.\n\n**R:** 4개 이상 고객 운영. 특정 공공 고객 월 약 15만 문서, 기존 대비 검수 시간 65% 감소. 별도의 처리 성공률 지표 약 98%는 정의 확인 후 설명.\n\n**영문 답변:**\n\n> At EdenTnS, enterprise document work required more than extracting text. The output also had to be validated and connected to the customer’s workflow.\n>\n> My responsibility was to turn that into a working AI product, and I remained directly involved in both the architecture and implementation.\n>\n> I designed and implemented the flow from classification and extraction through validation and workflow integration. I also developed ontology-backed retrieval to incorporate domain relationships and supported the governance and infrastructure requirements around the product.\n>\n> The workflow is now used by more than four clients. One public-sector deployment processes approximately 150,000 documents per month and reduced review time by 65% compared with the previous workflow. I would distinguish those business results from extraction accuracy and from our separate processing-success metric.\n\n**강한 꼬리질문:** “What is the 98% denominator?” → 문서 단위 처리 성공률이며 정답률과 구분. 분모·기간·재처리·예외 정의는 확인 필요.\n\n**한 단계 더:** “Why an agent, not a pipeline?” → 실제 agent의 판단·도구·상태·종료 경계를 설명할 준비. 단순 순차 호출뿐이었다면 그 범위대로 말하기.\n\n**큐카드:**\n\n> **PRODUCTION AI**\n> - Need: extraction → validation → business workflow\n> - I owned: architecture + implementation\n> - Action: classify / extract / validate / integrate\n> - Result: 4+ clients; one client 150k/month; review −65%\n> - Boundary: completion ≠ accuracy ≠ autonomous processing\n> - BEN bridge: AI capability → dependable customer operation",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "Tell me about an AI product you took into production.",
+      "questionKo": "고객 운영까지 연결한 AI — EdenTnS IDP"
     },
     {
       "id": "CS1",
@@ -552,7 +609,9 @@
       "group": "star",
       "title": "대규모 조직·레거시 현대화 — VNTG",
       "body": "**질문:** “Tell me about leading a large engineering organization.” / “How did you create business value?”\n\n**근거:** DOCX VNTG; 포트폴리오 p10.\n\n**S:** IT 조직 분사 후 그룹 전체의 인프라·데이터·기업 시스템 현대화가 필요했습니다.\n\n**T:** 약 200명의 DT·빅데이터·IT 조직 구축·운영과 5개 계열사·3,000명 이상 사용자를 포괄하는 기술 로드맵 책임.\n\n**A:** 지주사·계열사 C-level과 로드맵 정렬, 레거시 MES를 OutSystems로 현대화, API 중심 통합과 cloud 전환, Agile/DevOps 교육. 직속 관리 수·구체 회의 주기는 확인 전 추가하지 않습니다.\n\n**R:** MES 현대화 CAPEX 45% 절감, 개발 주기 3개월 단축. 전체 그룹 roadmap의 모든 과제를 완료했다고 말하지 않기.\n\n**영문 답변:**\n\n> I joined VNTG after the IT-division spin-off, when the organization needed to connect technology modernization with the priorities of the SeAH Group affiliates.\n>\n> As CTO, I helped build and lead an organization of approximately 200 people across digital transformation, big data, and IT, and owned the roadmap with holding-company and affiliate executives.\n>\n> My work combined organizational alignment with concrete platform decisions. We modernized legacy MES using OutSystems, introduced API-first integration, and supported cloud and enterprise-system changes. I also delivered Agile and DevOps education to help the organization adopt new practices.\n>\n> The MES modernization reduced CAPEX by 45% and shortened development cycles by three months. Those are results for that initiative, not a claim that every program achieved the same improvement. The broader lesson is to connect technical choices to operating constraints and business outcomes.\n\n**압박:** “Were all 200 engineers your direct reports?” → “No. That was the broader DT, data, and IT organization. I would describe my direct reporting structure separately.”\n\n**큐카드:**\n\n> **ORGANIZATION + VALUE**\n> - S: post-spin-off group modernization\n> - T: ~200 DT/data/IT; 5 affiliates; 3,000+ users\n> - A: executive alignment / MES choice / API / education\n> - R: MES CAPEX −45%; cycle −3 months\n> - Boundary: 200 ≠ direct reports; initiative-specific outcome\n> - BEN bridge: repeatable delivery with business alignment",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "Tell me about a large-scale modernization you led.",
+      "questionKo": "대규모 조직·레거시 현대화 — VNTG"
     },
     {
       "id": "CS2",
@@ -566,7 +625,9 @@
       "group": "star",
       "title": "성능 개선·폐쇄망 AI — Vivity",
       "body": "**질문:** “Describe a measurable performance improvement.” / “How do you deliver under infrastructure constraints?”\n\n**근거:** DOCX Vivity; 포트폴리오 p8.\n\n**S:** 조선소의 드론 영상 검사에서 판정 정확도와 소요시간 개선이 필요했고, 배포 환경은 on-prem·hybrid·완전 폐쇄망·제한된 edge 자원을 포함했습니다.\n\n**T:** 제품 엔지니어링 총괄로 검사 기능 개선과 배포 가능한 구조를 이끌었습니다.\n\n**A:** YOLO·segmentation·block detection 개선을 주도하고, 합성 드론 영상을 설계도와 비교하는 판정 업무를 지원했습니다. 모델 lifecycle·version 관리와 Kubernetes 운영을 이끌고 K3s로 edge 배포를 최적화했습니다. 어떤 코드·모델 조정이 본인/팀의 작업이었는지는 따로 설명.\n\n**R:** 검사 판정 50–78%→95%, 판정 한 번 약 50분→3분 이내, 하루 2회 활용. 최신 자료에 없는 ‘K3s 자원 60% 감소’는 여기서 사용하지 않음.\n\n**영문 답변:**\n\n> At Vivity AI, a shipyard inspection workflow used drone imagery to assess block counts and assembly progress. Both decision accuracy and assessment time needed improvement, and deployment had to work within industrial infrastructure constraints.\n>\n> I led product engineering for improvements involving YOLO, segmentation, and block detection. I also led the MLOps and deployment work across on-premises, hybrid, and air-gapped environments, including model version management and a move toward lighter K3s deployments at the edge.\n>\n> The reported inspection decision accuracy improved from 50–78% to 95%, and assessment time per run fell from about 50 minutes to within three minutes. The workflow was used twice daily. I would explain the original evaluation conditions before attributing those results to a specific model or optimization.\n\n**압박:** “What was your latency percentile?” → 1회 검사 시간이고 real-time p95가 아님. 원측정의 범위부터 정확히 답하기.\n\n**큐카드:**\n\n> **PERFORMANCE UNDER CONSTRAINTS**\n> - S: drone-based inspection + industrial deployment limits\n> - A: vision improvements + model lifecycle + K8s/K3s\n> - R: 50–78% → 95%; ~50 min → ≤3 min; twice daily\n> - Check: dataset / metric / timing boundary / hardware\n> - Boundary: batch assessment ≠ interactive voice latency",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "Describe a measurable AI performance improvement.",
+      "questionKo": "성능 개선·폐쇄망 AI — Vivity"
     },
     {
       "id": "CS3",
@@ -580,7 +641,9 @@
       "group": "star",
       "title": "변경 불가 마감·기간계 — PeopleFund",
       "body": "**질문:** “Tell me about delivering against a non-negotiable deadline.”\n\n**근거:** DOCX PeopleFund; 포트폴리오 p12.\n\n**S:** 회사 전체가 의존하는 원장·정산·결제 시스템을 규제 시한에 맞춰 변경하면서 운영을 유지해야 했습니다.\n\n**T:** Money Flow 개발팀 리드와 제품 PM으로 2020년 8월 시한 내 대응.\n\n**A:** core balance 재설계·refactoring, 전북은행 연계 개선, 내부·은행 이해관계자 조율, 일부 기능을 선별적으로 microservices 방향으로 현대화.\n\n**R:** 시한 내 규제 요구를 충족하고 운영 연속성 유지. 구체 cutover·reconciliation·rollback 구현은 본인 확인 후 확장.\n\n**영문 답변:**\n\n> At PeopleFund, the core balance system supported ledger, settlement, and payment operations. We needed to meet an August 2020 regulatory deadline while maintaining business operations.\n>\n> I was responsible for both engineering leadership and product management for Money Flow. I led the redesign and refactoring of the core system, worked on the integration with Jeonbuk Bank, and coordinated internal and bank stakeholders. We also modernized selected functions toward microservices rather than treating a complete architectural rewrite as the objective.\n>\n> The work met the deadline while maintaining operational continuity. For BEN, the relevant principle is to distinguish mandatory delivery scope from broader modernization, and to keep operational risk visible throughout the plan.\n\n**압박:** “Did you cut testing to hit the date?” → 실제 했던 검증을 답하기. 자료만으로 ‘병행 원장 검증을 했다’고 만들지 않기.\n\n**큐카드:**\n\n> **FIXED DEADLINE**\n> - S: core balance + August 2020 deadline + live operations\n> - T: engineering lead + product PM\n> - A: ledger/settlement/payment redesign; bank coordination\n> - R: deadline met; continuity maintained\n> - Check: validation / cutover / recovery actually used\n> - BEN bridge: scope + dependencies + acceptance, not false certainty",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "Tell me about a delivery under a fixed regulatory deadline.",
+      "questionKo": "변경 불가 마감·기간계 — PeopleFund"
     },
     {
       "id": "CS4",
@@ -594,7 +657,9 @@
       "group": "star",
       "title": "글로벌 개발 운영·한시적 TF — CDNetworks P3",
       "body": "**질문:** “How have you improved development practices?” / “Have you led cross-border engineering?”\n\n**근거:** DOCX CDNetworks; 포트폴리오 p14–15.\n\n**S:** 레거시 포털·제품·플랫폼의 현대화 가능성을 보여줄 필요가 있었습니다.\n\n**T:** 2017년 5–11월 CEO 직속 한시적 P3 TF 책임. 3월 준비·기획과 정식 임명 기간을 구분.\n\n**A:** 다국적 팀을 Scrum·Kanban·TDD로 운영, container CI/CD·Kong API gateway·OpenStack 연동의 MSA PoC. 도구 목록보다 검증할 경계와 본인 선택을 설명.\n\n**R:** 동작 PoC 완료, 후속 자산은 Quantil로 이관되어 edge initiative에 재사용. 상용 플랫폼 전환 성과로 과장하지 않기.\n\n**영문 답변:**\n\n> At CDNetworks, we needed to demonstrate a modernization path for the portal, product, and platform environment. After preparatory work, I led the temporary CEO-reporting P3 task force from May to November 2017.\n>\n> I led a multinational team using Scrum, Kanban, and TDD, and we built a working proof of concept around container delivery, microservices, API gateway integration, and cloud infrastructure. The objective was to validate a practical architecture and development approach, not simply adopt a list of tools.\n>\n> We completed the working proof of concept, and the project assets were later transferred to Quantil for reuse in an edge-computing initiative. I would distinguish that from owning a full production rollout. The experience is relevant to coordinating technical work and making dependencies explicit across teams.\n\n**압박:** “Why did it not reach production under you?” → 실제 사유 확인. 인수 후 조직 사정 등 추정 금지. 완료 단계·이관 범위·배운 점만 사실대로.\n\n**큐카드:**\n\n> **CROSS-BORDER DELIVERY**\n> - May–Nov 2017 formal TF; earlier preparation separate\n> - Multinational / Scrum / Kanban / TDD\n> - Working PoC: container delivery + MSA + gateway/cloud\n> - Result: completed PoC → Quantil reuse\n> - Boundary: PoC ≠ commercial launch; Agile ≠ formal SAFe claim",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "Describe your global product coordination experience.",
+      "questionKo": "글로벌 개발 운영·한시적 TF — CDNetworks P3"
     },
     {
       "id": "CS5",
@@ -608,7 +673,9 @@
       "group": "star",
       "title": "생성형 AI의 업무 가치 — Samyang",
       "body": "**질문:** “How do you measure AI business value?”\n\n**근거:** DOCX Samyang; 포트폴리오 p7.\n\n**S:** 연구팀이 반복적인 문헌 분석·지식 업무에 많은 시간을 사용했습니다.\n\n**T:** 플랫폼 총괄로서 실제 연구 업무에 맞는 AI MVP 설계를 이끌었습니다.\n\n**A:** Claude·ChatGPT·Gemini를 활용한 요약·insight extraction·번역·대외 correspondence 지원을 설계. hybrid data-platform 설계와는 별도 프로젝트로 구분.\n\n**R:** 연구팀 문헌 분석 시간 약 60% 단축. MVP 결과이며 전사 보급·의학 정답률 성과 아님.\n\n**영문 답변:**\n\n> At Samyang, researchers spent significant time on repetitive literature analysis and related knowledge work. My task was to identify a focused workflow where AI could provide measurable value.\n>\n> I led the design of a research-assistant MVP using Claude, ChatGPT, and Gemini for summarization, insight extraction, translation, and external correspondence. The emphasis was on supporting a specific research process rather than launching a general-purpose chatbot.\n>\n> The research team’s literature-analysis time decreased by approximately 60%. That was an MVP outcome, and I would explain how the team measured time and reviewed quality before generalizing it. The lesson for BEN is to connect AI capability to a defined customer task and an observable result.\n\n**압박:** “Did you validate scientific correctness?” → 실제 검토 방법 확인. 시간 단축이 정확성을 입증하지 않는다고 인정.\n\n**큐카드:**\n\n> **AI VALUE**\n> - S: repetitive literature work\n> - T/A: designed workflow-specific multi-LLM MVP\n> - R: literature-analysis time ~−60%\n> - Boundary: MVP; not Claude-only; not clinical validation\n> - BEN bridge: task outcome + quality + cost, beyond a demo",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "How did you create business value with generative AI?",
+      "questionKo": "생성형 AI의 업무 가치 — Samyang"
     },
     {
       "id": "CS6",
@@ -622,7 +689,9 @@
       "group": "star",
       "title": "프로젝트에서 제품으로 — DataForge",
       "body": "**질문:** “Tell me how you productized a repeated enterprise need.”\n\n**근거:** DOCX VNTG; 포트폴리오 p11·19.\n\n**S:** PLC·ERP·MES에 공정 데이터가 나뉘어 원인을 공정 간 추적하기 어려웠습니다.\n\n**T:** CTO로서 데이터 플랫폼이 수집 저장을 넘어 제조 의사결정에 유효하도록 만들기.\n\n**A:** 통합 수집 pipeline, 공정 간 제품 ID 연결과 lineage, 분석·이상탐지·예측정비 활용 기반을 구성·제품화. 외부 판매 매출은 자료에 없음.\n\n**R:** 그룹 DT에 적용하고 산업 특화 자체 제품으로 전환. Google Cloud 제조 DT 파트너십과 Looker reseller 지위 확보.\n\n**영문 답변:**\n\n> In the SeAH Group environment, production data was separated across PLC, ERP, and MES systems. Collecting it in one place was not enough to explain where a quality issue had originated.\n>\n> I led the platform direction and productization work around DataForge. A central design choice was matching product identifiers across process stages so that we could reconstruct per-unit lineage. We combined that with data ingestion and analytics capabilities for manufacturing use cases.\n>\n> The work was applied to group transformation projects and developed into an industry-specific product, alongside technology partnerships. I would not equate productization with a revenue figure that I cannot substantiate. For BEN, the connection is identifying the reusable capability underneath customer-specific requirements.\n\n**압박:** “How much external ARR?” → 자료 없음. 실제 숫자가 없다면 없다고 하고 내부 적용·제품화 단계와 구분.\n\n**큐카드:**\n\n> **PRODUCTIZATION**\n> - Problem: siloed PLC / ERP / MES\n> - Key choice: cross-stage ID matching → lineage\n> - Result: group use → industry-specific product\n> - Boundary: no unsupported ARR; clarify timing metric\n> - BEN bridge: reusable connectors / policy / workflow contracts",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "How do you turn project work into a reusable product?",
+      "questionKo": "프로젝트에서 제품으로 — DataForge"
     },
     {
       "id": "CS7",
@@ -636,7 +705,9 @@
       "group": "star",
       "title": "대규모 로그·운영 가시성 — CDNetworks",
       "body": "**질문:** “How do you approach observability and scalable data systems?”\n\n**근거:** DOCX CDNetworks; 포트폴리오 p15.\n\n**S:** 일 1–1.5TB의 글로벌 트래픽 로그를 기존 DB 중심 구조로 처리·분석·관측하기 어려웠습니다.\n\n**T:** 글로벌 기술·제품 책임으로 확장성과 운영 분석 기반 개선.\n\n**A:** Hadoop·Spark·ELK·Kafka pipeline 재구성, 시계열 저장소 RRD→InfluxDB 이관. workload와 각 도구의 실제 역할을 설명할 준비.\n\n**R:** 글로벌 트래픽 분석의 확장성·관측성·활용 개선. 자료에 없는 latency·비용 감소율은 넣지 않음.\n\n**영문 답변:**\n\n> At CDNetworks, the analytics environment had to handle approximately one to one-and-a-half terabytes of traffic logs per day. The legacy database-oriented approach made scaling and operational analysis difficult.\n>\n> In my global technical-product role, I led the analytics reconstruction using a pipeline involving Hadoop, Spark, ELK, and Kafka, and moved time-series storage from RRD to InfluxDB.\n>\n> The result was a more scalable and observable basis for global traffic analysis. I do not have a documented percentage improvement to attach to that outcome. In a technical discussion, I would explain the actual data flow and responsibilities of each component rather than use data volume alone as evidence of performance.\n\n**압박:** “One TB/day is only around 12MB/s. Why was this hard?” → 옳은 지적 인정. ingest 평균만이 아니라 피크·query·retention·aggregation·legacy 한계를 당시 사실로 설명. 병목 위치를 꾸며내지 않기.\n\n**큐카드:**\n\n> **OBSERVABILITY + SCALE**\n> - Input: 1–1.5 TB/day traffic logs\n> - Legacy analytics constraints\n> - Action: pipeline rebuild + RRD → InfluxDB\n> - Result: scalability / visibility, no invented %\n> - Probe: peak, query patterns, retention, actual bottleneck",
-      "stage": 0
+      "stage": 0,
+      "questionEn": "Describe your experience with large-scale logs and observability.",
+      "questionKo": "대규모 로그·운영 가시성 — CDNetworks"
     },
     {
       "id": "CS8",
@@ -868,6 +939,301 @@
       "title": "6. 20분 큐카드 연습",
       "body": "1. 카드 3개를 무작위로 선택하고 각 60초 답변.\n2. 같은 질문을 30초로 다시 답변. 핵심 주장·본인 행동·결과만 남깁니다.\n3. “How do you know?”, “What did you personally do?”, “What failed?” 세 꼬리질문에 각 20초 답변.\n4. 자료에 없는 숫자·통제·이직 사유를 말했다면 삭제하고 다시 녹음.\n5. 마지막에는 카드 없이 다시 답변. 문장을 외우기보다 판단 순서를 기억합니다.\n\n모든 큐카드는 **사전 연습용**입니다. 실제 면접에서는 회사가 허용한 자료·도구 범위를 따릅니다.",
       "stage": 0
+    },
+    {
+      "id": "R1-04",
+      "group": "stage",
+      "stage": 1,
+      "title": "How large an organization have you managed?",
+      "body": "## 준비 포인트\n\n200명을 전부 소프트웨어 개발자로 표현하지 않습니다.",
+      "openingOrder": 4,
+      "questionKo": "관리한 최대 조직 규모",
+      "questionEn": "How large an organization have you managed?",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q4"
+    },
+    {
+      "id": "R1-08",
+      "group": "stage",
+      "stage": 1,
+      "title": "Why should we hire you?",
+      "body": "## 준비 포인트\n\n모든 기술을 직접 최고 수준으로 안다고 주장하지 않습니다.",
+      "openingOrder": 8,
+      "questionKo": "왜 채용해야 하는가",
+      "questionEn": "Why should we hire you?",
+      "round": "HR",
+      "sourceNote": "첨부 Interview Complete · HR Q8"
+    },
+    {
+      "id": "R2-10",
+      "group": "stage",
+      "stage": 2,
+      "title": "Describe a major modernization decision.",
+      "body": "## 준비 포인트\n\n구체적인 PoC, 벤더 평가 및 실제 리스크 대응은 확인 필요.",
+      "openingOrder": 10,
+      "questionKo": "주요 시스템 현대화 사례",
+      "questionEn": "Describe a major modernization decision.",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q10"
+    },
+    {
+      "id": "R2-11",
+      "group": "stage",
+      "stage": 2,
+      "title": "How do you make architecture decisions?",
+      "body": "## 준비 포인트\n\n설계 완료와 운영 배포를 명확히 구분합니다.",
+      "openingOrder": 11,
+      "questionKo": "아키텍처 의사결정 방식",
+      "questionEn": "How do you make architecture decisions?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q11"
+    },
+    {
+      "id": "R2-14",
+      "group": "stage",
+      "stage": 2,
+      "title": "How do you build capability in a changing technology landscape?",
+      "body": "## 준비 포인트\n\n실제 역량 향상 사례와 지표를 추가하면 강해집니다.",
+      "openingOrder": 14,
+      "questionKo": "새 기술을 위한 조직 역량 구축",
+      "questionEn": "How do you build capability in a changing technology landscape?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q14"
+    },
+    {
+      "id": "R2-15",
+      "group": "stage",
+      "stage": 2,
+      "title": "How do you bring AI into production?",
+      "body": "## 준비 포인트\n\n실제 검증 로직과 운영 모니터링 구현 범위는 면접 전 점검합니다.",
+      "openingOrder": 15,
+      "questionKo": "AI 솔루션의 프로덕션 적용",
+      "questionEn": "How do you bring AI into production?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q15"
+    },
+    {
+      "id": "R2-16",
+      "group": "stage",
+      "stage": 2,
+      "title": "How do you align engineering with executives?",
+      "body": "## 준비 포인트\n\n실제 임원 갈등 사례를 추가하면 답변이 더 설득력 있습니다.",
+      "openingOrder": 16,
+      "questionKo": "경영진과 엔지니어링 조직의 연결",
+      "questionEn": "How do you align engineering with executives?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q16"
+    },
+    {
+      "id": "R2-17",
+      "group": "stage",
+      "stage": 2,
+      "title": "How do you balance technical debt and roadmap delivery?",
+      "body": "## 준비 포인트\n\nDORA 지표를 과거에 실제 운영했다고 주장하지 않습니다.",
+      "openingOrder": 17,
+      "questionKo": "기술 부채와 신규 기능의 균형",
+      "questionEn": "How do you balance technical debt and roadmap delivery?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q17"
+    },
+    {
+      "id": "R2-18",
+      "group": "stage",
+      "stage": 2,
+      "title": "How do you manage an underperforming manager?",
+      "body": "## 준비 포인트\n\n이력서에는 실제 저성과자 관리 사례가 없어 실사례 입력 필요.",
+      "openingOrder": 18,
+      "questionKo": "저성과 매니저 관리",
+      "questionEn": "How do you manage an underperforming manager?",
+      "round": "Hiring Manager",
+      "sourceNote": "첨부 Interview Complete · Hiring Manager Q18"
+    },
+    {
+      "id": "R3-21",
+      "group": "pressure",
+      "stage": 2,
+      "title": "Are you too broad rather than deep in software engineering?",
+      "body": "## 준비 포인트\n\n최근 직접 구현 범위를 구체적으로 준비합니다.",
+      "openingOrder": 21,
+      "questionKo": "경력이 넓어 전문성이 약하다는 지적",
+      "questionEn": "Are you too broad rather than deep in software engineering?",
+      "round": "Pressure",
+      "sourceNote": "첨부 Interview Complete · Pressure Q21"
+    },
+    {
+      "id": "R3-22",
+      "group": "pressure",
+      "stage": 2,
+      "title": "How do you explain several relatively short roles?",
+      "body": "## 준비 포인트\n\n모든 이직 이유는 실제 사실에 맞게 검증합니다.",
+      "openingOrder": 22,
+      "questionKo": "짧은 재직 기간에 대한 설명",
+      "questionEn": "How do you explain several relatively short roles?",
+      "round": "Pressure",
+      "sourceNote": "첨부 Interview Complete · Pressure Q22"
+    },
+    {
+      "id": "R3-23",
+      "group": "pressure",
+      "stage": 2,
+      "title": "Why should we choose you over a career Engineering Director?",
+      "body": "## 준비 포인트\n\n타 후보자를 폄하하지 않고 본인의 차별성을 설명합니다.",
+      "openingOrder": 23,
+      "questionKo": "전통적인 Engineering Director보다 적합한 이유",
+      "questionEn": "Why should we choose you over a career Engineering Director?",
+      "round": "Pressure",
+      "sourceNote": "첨부 Interview Complete · Pressure Q23"
+    },
+    {
+      "id": "ASK-01",
+      "group": "closing",
+      "title": "What prompted the company to open this position? Is it a new role or a replacement?",
+      "questionEn": "What prompted the company to open this position? Is it a new role or a replacement?",
+      "questionKo": "이 포지션이 열린 배경은 무엇인가요?",
+      "round": "HR",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 01"
+    },
+    {
+      "id": "ASK-02",
+      "group": "closing",
+      "title": "What would success look like in the first six to twelve months?",
+      "questionEn": "What would success look like in the first six to twelve months?",
+      "questionKo": "첫 6~12개월의 성공 기준은 무엇인가요?",
+      "round": "HR",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 02"
+    },
+    {
+      "id": "ASK-03",
+      "group": "closing",
+      "title": "Could you explain the reporting structure and how this role works with global teams?",
+      "questionEn": "Could you explain the reporting structure and how this role works with global teams?",
+      "questionKo": "보고 체계와 글로벌 협업 범위는 어떻게 되나요?",
+      "round": "HR",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 03"
+    },
+    {
+      "id": "ASK-04",
+      "group": "closing",
+      "title": "Could you walk me through the remaining interview stages and the key competencies being evaluated?",
+      "questionEn": "Could you walk me through the remaining interview stages and the key competencies being evaluated?",
+      "questionKo": "남은 면접 단계와 평가 역량은 무엇인가요?",
+      "round": "HR",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 04"
+    },
+    {
+      "id": "ASK-05",
+      "group": "closing",
+      "title": "What are the biggest engineering challenges today, and where would you expect the new Director to make the greatest impact?",
+      "questionEn": "What are the biggest engineering challenges today, and where would you expect the new Director to make the greatest impact?",
+      "questionKo": "현재 엔지니어링 조직의 가장 큰 과제는 무엇인가요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 05"
+    },
+    {
+      "id": "ASK-06",
+      "group": "closing",
+      "title": "Where do you see the biggest tension between engineering priorities and business expectations?",
+      "questionEn": "Where do you see the biggest tension between engineering priorities and business expectations?",
+      "questionKo": "기술 우선순위와 사업 기대 사이에서 가장 큰 긴장은 무엇인가요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 06"
+    },
+    {
+      "id": "ASK-07",
+      "group": "closing",
+      "title": "How much ownership would this Director have over technical strategy, architecture, and organizational development?",
+      "questionEn": "How much ownership would this Director have over technical strategy, architecture, and organizational development?",
+      "questionKo": "Director에게 기술 전략과 조직 운영의 권한이 어느 정도 있나요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 07"
+    },
+    {
+      "id": "ASK-08",
+      "group": "closing",
+      "title": "How do you envision the engineering organization evolving over the next two to three years?",
+      "questionEn": "How do you envision the engineering organization evolving over the next two to three years?",
+      "questionKo": "향후 2~3년 조직의 방향은 무엇인가요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 08"
+    },
+    {
+      "id": "ASK-09",
+      "group": "closing",
+      "title": "How is the organization thinking about AI, both in products and in engineering productivity?",
+      "questionEn": "How is the organization thinking about AI, both in products and in engineering productivity?",
+      "questionKo": "AI는 제품과 개발 생산성 전략에서 어떤 역할을 하나요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 09"
+    },
+    {
+      "id": "ASK-10",
+      "group": "closing",
+      "title": "What differentiates a truly successful Engineering Director from an average one in your organization?",
+      "questionEn": "What differentiates a truly successful Engineering Director from an average one in your organization?",
+      "questionKo": "이 조직에서 뛰어난 Director를 구분하는 기준은 무엇인가요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 10"
+    },
+    {
+      "id": "ASK-11",
+      "group": "closing",
+      "title": "Based on our conversation, is there anything about my background you would like me to clarify further?",
+      "questionEn": "Based on our conversation, is there anything about my background you would like me to clarify further?",
+      "questionKo": "제 경력에서 더 설명이 필요한 부분이 있나요?",
+      "round": "HM",
+      "kind": "candidate-question",
+      "body": "## 사용 방법\n\n면접관에게 묻는 질문입니다. 답변은 상대의 말을 들은 뒤 이어갈 후보자의 응답 예시이며, 면접관의 실제 답변을 가정하지 않습니다.",
+      "sourceNote": "첨부 Interview Complete · Part B 11"
+    },
+    {
+      "id": "CLOSE-1",
+      "group": "closing",
+      "title": "How would you close the HR interview?",
+      "questionEn": "How would you close the HR interview?",
+      "questionKo": "HR 면접을 어떻게 마무리하겠나요?",
+      "round": "HR",
+      "body": "## 마무리 연습\n\n30초 안팎으로 자연스럽게 말하세요.",
+      "sourceNote": "첨부 Interview Complete · Part C"
+    },
+    {
+      "id": "CLOSE-2",
+      "group": "closing",
+      "title": "What would you emphasize at the end of the hiring manager interview?",
+      "questionEn": "What would you emphasize at the end of the hiring manager interview?",
+      "questionKo": "Hiring Manager 면접 마지막에 무엇을 강조하겠나요?",
+      "round": "HM",
+      "body": "## 마무리 연습\n\n60초 안팎으로 자연스럽게 말하세요.",
+      "sourceNote": "첨부 Interview Complete · Part C"
+    },
+    {
+      "id": "CLOSE-3",
+      "group": "closing",
+      "title": "What is the one thing we should remember about you?",
+      "questionEn": "What is the one thing we should remember about you?",
+      "questionKo": "꼭 기억했으면 하는 한 가지는 무엇인가요?",
+      "round": "Short",
+      "body": "## 마무리 연습\n\n20초 안팎으로 자연스럽게 말하세요.",
+      "sourceNote": "첨부 Interview Complete · Part C"
     }
   ]
 }
