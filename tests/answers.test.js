@@ -40,3 +40,11 @@ test('pending English-source translation survives backup/import',()=>{
  const r={};editEnglish(r,base,'New English');const imported=cleanRecord(JSON.parse(JSON.stringify(r)));
  assert.equal(answerFor(base,imported).dirtyLanguage,'en');assert.equal(imported.editRevision,r.editRevision);
 });
+test('legacy manual English becomes the source without overwriting it after a model-answer update',()=>{
+ const r={answerEn:'My own English',enKind:'manual',enSourceKo:'이전 모범 답안'};
+ assert.equal(answerFor(base,r).dirtyLanguage,'en');assert.equal(answerFor(base,r).en,'My own English');
+});
+test('a later legacy Korean edit still takes priority over earlier manual English',()=>{
+ const r={answerKo:'가장 최근 한국어',answerEn:'Earlier English',enKind:'manual',enSourceKo:'이전 한국어'};
+ assert.equal(answerFor(base,r).dirtyLanguage,'ko');
+});

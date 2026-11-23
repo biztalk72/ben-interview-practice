@@ -2,7 +2,7 @@ export function answerFor(base,record={}){
  const ko=typeof record.answerKo==='string'?record.answerKo:base.ko;
  const en=typeof record.answerEn==='string'?record.answerEn:base.en;
  const source=typeof record.enSourceKo==='string'?record.enSourceKo:base.ko;
- const dirtyLanguage=['ko','en'].includes(record.syncFrom)?record.syncFrom:ko!==source?'ko':null;
+ const dirtyLanguage=['ko','en'].includes(record.syncFrom)?record.syncFrom:record.syncFrom===null?null:ko!==source&&typeof record.answerKo==='string'?'ko':record.enKind==='manual'&&typeof record.answerEn==='string'?'en':ko!==source?'ko':null;
  return {ko,en,stale:!!dirtyLanguage,kind:record.enKind||'model',source,dirtyLanguage,enStale:dirtyLanguage==='ko',koStale:dirtyLanguage==='en'};
 }
 export function rememberAnswer(record,base){
