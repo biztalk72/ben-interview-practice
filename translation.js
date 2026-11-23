@@ -44,7 +44,7 @@ export class LocalTranslator{
  }
  ensureWorker(){
   if(this.worker)return;
-  this.worker=new Worker(new URL('./translation-worker.js?v=20261123-3',import.meta.url),{type:'module'});
+  this.worker=new Worker(new URL('./translation-worker.js?v=20261124-1',import.meta.url),{type:'module'});
   this.worker.onerror=e=>{const err=Error(e.message||'번역 실행기 오류');for(const p of this.pending.values()){clearTimeout(p.timeout);p.reject(err);}this.pending.clear();this.worker?.terminate();this.worker=null;this.ready=false;this.direction='';this.onStatus('error',err.message);};
   this.worker.onmessage=e=>{
    const m=e.data;
