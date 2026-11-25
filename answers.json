@@ -1942,24 +1942,48 @@
       "version": 3
     },
     "CEO21": {
-      "ko": "제가 책임진 결정을 인정하고 원래 가정과 새로운 근거가 보여주는 사실을 구분하겠습니다. 우선 고객·팀의 영향을 통제하고 교정을 드러내며 다음 결정을 합의하겠습니다. 이어 경고를 놓친 이유가 불명확한 책임, 부족한 근거, 시험하지 않은 의존성, 제 판단 중 무엇인지 검토하겠습니다. 교훈은 회고 문서에 그치지 않고 실제 운영을 바꿔야 합니다. 제가 내린 결정을 팀의 탓으로 돌리거나 결과를 좋게 보이게 하려고 원래 목표를 바꾸지 않겠습니다. 과거 사례를 설명할 때는 세부 사실을 확인할 수 있는 사건을 사용하겠습니다.",
-      "en": "I would acknowledge the decision I owned and separate the original assumption from what the new evidence shows. My first responsibility would be to contain the customer or team impact, make the correction visible and agree on the next decision. After that, I would examine why the warning was missed: an unclear owner, weak evidence, an untested dependency or my own judgment. The lesson should change how we operate, not just appear in a retrospective document. I would be careful not to blame the team for a decision I made or redefine the original goal to make the outcome look better. For a historical example, I would use an incident whose details I can verify.",
+      "en": "Early in a digital transformation initiative at a steel plant, we upgraded the network toward SD-WAN during a planned plant turnaround. After the cabling and configuration changes, restarting the network was followed by a furnace stoppage. Production was interrupted for about four days, after the planned shutdown period. The daily business impact was estimated at around ten billion Korean won, roughly 7.45 million US dollars using a recent reference exchange rate.\n\nI brought in the network team and contractors and joined them on-site, checking the physical cable runs line by line. We identified excessive noise and shielding-related issues on some lines, and cross-checked and corrected the installation together.\n\nWe resolved the problem and applied shielding across the wired network, with additional shielding between the plant's Level 2 data-collection systems and MES.\n\nThe lesson for me was that completing a network configuration is not sufficient evidence of production readiness. The operating environment and production dependencies need explicit validation. For future changes, I would make those checks, acceptance criteria and recovery decisions visible before the restart.",
+      "ko": "DT 과제 초기에 한 제강공장의 네트워크를 SD-WAN으로 전환하면서 계획된 공장 정비 기간인 TA에 맞춰 케이블 교체와 설정 변경을 진행했습니다. 네트워크를 재시작한 뒤 로가 멈췄고, 계획 정비 기간이 끝난 상황에서 생산이 약 4일간 중단됐습니다. 당시 하루 약 100억원 규모의 사업 영향이 발생한 것으로 파악했습니다. 설명용 최근 기준환율로는 하루 약 미화 745만 달러에 해당합니다.\n\n저는 네트워크 팀과 협력업체를 투입하고 직접 현장에 함께 가서 물리적인 케이블 구간부터 하나씩 다시 점검했습니다. 일부 구간의 과도한 노이즈와 차폐 관련 문제를 확인했고, 엔지니어링 팀·협력업체와 교차 점검하며 설치를 수정했습니다.\n\n문제를 해결한 뒤 유선 네트워크 전체의 차폐를 보강하고, 현장에서 최초 데이터를 수집하는 Level 2 시스템과 MES 사이에는 추가 차폐를 적용했습니다.\n\n제가 얻은 교훈은 네트워크 설정 완료만으로 생산 준비가 됐다고 판단해서는 안 된다는 것입니다. 실제 운영 환경과 생산 의존성을 명시적으로 검증해야 합니다. 앞으로의 변경에서는 재시작 전에 그 검증과 수용 기준, 복구 판단이 드러나도록 하겠습니다.",
       "followups": [
         {
-          "questionEn": "How do you prevent the same mistake from recurring?",
-          "questionKo": "같은 실수의 반복을 어떻게 막나요?",
-          "en": "I would change the specific control that failed, such as an assumption check, decision owner or integration gate, and review whether it changes behavior. A generic instruction to be more careful is not enough.",
-          "ko": "가정 검증이나 결정 책임자, 통합 기준처럼 실제 실패한 통제를 바꾸고 행동이 달라지는지 확인하겠습니다. 더 조심하라는 일반적인 지시만으로는 부족합니다."
+          "questionEn": "What did you personally do, rather than delegate?",
+          "questionKo": "위임한 것이 아니라 본인이 직접 한 일은 무엇인가요?",
+          "en": "I mobilized the network team and contractors and went to the site myself. I participated directly in tracing the cable runs line by line and cross-checking the corrections with the engineering team and vendors.",
+          "ko": "네트워크 팀과 협력업체를 대응에 투입하고 저도 직접 현장에 갔습니다. 케이블 구간을 하나씩 추적하고 엔지니어링 팀·협력업체와 수정 사항을 교차 점검하는 일에 직접 참여했습니다."
         },
         {
-          "questionEn": "How would I know you take accountability?",
-          "questionKo": "본인이 책임진다는 것을 무엇으로 알 수 있나요?",
-          "en": "By whether I distinguish my decision from team contributions, surface the impact early and follow through on a measurable correction. Accountability should be visible in behavior, not just interview wording.",
-          "ko": "제 결정과 팀 기여를 구분하고 영향을 일찍 알리며 측정할 수 있는 교정을 끝까지 하는지로 알 수 있습니다. 책임은 면접 표현보다 행동에 드러나야 합니다."
+          "questionEn": "Was this an SD-WAN software failure or a physical-network problem?",
+          "questionKo": "SD-WAN 소프트웨어 장애였나요, 물리 네트워크 문제였나요?",
+          "en": "The on-site troubleshooting identified noise and shielding-related problems in physical cable runs. I would describe it as a physical-network incident during the SD-WAN migration, without labeling it a software defect. The plant's Level 2 meant frontline data collection, not an OSI network layer. Any explanation of wider propagation should follow the actual topology and system dependencies.",
+          "ko": "현장 점검에서 확인한 것은 물리 케이블 구간의 노이즈와 차폐 관련 문제였습니다. 소프트웨어 결함으로 단정하지 않고 SD-WAN 전환 과정의 물리 네트워크 장애로 설명하겠습니다. 공장의 Level 2는 현장 데이터 수집 구간이지 OSI 네트워크 계층이 아닙니다. 더 넓은 장애 전파는 실제 토폴로지와 시스템 의존성을 기준으로 설명해야 합니다."
+        },
+        {
+          "questionEn": "What did you actually change afterward, and what would you do differently next time?",
+          "questionKo": "사후에 실제로 바꾼 것과 다음 변경에서 다르게 할 일은 무엇인가요?",
+          "en": "We applied shielding across the wired network and additional shielding between the Level 2 data-collection systems and MES. For a future change, I would make the physical-environment review, staged validation and agreed stop or recovery criteria explicit with the relevant teams.",
+          "ko": "실제로 유선 구간 전체에 차폐를 적용하고 Level 2 데이터 수집 시스템과 MES 사이를 추가 차폐했습니다. 다음 변경에서는 관련 팀과 물리 환경 검토, 단계별 검증, 중단·복구 판단 기준을 명시적으로 정하겠습니다."
         }
       ],
-      "note": "제안하는 대응 원칙입니다. 실제 실패를 묻는 경우에는 본인이 내린 결정·놓친 신호·교정·결과가 확인된 별도 사례로 답해야 합니다. 없는 실패 사건을 만들어 STAR에 넣지 않습니다.",
-      "version": 3
+      "note": "사용자 회고 기반 STAR 초안입니다. 약 4일 중단과 하루 약 100억원 규모는 누적 확정 손실·회피 손실과 다릅니다. 승인 책임, 상세 장애 전파 경로, 실제 복구 단계와 재발 여부는 확인한 범위만 설명합니다. 공장명·위치는 공개하지 않았습니다.",
+      "version": 4,
+      "evidence": {
+        "source": "candidate-account",
+        "approximateOutageDays": 4,
+        "reportedDailyImpactKrw": 10000000000,
+        "financialBasis": "candidate-recalled approximate daily business impact; not independently verified accounting loss",
+        "totalLossKrw": null,
+        "avoidedLossKrw": null,
+        "referenceFx": {
+          "krwPerUsd": 1342.41,
+          "observationDate": "2026-11-20",
+          "releaseDate": "2026-11-23",
+          "dailyImpactUsdApprox": 7449288.965368255,
+          "purpose": "illustrative conversion, not incident-date FX",
+          "source": "https://www.federalreserve.gov/releases/h10/current/"
+        },
+        "preChangeApprovalScopeConfirmed": false,
+        "noRecurrenceConfirmed": false
+      }
     },
     "CEO22": {
       "ko": "계획이 효과가 없다는 사실을 90일에 처음 알아서는 안 됩니다. 선행 지표를 합의하고 이전 점검 시점부터 CEO와 확인하겠습니다. 진전이 부족하면 실행 실패인지, 틀린 가정인지, 바뀐 사업 우선순위인지, 해결하지 못한 제약인지 구분하겠습니다. 제 결정을 책임지고 근거와 함께 범위·접근·투자의 변경을 권고하겠습니다. 비용을 정당화하지 못하는 과제라면 중단을 제안하겠습니다. 결과를 좋게 보이게 하려고 사후에 성공 기준을 바꾸거나 제가 만든 운영 조건을 검토하지 않고 팀을 탓하지 않겠습니다.",
