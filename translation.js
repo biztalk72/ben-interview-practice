@@ -2,7 +2,7 @@ export function splitForTranslation(text){
  const result=[];
  for(const paragraph of text.trim().split(/\n\s*\n/).filter(Boolean)){
   // Keep inputs below the Marian model's 512-token context. Korean syllables can tokenize densely.
-  const sentences=paragraph.match(/[^.!?。！？]+[.!?。！？]*(?:\s|$)|.+$/g)||[paragraph];
+  const sentences=paragraph.split(/(?<=[.!?。！？])\s+/u);
   let chunk='';
   for(const sentence of sentences){
    const clean=sentence.trim();
@@ -44,7 +44,7 @@ export class LocalTranslator{
  }
  ensureWorker(){
   if(this.worker)return;
-  this.worker=new Worker(new URL('./translation-worker.js?v=20261125-2',import.meta.url),{type:'module'});
+  this.worker=new Worker(new URL('./translation-worker.js?v=20261125-3',import.meta.url),{type:'module'});
   this.worker.onerror=e=>{const err=Error(e.message||'번역 실행기 오류');for(const p of this.pending.values()){clearTimeout(p.timeout);p.reject(err);}this.pending.clear();this.worker?.terminate();this.worker=null;this.ready=false;this.direction='';this.onStatus('error',err.message);};
   this.worker.onmessage=e=>{
    const m=e.data;

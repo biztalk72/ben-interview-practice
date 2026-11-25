@@ -30,3 +30,13 @@ test('candidate incident keeps daily impact distinct from cumulative or avoided 
  const incident=answers.CEO21.evidence;assert.equal(incident.approximateOutageDays,4);assert.equal(incident.reportedDailyImpactKrw,10000000000);assert.equal(incident.totalLossKrw,null);assert.equal(incident.avoidedLossKrw,null);assert.equal(incident.noRecurrenceConfirmed,false);assert.equal(incident.preChangeApprovalScopeConfirmed,false);
  assert.equal(incident.referenceFx.observationDate,'2026-11-20');assert.ok(Math.abs(incident.referenceFx.dailyImpactUsdApprox-incident.reportedDailyImpactKrw/incident.referenceFx.krwPerUsd)<1);
 });
+
+test('full playlist speech preserves every word, including decimal business figures',()=>{
+ const items=englishPlaylist(cards,answers).items,chunks=speechChunks(items);const normalize=x=>x.replace(/\s+/g,' ').trim();
+ assert.equal(normalize(chunks.map(x=>x.text).join(' ')),normalize(items.map(x=>x.text).join(' ')));
+ const incident=speechChunks(englishDialogue(cards.find(c=>c.id==='CEO21'),answers.CEO21));assert.ok(incident.some(x=>x.text.includes('7.45 million')));
+});
+test('speech preserves decimals, abbreviations and versions together with card metadata',()=>{
+ const text='Dr. Lee reviewed USD 7.45 million at 1,342.41 KRW per dollar. Version v1.2.3 processed 98.5% successfully.';
+ const chunks=speechChunks([{text,cardId:'number-test',lang:'en-US'}]);assert.equal(chunks.map(x=>x.text).join(' '),text);assert.ok(chunks.every(x=>x.cardId==='number-test'));
+});

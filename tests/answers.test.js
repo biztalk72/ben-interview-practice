@@ -48,3 +48,9 @@ test('a later legacy Korean edit still takes priority over earlier manual Englis
  const r={answerKo:'가장 최근 한국어',answerEn:'Earlier English',enKind:'manual',enSourceKo:'이전 한국어'};
  assert.equal(answerFor(base,r).dirtyLanguage,'ko');
 });
+
+test('translation splitting never drops decimal prefixes or abbreviations',()=>{
+ for(const source of ['The impact was USD 7.45 million per day at 1,342.41 KRW per dollar. Dr. Lee reviewed version v1.2.3.','처리율 98.5%와 7.45 million USD를 구분합니다. 환율은 1,342.41원입니다.']){
+  const parts=splitForTranslation(source);assert.equal(parts.join(' ').replace(/\s+/g,' ').trim(),source.replace(/\s+/g,' ').trim());assert.ok(parts.every(x=>x.length<=100));
+ }
+});
