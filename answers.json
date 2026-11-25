@@ -1942,8 +1942,8 @@
       "version": 3
     },
     "CEO21": {
-      "en": "Early in a digital transformation initiative at a steel plant, we upgraded the network toward SD-WAN during a planned plant turnaround. After the cabling and configuration changes, restarting the network was followed by a furnace stoppage. Production was interrupted for about four days, after the planned shutdown period. The daily business impact was estimated at around ten billion Korean won, roughly 7.45 million US dollars using a recent reference exchange rate.\n\nI brought in the network team and contractors and joined them on-site, checking the physical cable runs line by line. We identified excessive noise and shielding-related issues on some lines, and cross-checked and corrected the installation together.\n\nWe resolved the problem and applied shielding across the wired network, with additional shielding between the plant's Level 2 data-collection systems and MES.\n\nThe lesson for me was that completing a network configuration is not sufficient evidence of production readiness. The operating environment and production dependencies need explicit validation. For future changes, I would make those checks, acceptance criteria and recovery decisions visible before the restart.",
-      "ko": "DT 과제 초기에 한 제강공장의 네트워크를 SD-WAN으로 전환하면서 계획된 공장 정비 기간인 TA에 맞춰 케이블 교체와 설정 변경을 진행했습니다. 네트워크를 재시작한 뒤 로가 멈췄고, 계획 정비 기간이 끝난 상황에서 생산이 약 4일간 중단됐습니다. 당시 하루 약 100억원 규모의 사업 영향이 발생한 것으로 파악했습니다. 설명용 최근 기준환율로는 하루 약 미화 745만 달러에 해당합니다.\n\n저는 네트워크 팀과 협력업체를 투입하고 직접 현장에 함께 가서 물리적인 케이블 구간부터 하나씩 다시 점검했습니다. 일부 구간의 과도한 노이즈와 차폐 관련 문제를 확인했고, 엔지니어링 팀·협력업체와 교차 점검하며 설치를 수정했습니다.\n\n문제를 해결한 뒤 유선 네트워크 전체의 차폐를 보강하고, 현장에서 최초 데이터를 수집하는 Level 2 시스템과 MES 사이에는 추가 차폐를 적용했습니다.\n\n제가 얻은 교훈은 네트워크 설정 완료만으로 생산 준비가 됐다고 판단해서는 안 된다는 것입니다. 실제 운영 환경과 생산 의존성을 명시적으로 검증해야 합니다. 앞으로의 변경에서는 재시작 전에 그 검증과 수용 기준, 복구 판단이 드러나도록 하겠습니다.",
+      "en": "Early in a digital transformation initiative at a steel plant, we upgraded the network toward SD-WAN during a planned plant turnaround. After the cabling and configuration changes, restarting the network was followed by a furnace stoppage. Production was interrupted for about four days, after the planned shutdown period. The daily business impact was estimated at around ten billion Korean won, roughly 7.45 million US dollars using a recent reference exchange rate.\n\nI brought in the network team and contractors and joined them on-site, checking the physical cable runs line by line. We identified excessive noise and shielding-related issues on some lines, and cross-checked and corrected the installation together.\n\nWe resolved the problem and applied shielding across the wired network, with additional shielding between the plant's Level 2 data-collection systems and MES.\n\nLooking back, I wish I had covered the implementation details more thoroughly within the limited turnaround window. For future changes, I would identify and plan the critical site-specific checks before that window, with clear acceptance and recovery criteria. That would help protect the important details when the execution schedule is tight.",
+      "ko": "DT 과제 초기에 한 제강공장의 네트워크를 SD-WAN으로 전환하면서 계획된 공장 정비 기간인 TA에 맞춰 케이블 교체와 설정 변경을 진행했습니다. 네트워크를 재시작한 뒤 로가 멈췄고, 계획 정비 기간이 끝난 상황에서 생산이 약 4일간 중단됐습니다. 당시 하루 약 100억원 규모의 사업 영향이 발생한 것으로 파악했습니다. 설명용 최근 기준환율로는 하루 약 미화 745만 달러에 해당합니다.\n\n저는 네트워크 팀과 협력업체를 투입하고 직접 현장에 함께 가서 물리적인 케이블 구간부터 하나씩 다시 점검했습니다. 일부 구간의 과도한 노이즈와 차폐 관련 문제를 확인했고, 엔지니어링 팀·협력업체와 교차 점검하며 설치를 수정했습니다.\n\n문제를 해결한 뒤 유선 네트워크 전체의 차폐를 보강하고, 현장에서 최초 데이터를 수집하는 Level 2 시스템과 MES 사이에는 추가 차폐를 적용했습니다.\n\n돌이켜보면 TA라는 제한된 작업 기간 안에서 구현 세부사항을 더 면밀히 확인하지 못한 점이 아쉽습니다. 다음 전환에서는 그 기간에 들어가기 전에 현장 특성상 중요한 점검 항목과 수용·복구 기준을 미리 정하겠습니다. 실행 일정이 촉박하더라도 중요한 세부 확인이 밀리지 않도록 준비하겠습니다.",
       "followups": [
         {
           "questionEn": "What did you personally do, rather than delegate?",
@@ -1952,20 +1952,20 @@
           "ko": "네트워크 팀과 협력업체를 대응에 투입하고 저도 직접 현장에 갔습니다. 케이블 구간을 하나씩 추적하고 엔지니어링 팀·협력업체와 수정 사항을 교차 점검하는 일에 직접 참여했습니다."
         },
         {
-          "questionEn": "Was this an SD-WAN software failure or a physical-network problem?",
-          "questionKo": "SD-WAN 소프트웨어 장애였나요, 물리 네트워크 문제였나요?",
-          "en": "The on-site troubleshooting identified noise and shielding-related problems in physical cable runs. I would describe it as a physical-network incident during the SD-WAN migration, without labeling it a software defect. The plant's Level 2 meant frontline data collection, not an OSI network layer. Any explanation of wider propagation should follow the actual topology and system dependencies.",
-          "ko": "현장 점검에서 확인한 것은 물리 케이블 구간의 노이즈와 차폐 관련 문제였습니다. 소프트웨어 결함으로 단정하지 않고 SD-WAN 전환 과정의 물리 네트워크 장애로 설명하겠습니다. 공장의 Level 2는 현장 데이터 수집 구간이지 OSI 네트워크 계층이 아닙니다. 더 넓은 장애 전파는 실제 토폴로지와 시스템 의존성을 기준으로 설명해야 합니다."
+          "questionEn": "Was there a particular decision you made that you now consider wrong?",
+          "questionKo": "본인이 내린 결정 중 지금 잘못됐다고 생각하는 것이 있나요?",
+          "en": "I would not identify a particular decision as wrong based on this incident. What I regret is not covering the implementation details as thoroughly as I would have liked within the limited turnaround window. I took an active role in the response, and the improvement I would make is to plan the critical detail checks earlier so they remain explicit under time pressure.",
+          "ko": "이 사건에서 제가 내린 특정 결정을 잘못된 결정이라고 지목하지는 않겠습니다. 아쉬운 점은 TA라는 제한된 기간 안에서 구현 세부사항을 제가 원하는 수준까지 면밀히 챙기지 못했다는 것입니다. 장애 대응에는 적극적으로 참여했고, 다음에는 시간 압박 속에서도 중요한 세부 확인이 분명히 남도록 점검을 더 일찍 계획하겠습니다."
         },
         {
           "questionEn": "What did you actually change afterward, and what would you do differently next time?",
           "questionKo": "사후에 실제로 바꾼 것과 다음 변경에서 다르게 할 일은 무엇인가요?",
-          "en": "We applied shielding across the wired network and additional shielding between the Level 2 data-collection systems and MES. For a future change, I would make the physical-environment review, staged validation and agreed stop or recovery criteria explicit with the relevant teams.",
-          "ko": "실제로 유선 구간 전체에 차폐를 적용하고 Level 2 데이터 수집 시스템과 MES 사이를 추가 차폐했습니다. 다음 변경에서는 관련 팀과 물리 환경 검토, 단계별 검증, 중단·복구 판단 기준을 명시적으로 정하겠습니다."
+          "en": "We applied shielding across the wired network and additional shielding between the Level 2 data-collection systems and MES. For a future change, I would identify the critical physical-environment checks before the turnaround window, and agree on staged validation, acceptance and recovery criteria with the relevant teams.",
+          "ko": "실제로 유선 구간 전체에 차폐를 적용하고 Level 2 데이터 수집 시스템과 MES 사이를 추가 차폐했습니다. 다음 변경에서는 TA 기간에 들어가기 전에 중요한 물리 환경 점검 항목을 정하고, 관련 팀과 단계별 검증·수용·복구 기준을 합의하겠습니다."
         }
       ],
-      "note": "사용자 회고 기반 STAR 초안입니다. 약 4일 중단과 하루 약 100억원 규모는 누적 확정 손실·회피 손실과 다릅니다. 승인 책임, 상세 장애 전파 경로, 실제 복구 단계와 재발 여부는 확인한 범위만 설명합니다. 공장명·위치는 공개하지 않았습니다.",
-      "version": 4,
+      "note": "사용자 설명상 특정한 잘못된 의사결정 사례가 아니라, 제한된 TA 기간에 세부사항을 충분히 챙기지 못했던 아쉬움과 실제 장애 대응·개선 사례입니다. 시간 제약을 설명한 뒤 본인 행동과 다음 개선점을 함께 말합니다. 약 4일·일일 영향 규모와 누적 확정 손실은 구분하며 공장명·위치는 생략했습니다.",
+      "version": 5,
       "evidence": {
         "source": "candidate-account",
         "approximateOutageDays": 4,
@@ -1982,7 +1982,11 @@
           "source": "https://www.federalreserve.gov/releases/h10/current/"
         },
         "preChangeApprovalScopeConfirmed": false,
-        "noRecurrenceConfirmed": false
+        "noRecurrenceConfirmed": false,
+        "candidateFraming": {
+          "identifiedWrongDecision": false,
+          "regret": "Implementation details were not covered as thoroughly as desired within the limited turnaround window."
+        }
       }
     },
     "CEO22": {

@@ -90,3 +90,5 @@ The scenarios discuss proposed leadership actions and are not statements about B
 Company context checked on 2026-11-25: the official leadership page and the official second-quarter 2026 update, linked inside CEOGUIDE1. Possible CEO interests are preparation inferences, not a confirmed interview agenda or reporting structure.
 
 Speech and translation chunking preserve decimal numbers, abbreviations and version strings; a complete-playlist regression checks that no words disappear before TTS.
+
+CEO21 reflects the candidate clarification: no particular wrong decision is identified; the regret concerns the depth of implementation-detail coverage within the limited turnaround window. Recovery actions remain historical, while earlier planning of critical checks is a proposed improvement.
