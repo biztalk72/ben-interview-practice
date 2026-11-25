@@ -4,11 +4,11 @@ A responsive Korean/English interview practice app for desktop and mobile. Indep
 
 ## Features
 
-The original HR, five-stage, technical, STAR, pressure, cue-card and guide categories are available in a desktop sidebar and a mobile category drawer. The content is a separate question card, answer card and 1–3 follow-up Q&A cards. A folded question list remains available within each category. Language display can be Korean, English, or both. Timer, notes, STAR and evidence are folded away. **전체 영어 질답 듣기** plays all 108 paired cards and their 115 follow-up pairs; **현재 라운드 듣기** plays the current filtered selection. Guides and cue cards are outside the full dialogue playlist. Device-local English edits are used; outdated English is explicitly counted and excluded until regenerated. Pause/stop controls stay visible at the bottom.
+The original HR, five-stage, technical, STAR, pressure, cue-card and guide categories are available in a desktop sidebar and a mobile category drawer. The content is a separate question card, answer card and 1–3 follow-up Q&A cards. A folded question list remains available within each category. Language display can be Korean, English, or both. Timer, notes, STAR and evidence are folded away. **전체 영어 질답 듣기** plays all 132 paired cards and their 163 follow-up pairs; **현재 라운드 듣기** plays the current filtered selection. Guides and cue cards are outside the full dialogue playlist. Device-local English edits are used; outdated English is explicitly counted and excluded until regenerated. Pause/stop controls stay visible at the bottom.
 
 - First interview: November 23, 2026, HR Director. Dedicated culture-fit, size, technology, motivation and logistics deck; stage-by-stage preparation roadmap.
 - 23 early-round questions integrated from the supplied Interview Complete PDF, with 11 candidate questions and 3 closing scripts; existing five-stage, ELM, pressure, STAR, cue-card and preparation materials remain accessible.
-- 108 substantive Korean/English model-answer pairs shown before coaching notes.
+- 132 substantive Korean/English model-answer pairs shown before coaching notes.
 - Editable paired answers with debounced bidirectional Korean/English translation, last-edit-wins protection, stale-target detection, and bounded undo history.
 - Search, favorites, practiced markers, answer hiding, 60/90/120-second timer, and personal notes.
 - English neural TTS with Kokoro (default), six US/UK voices, and optional browser voices. Korean uses browser TTS. Voice/rate selection, pause/resume/stop, repeat, continuous playback.
@@ -80,3 +80,11 @@ The supplied 17-page Interview Complete PDF contributes 23 mapped early-round an
 Browser QA verifies native translation in both directions, the separate-tokenizer WASM English→Korean path, real Kokoro audio output, responsive layouts, voice selection persistence and playlist sequencing. Physical mobile-device performance and uninterrupted playback while the screen is locked are not established.
 
 The sidebar opens with all 23 PDF early-round questions as numbered direct links. Selecting one opens its question/answer/follow-up cards immediately. English is the initial display language (a one-time preference migration), and English comes before Korean in bilingual answers and follow-ups. The other categories remain available below the PDF question list.
+
+### CEO focus (2026-11-25)
+
+CEO preparation adds 24 bilingual question/answer cards with 48 follow-up pairs, cue cards inside coaching details, a preparation map and bilingual questions to ask the CEO. CEO cards are directly selectable at the top of the sidebar, have a dedicated English playlist and lead the full English playlist. Historical HR/PDF materials remain available. A root visit moves to the CEO deck once, while explicit deep links and personal edits are preserved.
+
+The scenarios discuss proposed leadership actions and are not statements about BEN's internal staffing or organization. Private interview comments are not published. Past achievements are kept separate from proposed plans; headcount scope, processing success and production boundaries retain their definitions. The actual personal failure example still needs candidate verification; CEO21 teaches the response principle and does not invent an incident.
+
+Company context checked on 2026-11-25: the official leadership page and the official second-quarter 2026 update, linked inside CEOGUIDE1. Possible CEO interests are preparation inferences, not a confirmed interview agenda or reporting structure.
