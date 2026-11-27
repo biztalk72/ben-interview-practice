@@ -100,3 +100,9 @@ CEO preparation now includes 44 bilingual main answers and 89 follow-up pairs, p
 The sidebar retains direct selection for all 44 CEO and 23 earlier-round questions. Separate technical and project practice buttons select 12- and 8-question decks; “현재 라운드 듣기” plays the selected deck. The complete CEO PDF is linked from the main screen under `documents/`.
 
 Project facts follow the supplied resume and portfolio. Samyang's research tool is an MVP and its data platform reached architecture-design completion; EdenTnS IDP is in customer production. DocuOps/H100 and LoRA/QLoRA are reference architecture and experiment discussions, not claims of a verified GPU configuration or completed tuning run. “Proof-based” denotes inspectable evidence and validation, not mathematical proof. ELM internals, MYDAS interfaces and proposed pilot designs are distinguished from public product descriptions. Existing personal edits and the corrected CEO21 incident account are preserved.
+
+## 2026-11-27 paragraph accordion and question navigation
+
+Main answers use sentence-boundary presentation chunks inside native details/summary accordions. The first part opens initially; follow-up Q&A cards start collapsed. “모두 펼치기·접기” controls all answer and follow-up disclosures. The source text, model answers and TTS input remain unchanged. Inline editing and translated results render through the same safe HTML-escaped presentation helper.
+
+Each question page includes a labelled breadcrumb and previous/next controls above the question, in addition to the existing bottom controls. Page counts and boundary states follow the current deck or filter; navigation moves focus to the new question and scrolls to the reader. Existing saved answers retain their storage key and format.
