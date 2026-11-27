@@ -8,7 +8,7 @@ test('every interview question has a substantive paired model answer',()=>{
  const cards=JSON.parse(readFileSync(new URL('../content.json',import.meta.url))).cards;
  const answers=JSON.parse(readFileSync(new URL('../answers.json',import.meta.url))).answers;
  const questions=cards.filter(c=>['hr','stage','tech','pressure','star','ceo'].includes(c.group)&&c.id!=='HR0');
- assert.equal(questions.length,118);
+ assert.equal(questions.length,138);
  for(const c of questions){assert.ok(answers[c.id]?.ko.length>60,c.id);assert.ok(answers[c.id]?.en.length>40,c.id);}
 });
 test('baseline is a synchronized model pair without record changes',()=>{const r={note:'keep'};assert.deepEqual(answerFor(base,r),{ko:base.ko,en:base.en,stale:false,kind:'model',source:base.ko,dirtyLanguage:null,enStale:false,koStale:false});assert.deepEqual(r,{note:'keep'});});

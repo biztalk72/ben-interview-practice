@@ -92,3 +92,11 @@ Company context checked on 2026-11-25: the official leadership page and the offi
 Speech and translation chunking preserve decimal numbers, abbreviations and version strings; a complete-playlist regression checks that no words disappear before TTS.
 
 CEO21 reflects the candidate clarification: no particular wrong decision is identified; the regret concerns the depth of implementation-detail coverage within the limited turnaround window. Recovery actions remain historical, while earlier planning of critical checks is a proposed improvement.
+
+## 2026-11-27 CEO technical expansion
+
+CEO preparation now includes 44 bilingual main answers and 89 follow-up pairs, plus four guides. CEO25–36 cover ELM, MYDAS integration, API/MCP boundaries, transactional safety, RAG/tuning, agents, evaluation, inference cost and voice. CEO37–44 cover Samyang and EdenTnS, IDP, ontology retrieval, LoRA/QLoRA, H100 reference serving, proof-based processing and multi-turn/multi-chat state.
+
+The sidebar retains direct selection for all 44 CEO and 23 earlier-round questions. Separate technical and project practice buttons select 12- and 8-question decks; “현재 라운드 듣기” plays the selected deck. The complete CEO PDF is linked from the main screen under `documents/`.
+
+Project facts follow the supplied resume and portfolio. Samyang's research tool is an MVP and its data platform reached architecture-design completion; EdenTnS IDP is in customer production. DocuOps/H100 and LoRA/QLoRA are reference architecture and experiment discussions, not claims of a verified GPU configuration or completed tuning run. “Proof-based” denotes inspectable evidence and validation, not mathematical proof. ELM internals, MYDAS interfaces and proposed pilot designs are distinguished from public product descriptions. Existing personal edits and the corrected CEO21 incident account are preserved.

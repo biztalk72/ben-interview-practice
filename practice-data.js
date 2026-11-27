@@ -1,4 +1,4 @@
-import {answerFor} from './answer-state.js?v=20261125-4';
+import {answerFor} from './answer-state.js?v=20261127-1';
 export function questionEnglish(card){return card.questionEn||card.title;}
 export function orderedQuestions(cards,answers){return cards.filter(c=>answers[c.id]).sort((a,b)=>(a.ceoOrder|| (a.openingOrder?100+a.openingOrder:1000))-(b.ceoOrder|| (b.openingOrder?100+b.openingOrder:1000)));}
 export function englishDialogue(card,base,record={}){

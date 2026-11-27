@@ -18,7 +18,7 @@ export class KokoroPlayer{
  unlock(){const Audio=globalThis.AudioContext||globalThis.webkitAudioContext;if(!Audio)throw Error('이 브라우저는 신경망 음성 재생을 지원하지 않습니다.');if(!this.context)this.context=new Audio({latencyHint:'interactive'});return this.context.resume();}
  ensureWorker(){
   if(this.worker)return;
-  this.worker=new Worker(new URL('./tts-worker.js?v=20261125-4',import.meta.url),{type:'module'});
+  this.worker=new Worker(new URL('./tts-worker.js?v=20261127-1',import.meta.url),{type:'module'});
   this.worker.onerror=e=>{const error=Error(e.message||'음성 엔진 로딩 실패');for(const p of this.pending.values()){clearTimeout(p.timeout);p.reject(error);}this.pending.clear();this.worker?.terminate();this.worker=null;this.ready=false;};
   this.worker.onmessage=e=>{
    const m=e.data;
